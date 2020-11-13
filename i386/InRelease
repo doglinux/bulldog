@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Debian
+Label: DebianDog
+Suite: testing
+Version: 1.0
+Codename: bullseye
+Architectures: i386
+Components: main
+Description: DebianDog repository
+Date: Fri, 13 Nov 2020 12:25:41 +0000
+MD5Sum:
+ 47857242b1feae9968e4b505023591d7           357337 Packages
+ 1326c4f2d962563ca6674df28c4e7abd           125212 Packages.gz
+ 914b785b8e9f879dfa52fe96eba02ff8              188 Release
+ 1326c4f2d962563ca6674df28c4e7abd           125212 Translation-en.gz
+SHA1:
+ 1d948be9603233c039d4211faa6f63a4a920f3b4           357337 Packages
+ 7d05da9c259f6c048f36d30a6678e9eceb128338           125212 Packages.gz
+ 40a3e81a8fe9574a719d33edb217223fa864658e              188 Release
+ 7d05da9c259f6c048f36d30a6678e9eceb128338           125212 Translation-en.gz
+SHA256:
+ 8fa9cdd0e9a20b452a538eb528acd81dace058e702a5bbcf6807c13608015d24           357337 Packages
+ ec2870f51b3ec3b37728e883dd44cbfd35ca5d10e62e678a2cae4eeaa3818cbc           125212 Packages.gz
+ 9da1629e1c995f552ccfcf6eb5823d5634877f9b166483cefdd3d142842e55ec              188 Release
+ ec2870f51b3ec3b37728e883dd44cbfd35ca5d10e62e678a2cae4eeaa3818cbc           125212 Translation-en.gz
+SHA512:
+ b882f4a1959688135cf21ea2b098b082f019bc0100d324a5b3594f0932347ecd64e988683f40c53422e269dcae715a109c33a888bb7ae0d2f67f8ce8e4d2a3a5           357337 Packages
+ 42d543bf323f8a89a1c09afb21186dddc2b948ede87ad65f608fe6178fe73a922a2915a4de52b7e64651f0b5ff55c6dd32abb57a47cc0a7974b74add2ba034a1           125212 Packages.gz
+ 13cdabfa23ef3a3a098672cf5eeb82acf89797f1e43e58cd612aa0c8eda34c3c70d2372af7aee70081d056109770c6e2c7a054e78a9973d1e1fc4678daf4ca1f              188 Release
+ 42d543bf323f8a89a1c09afb21186dddc2b948ede87ad65f608fe6178fe73a922a2915a4de52b7e64651f0b5ff55c6dd32abb57a47cc0a7974b74add2ba034a1           125212 Translation-en.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAl+ue0YACgkQrYe8en1z
+CB3VFQf/YtOewt6ctoTtD1b+wgkHyak2GuQ7Jlmhqqb1LJDo1LaqYCA/23Z0E8Nk
+Prf2POCZw61d8HEZbHJRrrIah9tWBvvtIiDeuHsxEaW1uEGg3NwQ7hKY/im+/iY6
+Vb3h9NFYuTa2JKVEKQFpoRfGRPR6gA4dWdxJjkptH7lQoGc59D506LBdyfKmiyVI
+pHMUC657JHl96TARKiLFy+sduR6+C9eYJkgvVluHiNmZOHC0lXdqjwP7d60EBpEe
+fxDHnkWDfYzNnuYyRVkIe3KZm5FtdsW26p/dHRIyZEaNrVz6gIVVMOCzHQuZiZR6
+k5JSoIhut3HsI8fDObr5ZTxQYRpoTQ==
+=V3vS
+-----END PGP SIGNATURE-----
