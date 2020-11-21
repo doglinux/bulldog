@@ -5417,6 +5417,25 @@ Description: Porteus-boot helper-scripts (Note: works only on DebianDog)
  This is on purpose because the scrips are essential for porteus-boot to work
  Bug fix: set the correct permissions for /tmp (save2flash script)
 
+Package: porteusbootscripts
+Architecture: all
+Version: 0.0.8
+Section: checkinstall
+Maintainer: root@jessie
+Installed-Size: 56
+Depends: libc6, gtkdialog, yad, rsync, cryptsetup-dd
+Filename: ./porteusbootscripts_0.0.8_all.deb
+Size: 19404
+MD5sum: e957a7289d013a89384fe5580157b0e5
+SHA1: caed406fae0ca21923083927aae06279b509822a
+SHA256: af7e82ecd8ee43bd5c0977a6b659c41d12ab3806c9f33f3f8d641dc5c330d3f7
+SHA512: e1f079435d92d3c63c39b4941373467b990ddaf3933fd1cb59aa1f0603127ccc73d6d63e1515e792ab56d18ae5b240bdd8c4e2edeb5bc60d798347336635c2cc
+Description: Porteus-boot helper-scripts (Note: works only on DebianDog)
+ This version has included the scripts for the new-save-setup
+ Note: Removing this package does not make any change.
+ This is on purpose because the scrips are essential for porteus-boot to work
+ Bug fix: set the correct permissions for /tmp (save2flash script)
+
 Package: probepart
 Architecture: all
 Version: 1.0.1
@@ -5695,11 +5714,11 @@ Maintainer: fredx181 dog@root.nl
 Installed-Size: 336
 Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso, isolinux
 Filename: ./quick-remaster_1.2.7_all.deb
-Size: 159728
-MD5sum: 16ff734f84362ed698d118ee48cd91b5
-SHA1: b7255a7fbce730ef144b4cb116cfdb64fd3a1348
-SHA256: 0310f0ac923467c871f27454073da5210c68ff933f54c672f8dcf8fa94d8773e
-SHA512: 1fe000c869973bcc018cd3e1d7d6f20972643cd783aeb4e790fc3149546934c0fb4de78242e3be4f4cb904e29ccc084eb835cd8766ef68b83ca3af49af97f988
+Size: 159356
+MD5sum: f14b8ed38da61b0795a9fe129fff2b3c
+SHA1: ecb3ef9512006e4b72bc089809fcb76bc9fca48e
+SHA256: 20f10ba60c76c9169f5ba2060e96c7c09869a561bb48186a1169c221c09ef8ae
+SHA512: b5c79d5e960f7da8445042f33352135c1ac5712f5965d4a06e1d61ad1c67227ca732ae74755b8478210f270f8e5a8a4566445ca6fbbe7091e926e47b2db706e2
 Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
  Included GUI version using yad: quick-remastergui
  Bug fix: gz compression option not working in previous version 1.0.3
@@ -6776,6 +6795,23 @@ SHA1: 9ae0fd8091b97c3160eb01939e355df05f39fbd2
 SHA256: 4dd387c8376d74adf52aa1e9ca16600cda9b9fe14ad0a115b9cd6e0c16487797
 SHA512: 66834c968129d71a26762d2bdcbfa08d4ed964e7e82a333e2dd5e81d24c0d18ba5e954c716b73082b1183bbc8efa2869eab107f8d1347fc6404b08d7c3bdc1ef
 Description: Install kernel and build aufs using aufs-dkms
+ And create initrd1.xz and initrd.img
+
+Package: upgrade-kernel
+Architecture: all
+Version: 1.0.4
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 2800
+Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse
+Filename: ./upgrade-kernel_1.0.4_all.deb
+Size: 879896
+MD5sum: 6ba695f760e0493a4cd38294b692a62c
+SHA1: be6b33fba3b0e4e9d26f3d99ac411e420be074ef
+SHA256: e4a75ab7ccbcfa13b811b9817c9d523b7453b3bf5be278796ceb0a02f670d0cc
+SHA512: bc32946c64b47c263894c292a38e938f765293e78fa3830234ae147b8e286cec3d58828604041d211f20ffa06d5b3648de0a9d049cce2a4d8e5b0a2d2dd47b78
+Description: Install kernel in chroot
  And create initrd1.xz and initrd.img
 
 Package: vnstat-tray
