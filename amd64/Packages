@@ -6806,11 +6806,11 @@ Maintainer: fredx181
 Installed-Size: 2800
 Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse
 Filename: ./upgrade-kernel_1.0.4_all.deb
-Size: 879896
-MD5sum: 6ba695f760e0493a4cd38294b692a62c
-SHA1: be6b33fba3b0e4e9d26f3d99ac411e420be074ef
-SHA256: e4a75ab7ccbcfa13b811b9817c9d523b7453b3bf5be278796ceb0a02f670d0cc
-SHA512: bc32946c64b47c263894c292a38e938f765293e78fa3830234ae147b8e286cec3d58828604041d211f20ffa06d5b3648de0a9d049cce2a4d8e5b0a2d2dd47b78
+Size: 1120948
+MD5sum: 3a6a60fdd72e27768b5684ecfaf72c8c
+SHA1: 8e584ee8fa1ce88b3e16fcc807bd531bed82d38c
+SHA256: 0aefad2b94ab8d73ca754c2f9e9461adc9f029605f0d8b5d7250b6843cb80028
+SHA512: ca4ef3f8bf139bc55419eed8ca54d4e4eca1df91a5d2f604351f61408e2682a2837a787fdb926269a0329297aca85787dcaae52bbfad5190449e3e374f167bc7
 Description: Install kernel in chroot
  And create initrd1.xz and initrd.img
 
