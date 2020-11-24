@@ -88,6 +88,30 @@ Description: Warning - This package works only in XenialDog! Fix: Force being us
  - Output from apt-get through xterm (instead using yad in previous versions)
  Fix in v 1.1.0: skip symlinks while cleaning man and doc files
 
+Package: apt2sfs
+Architecture: i386
+Version: 1.1.3
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 72
+Depends: libc6, x11-utils, x11-xserver-utils, findutils, yad, unionfs-fuse, coreutils, menu, mount, procps, sed, squashfs-tools, apt, xterm, gsu | gksu
+Filename: ./apt2sfs_1.1.3_i386.deb
+Size: 9872
+MD5sum: 433f51579c08faad60c243bc3ef81691
+SHA1: ce09aa8ed614390ffea7452d84994b0d49f18027
+SHA256: 7c912376b40fd6bb224331c3b94a8295032c5bee714dd9e7c78ea66c766ecc83
+SHA512: ddd79905617845df7c6ac73e88f1ebd192130f2adb062b4bb6e65ed8cd52d65506c1a5583503ac29bf4ac8ad1a986e9863be914bab8f00f1944032be810d4d6b
+Description: Warning - This package works only in XenialDog! Fix: Force being user 'root' in chroot, otherwise installing might fail (for example when running with new created user).  
+ Fix: version 1.0.4 (and earlier) doesn't work well because of 'stable' entry in /etc/apt/sources.list after jessie became stable at 2015-04-25.
+ .
+ Fix after version 1.0.3: added option to choose location / or /tmp for working directory (in case you have only vfat or ntfs partitions available).
+ For creating a *.squashfs module from installing by apt-get
+ The installing takes place outside of the running system, in 'chroot'
+ - apt2sfs, GUI using yad
+ - apt2sfs-fullinst, GUI using yad, can be used on a full install
+ - Choice dialog now for compression algorthim: xz, gz or lz4
+ - Output from apt-get through xterm (instead using yad in previous versions)
+ Fix in v 1.1.0: skip symlinks while cleaning man and doc files
+
 Package: apulse
 Architecture: i386
 Version: 20171016-1
@@ -7355,11 +7379,11 @@ Maintainer: fredx181
 Installed-Size: 2800
 Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse
 Filename: ./upgrade-kernel_1.0.4_all.deb
-Size: 1120948
-MD5sum: 3a6a60fdd72e27768b5684ecfaf72c8c
-SHA1: 8e584ee8fa1ce88b3e16fcc807bd531bed82d38c
-SHA256: 0aefad2b94ab8d73ca754c2f9e9461adc9f029605f0d8b5d7250b6843cb80028
-SHA512: ca4ef3f8bf139bc55419eed8ca54d4e4eca1df91a5d2f604351f61408e2682a2837a787fdb926269a0329297aca85787dcaae52bbfad5190449e3e374f167bc7
+Size: 1121272
+MD5sum: c31a33bedaa5f94079ce2a116c84ff53
+SHA1: 9c2a38aa50ec2fe9117dcd4b5a05a8a7a5709268
+SHA256: 6121aefa124939b5a6c11eb791371774a171ae69cbae3bb2f01de3217a0866f1
+SHA512: 082da7bc8cae97ca2c65f226f4a940963e74165779f671a656662005f054ca1bbf04ae6f9f4b929104622869800f2dc8eb4cde941d37bee8b8fb6cf5bafe4e4f
 Description: Install kernel in chroot
  And create initrd1.xz and initrd.img
 
