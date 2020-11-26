@@ -5809,11 +5809,11 @@ Maintainer: fredx181 dog@root.nl
 Installed-Size: 57
 Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu
 Filename: ./remaster-scripts_1.0.6_all.deb
-Size: 8894
-MD5sum: 14ab48701ac1cd932b486d6bd40a93a4
-SHA1: 8c22ba8e5de0affbb596683b357220b97a137996
-SHA256: 61b378bbd2d5545ccef92d1ba0a2c81ddcc11b9813502457f91f446db86d8002
-SHA512: c51bcbbf2101dc4f64ca3510acbebf0414ffd0c3a03c8facb2edbdf8336fca0160d087c39db230520ebeea9651a4547bf95b8253e7f89a06fc94277540dc5d5f
+Size: 8876
+MD5sum: d37a2b98e762f6f8f9bdb64a6a71c4bf
+SHA1: 42ad8e915bb0f2575fd4e8da4eb11cd1769a4fa8
+SHA256: 44428503077605908a188a46fc89b40b563fff2d8f3a8c71da0a5f4533bc155f
+SHA512: d85eec993f415e33f290fb96c5e98b245af5c35c3c8b54697a7b04cca5c1f240989d4a1ee9cde7b42f7578eeb563e9133c45ff7c5d6816e032c37b4d56665371
 Description: Warning - This package works only in DebianDog! In ver. 1.0.3 fixed progress bar bug for very old PC.
  .
  For creating a *.squashfs module from changes (from /live/cow directory) or full system remaster (from / directory).

@@ -5533,7 +5533,7 @@ usr/share/applications/MasterPDFEditor.desktop		    master-pdf-editor
 usr/share/applications/PackIt.desktop			    pack-it
 usr/share/applications/PeasyPDF.desktop			    peasypdf
 usr/share/applications/Play_with_mplayer.desktop	    youtube-get2,youtube-get
-usr/share/applications/Remaster-DDog.desktop		    remaster-scripts
+usr/share/applications/Remaster-DebianDog.desktop	    remaster-scripts
 usr/share/applications/SFS-Load-GUI.desktop		    sfsload
 usr/share/applications/SaveFolderBackup.desktop		    SaveFolderBackup
 usr/share/applications/Set Locale_Language.desktop	    locale-conf
