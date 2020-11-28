@@ -819,6 +819,20 @@ SHA256: 09fd5431e4780103c3150d474a436d9dcf2ef949dcf6edf394b953a6f47fc37a
 SHA512: 36802a5091c8e9cf433ef9f3b87b54c32f6f23cd7c335d9dc85bb5dc13e676aa770818fda833f7462a59f20db1dc099a1e03c8b41aee0d1731487986348121dd
 Description: Special DDog frugal and full install scripts + added SD card support + full install loop module loading.
 
+Package: debdoginstallscripts
+Architecture: i386
+Version: 1.1.4
+Maintainer: root
+Installed-Size: 863
+Depends: libc6, debdogmountscripts
+Filename: ./debdoginstallscripts_1.1.4_i386.deb
+Size: 435712
+MD5sum: 3c1328f1401f5fb30cc317b753bdfdf4
+SHA1: 69857db82fc832e2d75923ad605f6044f3bae646
+SHA256: 8d7dcc95eda897b40f11507faaee952cfc3ba6ea1cb6c255b79c0c1ea2423968
+SHA512: fdcf32c0c9a73e7cb1a40103fc9538ab1223144e6bcc700c4fcca7dfa525df39e08fc0aca0e96fa7fac98c6d693d27649b979faa1a69d078c5131f5400d1c610
+Description: Special DDog frugal and full install scripts + added SD card support + full install loop module loading.
+
 Package: debdogmountscripts
 Architecture: all
 Version: 1.0.5
