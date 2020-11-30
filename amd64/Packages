@@ -3023,6 +3023,28 @@ Description: Fraunhofer FDK AAC codec library.
  Fraunhofer IIS software implementations of the open ISO MPEG audio codecs
  AAC, HE-AAC, HE-AACv2 and AAC-ELD.
 
+Package: libffi6
+Architecture: amd64
+Version: 3.2.1-9
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libffi
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 56
+Depends: libc6 (>= 2.14)
+Filename: ./libffi6_3.2.1-9_amd64.deb
+Size: 20812
+MD5sum: 65b373537c763cad005b7872006f10ee
+SHA1: d2415ac36ef07a3bb8de1b60c838f1a2284e6876
+SHA256: d4d748d897e8e53aa239ead23a18724a1a30085cc6ca41a8c31b3b1e1b3452f4
+SHA512: 51c634d11c7e54edf7bec037e24c3a4666f97fc5659ae46f9381038e67cf3692b68beae8253117b4756f11face2e8410606128ce0078097c9a1523346763b390
+Homepage: https://sourceware.org/libffi/
+Description: Foreign Function Interface library runtime
+ A foreign function interface is the popular name for the interface that
+ allows code written in one language to call code written in another
+ language.
+
 Package: libgbm1
 Architecture: amd64
 Version: 11.1.1-2

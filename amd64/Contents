@@ -4653,6 +4653,8 @@ usr/lib/x86_64-linux-gnu/libevent-2.0.so.5		    libevent-2.0-5
 usr/lib/x86_64-linux-gnu/libevent-2.0.so.5.1.9		    libevent-2.0-5
 usr/lib/x86_64-linux-gnu/libfdk-aac.so.1		    libfdk-aac1
 usr/lib/x86_64-linux-gnu/libfdk-aac.so.1.0.0		    libfdk-aac1
+usr/lib/x86_64-linux-gnu/libffi.so.6			    libffi6
+usr/lib/x86_64-linux-gnu/libffi.so.6.0.4		    libffi6
 usr/lib/x86_64-linux-gnu/libfusion-1.2.so.9		    libdirectfb-1.2-9
 usr/lib/x86_64-linux-gnu/libfusion-1.2.so.9.0.1		    libdirectfb-1.2-9
 usr/lib/x86_64-linux-gnu/libgbm.so.1			    libgbm1
@@ -8556,6 +8558,8 @@ usr/share/doc/libevent-2.0-5/copyright			    libevent-2.0-5
 usr/share/doc/libfdk-aac1/changelog.Debian.gz		    libfdk-aac1
 usr/share/doc/libfdk-aac1/changelog.gz			    libfdk-aac1
 usr/share/doc/libfdk-aac1/copyright			    libfdk-aac1
+usr/share/doc/libffi6/changelog.Debian.gz		    libffi6
+usr/share/doc/libffi6/copyright				    libffi6
 usr/share/doc/libgbm1/changelog.Debian.gz		    libgbm1
 usr/share/doc/libgbm1/copyright				    libgbm1
 usr/share/doc/libgif4/AUTHORS				    libgif4
