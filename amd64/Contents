@@ -756,6 +756,7 @@ share/doc/scrox/scrot/README.scrox			    scrox
 share/doc/scrox/scrot/copyright				    scrox
 usr/bin/Ceni						    ceni
 usr/bin/Frisbee						    frisbee
+usr/bin/Thunar						    thunar
 usr/bin/Xdialog						    gtkdialog
 usr/bin/apulse						    apulse
 usr/bin/azpainter					    azpainter
@@ -862,6 +863,8 @@ usr/bin/straw-viewer					    straw-viewer
 usr/bin/stream2chromecast				    stream2chromecast
 usr/bin/synaptic-pkexec					    synaptic
 usr/bin/tas						    takeashot
+usr/bin/thunar						    thunar
+usr/bin/thunar-settings					    thunar
 usr/bin/usleep						    pburn
 usr/bin/vercmp						    filemnt-caja,filemnt-thunar,filemnt-pcmanfm
 usr/bin/wget						    wget
@@ -4610,6 +4613,8 @@ usr/lib/ssl/engines/libgmp.so				    libssl0.9.8
 usr/lib/ssl/engines/libnuron.so				    libssl0.9.8
 usr/lib/ssl/engines/libsureware.so			    libssl0.9.8
 usr/lib/ssl/engines/libubsec.so				    libssl0.9.8
+usr/lib/x86_64-linux-gnu/Thunar/ThunarBulkRename	    thunar
+usr/lib/x86_64-linux-gnu/Thunar/thunar-sendto-email	    thunar
 usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_ctl_bluealsa.so bt4stretch
 usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_pcm_bluealsa.so bt4stretch
 usr/lib/x86_64-linux-gnu/directfb-1.2-9/interfaces/IDirectFBFont/libidirectfbfont_default.so libdirectfb-1.2-9
@@ -4754,6 +4759,7 @@ usr/lib/x86_64-linux-gnu/perl5/5.30/auto/Gtk2/Gtk2.so	    libgtk2-perl
 usr/lib/x86_64-linux-gnu/pkgconfig/libelogind.pc	    libelogind-dev
 usr/lib/x86_64-linux-gnu/pkgconfig/libudev.pc		    libeudev-dev
 usr/lib/x86_64-linux-gnu/x264-10bit/libx264.so.148	    libx264-148
+usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libthunar-tpa.so thunar
 usr/lib64/evince/3/backends/comicsdocument.evince-backend   evince
 usr/lib64/evince/3/backends/djvudocument.evince-backend	    evince
 usr/lib64/evince/3/backends/libcomicsdocument.so	    evince
@@ -7992,6 +7998,7 @@ usr/sbin/micro-edit					    desktop-editor
 usr/sbin/p910nd						    p910nd-print-server
 usr/sbin/synaptic					    synaptic
 usr/share/GConf/gsettings/evince.convert		    evince
+usr/share/Thunar/sendto/thunar-sendto-email.desktop	    thunar
 usr/share/aclocal/yad.m4				    yad
 usr/share/alsa/alsa.conf.d/20-bluealsa.conf		    bt4stretch
 usr/share/appdata/obkey.appdata.xml			    obkey
@@ -8140,6 +8147,9 @@ usr/share/applications/sound-card-selector.desktop	    sound-card-selector
 usr/share/applications/synaptic.desktop			    synaptic
 usr/share/applications/syncing.desktop			    diff-sync-umount
 usr/share/applications/tas.desktop			    takeashot
+usr/share/applications/thunar-bulk-rename.desktop	    thunar
+usr/share/applications/thunar-settings.desktop		    thunar
+usr/share/applications/thunar.desktop			    thunar
 usr/share/applications/tkagif.desktop			    takeagif
 usr/share/applications/touchpad.desktop			    touchpad
 usr/share/applications/transtray.desktop		    trans-tray
@@ -8785,6 +8795,9 @@ usr/share/doc/synaptic/README.tasks			    synaptic
 usr/share/doc/synaptic/TODO.gz				    synaptic
 usr/share/doc/synaptic/changelog.gz			    synaptic
 usr/share/doc/synaptic/copyright			    synaptic
+usr/share/doc/thunar/changelog.Debian.gz		    thunar
+usr/share/doc/thunar/changelog.gz			    thunar
+usr/share/doc/thunar/copyright				    thunar
 usr/share/doc/wget/AUTHORS				    wget
 usr/share/doc/wget/ChangeLog.README			    wget
 usr/share/doc/wget/MAILING-LIST				    wget
@@ -10654,6 +10667,7 @@ usr/share/man/fr/man8/synaptic.8.gz			    synaptic
 usr/share/man/hr/man8/synaptic.8.gz			    synaptic
 usr/share/man/ja/man8/synaptic.8.gz			    synaptic
 usr/share/man/man1/Ceni.1p.gz				    ceni
+usr/share/man/man1/Thunar.1.gz				    thunar
 usr/share/man/man1/bacon.1.gz				    bacon
 usr/share/man/man1/busctl.1.gz				    elogind
 usr/share/man/man1/ceni.1p.gz				    ceni
@@ -10681,6 +10695,8 @@ usr/share/man/man1/roxterm.1.gz				    roxterm-common
 usr/share/man/man1/sessreg.1.gz				    x11-xserver-utils
 usr/share/man/man1/showrgb.1.gz				    x11-xserver-utils
 usr/share/man/man1/straw-viewer.1p			    straw-viewer
+usr/share/man/man1/thunar-settings.1.gz			    thunar
+usr/share/man/man1/thunar.1.gz				    thunar
 usr/share/man/man1/wget.1.gz				    wget
 usr/share/man/man1/xcmsdb.1.gz				    x11-xserver-utils
 usr/share/man/man1/xdg-desktop-icon.1.gz		    xdg-utils
@@ -10825,6 +10841,7 @@ usr/share/menu/x11-xserver-utils			    x11-xserver-utils
 usr/share/menu/youtube-get				    youtube-get
 usr/share/menu/youtube-get2				    youtube-get2
 usr/share/metainfo/elogind.metainfo.xml			    elogind
+usr/share/metainfo/org.xfce.thunar.appdata.xml		    thunar
 usr/share/mime/packages/notecase.xml			    notecase
 usr/share/mplayer/skins/default				    gmplayer
 usr/share/mplayer/skins/nativeRed/10minback.png		    gmplayer
@@ -11299,6 +11316,7 @@ usr/share/pkgconfig/adwaita-icon-theme.pc		    adwaita-icon-theme
 usr/share/pkgconfig/udev.pc				    eudev
 usr/share/polkit-1/actions/com.ubuntu.pkexec.synaptic.policy synaptic
 usr/share/polkit-1/actions/org.freedesktop.login1.policy    elogind
+usr/share/polkit-1/actions/org.xfce.thunar.policy	    thunar
 usr/share/pyshared/PIL.pth				    img2pdf-old
 usr/share/pyshared/PIL/ArgImagePlugin.py		    img2pdf-old
 usr/share/pyshared/PIL/BdfFontFile.py			    img2pdf-old
@@ -11782,6 +11800,7 @@ usr/share/timidity/timidity.cfg				    timidity-old
 usr/share/wallpapers/12.jpg				    xlunch
 usr/share/wallpapers/wp.jpg				    xlunch
 usr/share/wallpapers/xlunch.jpg				    xlunch
+usr/share/xfce4/panel/plugins/thunar-tpa.desktop	    thunar
 usr/share/xlunch/icons/firefox_32x32.png		    xlunch
 usr/share/xlunch/icons/leafpad_32x32.png		    xlunch
 usr/share/xlunch/icons/logout/bg.png			    xlunch

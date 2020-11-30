@@ -851,6 +851,7 @@ tmp/instyad.sh						    wifibox-dhcpcd,wifibox
 usr/bin/Ceni						    ceni
 usr/bin/Frisbee						    frisbee
 usr/bin/Lumina-DE					    lumina-desktop-debdog
+usr/bin/Thunar						    thunar
 usr/bin/Xdialog						    gtkdialog
 usr/bin/apulse						    apulse
 usr/bin/azpainter					    azpainter
@@ -978,6 +979,8 @@ usr/bin/straw-viewer					    straw-viewer
 usr/bin/stream2chromecast				    stream2chromecast
 usr/bin/synaptic-pkexec					    synaptic
 usr/bin/tas						    takeashot
+usr/bin/thunar						    thunar
+usr/bin/thunar-settings					    thunar
 usr/bin/unsquashfs					    squashfs-tools
 usr/bin/usleep						    pburn
 usr/bin/vercmp						    filemnt-caja,filemnt-thunar,filemnt-rox,filemnt-pcmanfm
@@ -1298,6 +1301,8 @@ usr/lib/grub4dos/default				    grub4dosconfig
 usr/lib/grub4dos/grldr					    grub4dosconfig
 usr/lib/grub4dos/wee.mbr				    grub4dosconfig
 usr/lib/gtk-2.0/modules/libgtk2desklet.so		    gtkdesklet
+usr/lib/i386-linux-gnu/Thunar/ThunarBulkRename		    thunar
+usr/lib/i386-linux-gnu/Thunar/thunar-sendto-email	    thunar
 usr/lib/i386-linux-gnu/alsa-lib/libasound_module_ctl_bluealsa.so bt4stretch
 usr/lib/i386-linux-gnu/alsa-lib/libasound_module_pcm_bluealsa.so bt4stretch
 usr/lib/i386-linux-gnu/directfb-1.2-9/interfaces/IDirectFBFont/libidirectfbfont_default.so libdirectfb-1.2-9
@@ -1437,6 +1442,7 @@ usr/lib/i386-linux-gnu/perl5/5.30/auto/Gtk2/Gtk2.so	    libgtk2-perl
 usr/lib/i386-linux-gnu/pkgconfig/libelogind.pc		    libelogind-dev
 usr/lib/i386-linux-gnu/pkgconfig/libudev.pc		    libeudev-dev
 usr/lib/i386-linux-gnu/pkgconfig/libxml-2.0.pc		    libxml2-dev
+usr/lib/i386-linux-gnu/xfce4/panel/plugins/libthunar-tpa.so thunar
 usr/lib/i386-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so xfce4-whiskermenu-plugin-mod,xfce4-whiskermenu-plugin
 usr/lib/i386-linux-gnu/xml2Conf.sh			    libxml2-dev
 usr/lib/i486/libcrypto.so.0.9.8				    libssl0.9.8
@@ -5500,6 +5506,7 @@ usr/share/Lumina-DE/luminaDesktop.conf			    lumina-desktop-debdog
 usr/share/Lumina-DE/quickplugins/quick-sample.qml	    lumina-desktop-debdog
 usr/share/Lumina-DE/themes/Lumina-default.qss.template	    lumina-desktop-debdog
 usr/share/Lumina-DE/themes/None.qss.template		    lumina-desktop-debdog
+usr/share/Thunar/sendto/thunar-sendto-email.desktop	    thunar
 usr/share/X11/xdm/pixmaps/debian-old.xpm		    xdm
 usr/share/X11/xdm/pixmaps/debian.xpm			    xdm
 usr/share/X11/xdm/pixmaps/debianbw-old.xpm		    xdm
@@ -5676,6 +5683,9 @@ usr/share/applications/start-stop-slim.desktop		    slim
 usr/share/applications/synaptic.desktop			    synaptic
 usr/share/applications/syncing.desktop			    diff-sync-umount
 usr/share/applications/tas.desktop			    takeashot
+usr/share/applications/thunar-bulk-rename.desktop	    thunar
+usr/share/applications/thunar-settings.desktop		    thunar
+usr/share/applications/thunar.desktop			    thunar
 usr/share/applications/tkagif.desktop			    takeagif
 usr/share/applications/touchpad.desktop			    touchpad
 usr/share/applications/transmission.desktop		    transmission-2.31
@@ -6379,6 +6389,9 @@ usr/share/doc/synaptic/README.tasks			    synaptic
 usr/share/doc/synaptic/TODO.gz				    synaptic
 usr/share/doc/synaptic/changelog.gz			    synaptic
 usr/share/doc/synaptic/copyright			    synaptic
+usr/share/doc/thunar/changelog.Debian.gz		    thunar
+usr/share/doc/thunar/changelog.gz			    thunar
+usr/share/doc/thunar/copyright				    thunar
 usr/share/doc/wmx/README				    wmx
 usr/share/doc/wmx/README.contrib			    wmx
 usr/share/doc/x11-xserver-utils/changelog.gz		    x11-xserver-utils
@@ -9525,6 +9538,7 @@ usr/share/man/hr/man8/synaptic.8.gz			    synaptic
 usr/share/man/it/man1/xvidcap.1.gz			    xvidcap
 usr/share/man/ja/man8/synaptic.8.gz			    synaptic
 usr/share/man/man1/Ceni.1p.gz				    ceni
+usr/share/man/man1/Thunar.1.gz				    thunar
 usr/share/man/man1/bacon.1.gz				    bacon
 usr/share/man/man1/busctl.1.gz				    elogind
 usr/share/man/man1/ceni.1p.gz				    ceni
@@ -9554,6 +9568,8 @@ usr/share/man/man1/sessreg.1.gz				    x11-xserver-utils
 usr/share/man/man1/showrgb.1.gz				    x11-xserver-utils
 usr/share/man/man1/startx.1.gz				    xinit
 usr/share/man/man1/straw-viewer.1p			    straw-viewer
+usr/share/man/man1/thunar-settings.1.gz			    thunar
+usr/share/man/man1/thunar.1.gz				    thunar
 usr/share/man/man1/unsquashfs.1.gz			    squashfs-tools
 usr/share/man/man1/xcmsdb.1.gz				    x11-xserver-utils
 usr/share/man/man1/xdg-desktop-icon.1.gz		    xdg-utils
@@ -9728,6 +9744,7 @@ usr/share/menu/xvidcap					    xvidcap
 usr/share/menu/youtube-get				    youtube-get
 usr/share/menu/youtube-get2				    youtube-get2
 usr/share/metainfo/elogind.metainfo.xml			    elogind
+usr/share/metainfo/org.xfce.thunar.appdata.xml		    thunar
 usr/share/mime/packages/notecase.xml			    notecase-portable,notecase
 usr/share/motion-trunkREV561/examples/motion.init-Debian    motion-light
 usr/share/motion-trunkREV561/examples/thread1.conf	    motion-light
@@ -10296,6 +10313,7 @@ usr/share/pkgconfig/adwaita-icon-theme.pc		    adwaita-icon-theme
 usr/share/pkgconfig/udev.pc				    eudev
 usr/share/polkit-1/actions/com.ubuntu.pkexec.synaptic.policy synaptic
 usr/share/polkit-1/actions/org.freedesktop.login1.policy    elogind
+usr/share/polkit-1/actions/org.xfce.thunar.policy	    thunar
 usr/share/pyshared/PIL.pth				    img2pdf-old
 usr/share/pyshared/PIL/ArgImagePlugin.py		    img2pdf-old
 usr/share/pyshared/PIL/BdfFontFile.py			    img2pdf-old
@@ -11009,6 +11027,7 @@ usr/share/wallpapers/Lumina-DE/Lumina_Wispy_purple_1920x1080.jpg lumina-desktop-
 usr/share/wallpapers/Lumina-DE/Lumina_Wispy_red_1920x1080.jpg lumina-desktop-debdog
 usr/share/wallpapers/wp.jpg				    xlunch
 usr/share/wallpapers/xlunch.jpg				    xlunch
+usr/share/xfce4/panel/plugins/thunar-tpa.desktop	    thunar
 usr/share/xfce4/panel/plugins/whiskermenu.desktop	    xfce4-whiskermenu-plugin-mod,xfce4-whiskermenu-plugin
 usr/share/xfe/icons/blue-theme/a_16x16.png		    xfe
 usr/share/xfe/icons/blue-theme/a_32x32.png		    xfe
