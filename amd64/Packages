@@ -5543,6 +5543,34 @@ SHA256: 53938c933e181cf44ac205dc2e7427c19f88a9cbc2c03e86e76cc39010c8bd30
 SHA512: 646f1fc05e272f0d3326ba471577c881823107c1b7e90d93b310b934afff0c2ae1b7ca157cd24809e63438ce7e39f44f7c7025295a764fa49ec7e88565677df4
 Description: Disk volume monitor
 
+Package: python-gi
+Architecture: amd64
+Version: 3.36.0-3
+Priority: optional
+Section: python
+Source: pygobject
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 728
+Provides: python2.7-gi
+Depends: gir1.2-glib-2.0 (>= 1.48.0), python2 (<< 2.8), python2 (>= 2.7~), python2:any (<< 2.8), python2:any (>= 2.7~), libc6 (>= 2.14), libffi7 (>= 3.3~20180313), libgirepository-1.0-1 (>= 1.62.0-4~), libglib2.0-0 (>= 2.53.1)
+Suggests: python-gi-cairo
+Breaks: python-aptdaemon (<< 1.0), software-center (<= 5.6.0-0ubuntu2)
+Filename: ./python-gi_3.36.0-3_amd64.deb
+Size: 229304
+MD5sum: aab740b83a4c3f2e3a2823ea56c031c9
+SHA1: 6ef2d0b51752d62c2ddba94a80fa35469219a25b
+SHA256: 7200f96e46aabaa6dd960acdb0baa4ed381c027b0e9ec7c8723a1c4cfddf8e81
+SHA512: d9ad3a3a07420b74ff4c400ce3e555fc7661b072cae48ed6b7181ed88cefa8ef15e764a97ca05ffb7e24147761e4bfba9a3b48d00b2e0d66819d6b01c75f3887
+Homepage: https://wiki.gnome.org/Projects/PyGObject
+Description: Python 2.x bindings for gobject-introspection libraries
+ GObject is an abstraction layer that allows programming with an object
+ paradigm that is compatible with many languages. It is a part of Glib,
+ the core library used to build GTK+ and GNOME.
+ .
+ This package contains the Python 2.x binding generator for libraries that
+ support gobject-introspection, i. e. which ship a gir1.2-<name>-<version>
+ package. With these packages, the libraries can be used from Python.
+
 Package: qiv-slideshow
 Architecture: all
 Version: 0.0.1
