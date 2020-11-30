@@ -194,6 +194,30 @@ Description: DKMS files to build and install aufs
  To install this package, you have to install the header files for your current
  kernel manually (usually included in the "linux-headers-<your architecture>").
 
+Package: aufs-tools
+Architecture: amd64
+Version: 1:4.14+20190211-1
+Priority: optional
+Section: kernel
+Maintainer: Jan Luca Naumann <j.naumann@fu-berlin.de>
+Installed-Size: 266
+Depends: libc6 (>= 2.14)
+Recommends: aufs-dkms
+Filename: ./aufs-tools_4.14+20190211-1_amd64.deb
+Size: 104708
+MD5sum: 154b974d04da75999ed79bbdff2e18ef
+SHA1: 5c042994793059563623a106f5506acb3aa5a572
+SHA256: 4f89934934258ea6930f080857bb90ecdc9725c9b65b602e9272b996540e01ad
+SHA512: ed101a0ef368e4d4151d58aad2633cbe8d3f838e3ab1e8c97314750424dd610acd7ab0c335a453580b6208100ccb8176224bf920fd1a3c31604292283a5086d3
+Homepage: http://aufs.sourceforge.net/
+Description: Tools to manage aufs filesystems
+ The aufs driver provides a union mount for Linux filesystems. It allows one
+ to virtually merge the contents of several directories and/or stack them, so
+ that file changes in the aufs union mount end up as changes in only one
+ of the source directories.
+ .
+ This package contains utilities needed to configure aufs containers on-the-fly.
+
 Package: azpainter
 Architecture: amd64
 Version: 2.1.1
