@@ -863,6 +863,27 @@ Description: Dogradio is a GUI displaying icons for playing radio streams.
  (can be enabled/disabled from tray icon menu + other settings)
  v0.0.9: new database
 
+Package: dogradio
+Architecture: all
+Version: 1.0.0
+Maintainer: fredx181
+Installed-Size: 3100
+Depends: libc6, gtk2-engines-murrine, yad, sed, conky, gnome-mplayer-1.0.6 | gmplayer | mplayer, file, streamripper
+Filename: ./dogradio_1.0.0_all.deb
+Size: 903304
+MD5sum: 9b43800b0b939f2c2c0eae48c3b64109
+SHA1: 749fa3eb393bd5bdaaa23aabf4047a7497267c75
+SHA256: da1f673ad4c225451c93a26f35c5719785d14c195985034ceb315f95b47c8da2
+SHA512: 82c7974aacb1a23fe940d0d99d1e296631777edbeee38d59bf63d48a1a353ff88abfb344f4389553681cd89225df0990b7127fd7ab57d862018ae8595fd2de98
+Description: Dogradio is a GUI displaying icons for playing radio streams.
+ - Change in v 0.0.5: added option to rip streams (from right-click on tray-icon) 
+ - Using yad for the icons GUI
+ - Easy add/remove radio stream items
+ - Using conky for 'conky ticker', showing metadata
+ (can be enabled/disabled from tray icon menu + other settings)
+ v0.0.9: new database
+ v1.0.0: conky ticker config fixed (new syntax in config and changes in dogradio script)
+
 Package: domycommand
 Architecture: all
 Version: 9.0.3
@@ -5547,6 +5568,24 @@ Description: Porteus-boot helper-scripts (Note: works only on DebianDog)
  This is on purpose because the scrips are essential for porteus-boot to work
  Bug fix: set the correct permissions for /tmp (save2flash script)
 
+Package: porteusbootscripts
+Architecture: all
+Version: 0.0.9
+Section: checkinstall
+Maintainer: root@jessie
+Installed-Size: 56
+Depends: libc6, gtkdialog, yad, rsync, cryptsetup-dd
+Filename: ./porteusbootscripts_0.0.9_all.deb
+Size: 19892
+MD5sum: f649fdfc6130cb369366012e46d543f9
+SHA1: 4307b50487b7553303df25283aa715d21fb97bab
+SHA256: f458c21cfaef94640b120a7c9fda6a8353e61396348d9f75711a217583fa4d98
+SHA512: 254ab1be7c826c53ef7943122108c7a9a72fcb13dfa19ceb7d38dfbd4ac0e20dac2c7ad0394c48f5a1b36f86ac2559ec90c52e8a6e696d067f463e96cb5320ce
+Description: Porteus-boot helper-scripts (Note: works only on DebianDog)
+ This version has included the scripts for the new-save-setup
+ Note: Removing this package does not make any change.
+ This is on purpose because the scrips are essential for porteus-boot to work
+
 Package: probepart
 Architecture: all
 Version: 1.0.1
@@ -6174,6 +6213,20 @@ MD5sum: 030419cc7963e0c0518657d85d14a8d8
 SHA1: 8d4aa8fb84e9f4c362731332a1c8f2d68c1ba706
 SHA256: 5abfca5f63c258547293026c7f7785e98c4e917f7c1ec598103b563f8d84d61c
 SHA512: eb384523d825ff2ec6a0beecff699e0f876fc888ee9a4b081039886792a4d3f1e58fde7e6e1f21c0934648a5f342efd14987c953ab719073ef03669315131d56
+Description: Load a *.squashfs or *.sfs module.
+
+Package: sfsload
+Architecture: all
+Version: 1.0.6
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 47
+Depends: libc6, yad, gsu | gksu, porteusbootscripts
+Filename: ./sfsload_1.0.6_all.deb
+Size: 4700
+MD5sum: acab9faf339e9eb41accfa84ce22b6d8
+SHA1: 3834df1e2ce393e5ab1f11eb3dffa221cf04b479
+SHA256: 7a74363849da4033ab7ef37d1d8639d9236112e9f59d34bfb5cf7ee3b409ccf1
+SHA512: 362569fa0d04626ddc05278fd6c15c16e181c5f19cb99563fbad7b2d7abef93d06f585013eaf01311d3b703b10555ec0e7446c59d76eaa8ddb6a067b37016976
 Description: Load a *.squashfs or *.sfs module.
 
 Package: simple-python-http-server

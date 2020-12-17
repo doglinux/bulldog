@@ -44,6 +44,7 @@ etc/ppp/chatscripts/gprs-disconnect-chat		    frisbee
 etc/ppp/gprs.conf					    frisbee
 etc/ppp/options.gprs					    frisbee
 etc/ppp/peers/gprs-editable				    frisbee
+etc/profile.d/rmbrokenlinks.sh				    sfsload
 etc/pwf/ethernet/eth0.dhcp				    PeasyWiFi
 etc/pwf/interfaces					    PeasyWiFi
 etc/pwf/udhcpc/default.script				    PeasyWiFi
@@ -702,6 +703,8 @@ root/.local/share/applications/gparted.desktop		    jwm-setup-dd64
 root/.local/share/applications/run-as-user.desktop	    run-as-user
 root/.local/share/applications/synaptic.desktop		    jwm-setup-dd64
 root/.local/share/applications/vlc.desktop		    run-as-user
+root/.local/share/file-manager/actions/activate-sfs.desktop sfsload
+root/.local/share/file-manager/actions/de-activate.desktop  sfsload
 root/.local/share/file-manager/actions/packit.desktop	    pack-it
 root/.mplayer/config					    gmplayer
 root/.xhippo/gtkrc					    xhippo
@@ -4927,6 +4930,7 @@ usr/local/.dogradio/v0.0.2				    dogradio
 usr/local/.dogradio/v0.0.4				    dogradio
 usr/local/.dogradio/v0.0.8				    dogradio
 usr/local/.dogradio/v0.0.9				    dogradio
+usr/local/.dogradio/v1.0.0				    dogradio
 usr/local/01-create-appimage64/.DirIcon			    create-portable
 usr/local/01-create-appimage64/AppImageAssistant.desktop    create-portable
 usr/local/01-create-appimage64/AppImageAssistant.png	    create-portable
