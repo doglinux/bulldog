@@ -440,6 +440,23 @@ Description: Conky-clock v2 Luxe edition, choose analog clock display on the Des
  Choice from 300 clock images with the appropriate hands
  Option to display the date on the clock
 
+Package: conkyclock2
+Architecture: all
+Version: 1.0.2
+Maintainer: fredx181 <fredx@nomail.nl>
+Installed-Size: 13900
+Depends: libc6, yad (>= 0.26.0), sed, conky-all, liblua5.1-0, wmctrl, hsetroot
+Recommends: imagemagick
+Filename: ./conkyclock2_1.0.2_all.deb
+Size: 13053972
+MD5sum: 2dc361874d34c6088d6ed2876523d9c3
+SHA1: ea5d4010aa56a939c4758a645aad26aa5c46e7de
+SHA256: 1d22bf0022441f27341284e643a284668e986828e2fa50bab2164c9768f2694e
+SHA512: 02afafad57bbdba9d7d7e182b4c131c3639e845b3296bea95a400c9224a84e3539825c3bd4095b5eacd42640522da2fca420074f3c4659608b21d8ddc0ea7440
+Description: Conky-clock v2 Luxe edition, choose analog clock display on the Desktop
+ Choice from 300 clock images with the appropriate hands
+ Option to display the date on the clock
+
 Package: conkyclock
 Architecture: all
 Version: 0.0.2
@@ -480,6 +497,20 @@ MD5sum: 83be09849a4f97f11f2ecd4a6c3f8e12
 SHA1: 316d9106e7da9d69c869b17634169e54930d872f
 SHA256: 08988754dceb62811c95e36a831dd75f63ca79d28c97eb5c2c04c7bd9b9863d6
 SHA512: 6d1e55ef7b3eb28d1e370fdc71795d2924f913dcf9edc7035e7ea3e78203963a5bcf0bc7cc23152e51b1821605fd3dc7b5b81ac1b76d667a4210cc4659a980c3
+Description: Conky-clock, choose analog clock display on the Desktop
+
+Package: conkyclock
+Architecture: all
+Version: 0.0.5
+Maintainer: fredx181 <fredx@nomail.nl>
+Installed-Size: 2700
+Depends: libc6, yad (>= 0.26.0), sed, conky-all, liblua5.1-0, wmctrl, hsetroot, menu
+Filename: ./conkyclock_0.0.5_all.deb
+Size: 2682524
+MD5sum: b4a7f68230cb09a5a02229d4472153bb
+SHA1: 7a7795de487fe60dee50e315002d5b8e15a02612
+SHA256: 5df56263a23ef5df28093751e757bfff1a05f1ed95f57db3a6c47f3272c2f7bc
+SHA512: 903ff1d3e6fab3de46c5c4513a3e1e8af0313b7514e21146a5a1c48526967093983baddadd6b174449b65a9f245ed2d54960954d3d6081616e6b74c2be69b1c5
 Description: Conky-clock, choose analog clock display on the Desktop
 
 Package: cputemp
@@ -875,6 +906,27 @@ MD5sum: cf15cf26654ac947e11db63efd6bcbda
 SHA1: e14d13e9e8d7185bcd1a45f61251b56ea1aa852c
 SHA256: 103801b328b78142e4b8e5311125276e8c5e5b0cc64a339504178a884ff8a147
 SHA512: 6262fe6fc0f6fe51db5cd11c04ad47ec10a3b682dbf06d4628470adeb08f7b226690896ec26e3242f8168f4af3d4b50dad1fe61dc1151fd777bd0e07327e3bf3
+Description: Dogradio is a GUI displaying icons for playing radio streams.
+ - Change in v 0.0.5: added option to rip streams (from right-click on tray-icon) 
+ - Using yad for the icons GUI
+ - Easy add/remove radio stream items
+ - Using conky for 'conky ticker', showing metadata
+ (can be enabled/disabled from tray icon menu + other settings)
+ v0.0.9: new database
+ v1.0.0: conky ticker config fixed (new syntax in config and changes in dogradio script)
+
+Package: dogradio
+Architecture: amd64
+Version: 1.0.2
+Maintainer: fredx181
+Installed-Size: 3100
+Depends: libc6, gtk2-engines-murrine, yad, sed, conky, gnome-mplayer-1.0.6 | gmplayer | mplayer, file, streamripper
+Filename: ./dogradio_1.0.2_amd64.deb
+Size: 903320
+MD5sum: 6d36ace2b26466383fc9d0967d07e3bf
+SHA1: 6bc5ff054142852e0bfd20e6abc97e10a3f0aad1
+SHA256: eab6e8ad6dd6857b256c047a4bfd87d1409ced83281396243e780b6265591f12
+SHA512: 79bde20858d4212e91af257da4f1cce4322ed0b37ec8264a442fc94be8da8c8f08d4d1d8b1f309946792c1f6e6b3d25e9c397ab2ca507e871b5a46ea23f3b6e2
 Description: Dogradio is a GUI displaying icons for playing radio streams.
  - Change in v 0.0.5: added option to rip streams (from right-click on tray-icon) 
  - Using yad for the icons GUI
