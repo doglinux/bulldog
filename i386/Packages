@@ -710,6 +710,22 @@ SHA256: 079b0de6a02af4e5e86977663e4b1d3caed464d4860dcfd700eaa3f52dcae300
 SHA512: 421927387778f8ca04f8b4472c1df1ea091683e3e79c3e54fa2317f59ded802827718f23ecd925f22cd1a8ed9b2e7f9401ab553c1380091f806c5af873e0c716
 Description: Create portable AppImage v2.0
 
+Package: create-portable
+Architecture: i386
+Version: 2.2.0
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 900
+Depends: libc6, unionfs-fuse, squashfs-tools, yad, linux-user-chroot, squashfuse
+Filename: ./create-portable_2.2.0_i386.deb
+Size: 314680
+MD5sum: 0d9e7766c0bf1d342e791717bb7ce5b3
+SHA1: bbe71acbf30ef6eb5475edad2c7ad65672b0bc31
+SHA256: 005516b99c1cfe47f2c017701b99ade751f6c6289ded3136f0c0c8aeb7117035
+SHA512: 26768733cbd3717b0f894e9700d8ba39ec166ab47dd1bfbb8ed45a5949948f63b8560626b0065c9a9488e746deda569f23babf2230ee7e6e28ef8be76da8244f
+Description: Create portable AppImage v2.0
+
 Package: cryptsetup-dd
 Architecture: i386
 Version: 0.0.1

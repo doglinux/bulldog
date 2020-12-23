@@ -9,35 +9,35 @@ Codename: bullseye
 Architectures: i386
 Components: main
 Description: DebianDog repository
-Date: Sun, 20 Dec 2020 21:05:55 +0000
+Date: Wed, 23 Dec 2020 17:38:25 +0000
 MD5Sum:
- eb37e3f0801d91d48752d4e8ed0d6e06           374864 Packages
- 4227cb6d0a6ceb9a085ed2a8053e9385           130186 Packages.gz
- fd2a7629f587f490835e2359d1c02fb6              188 Release
- 4227cb6d0a6ceb9a085ed2a8053e9385           130186 Translation-en.gz
+ 6f16bf180d67e450f981d665483e4aef           375477 Packages
+ 03914e2c3e2d20f965d3658f59db0b30           130435 Packages.gz
+ 3cf455eced6f796a6b3424c7aaca4237              188 Release
+ 03914e2c3e2d20f965d3658f59db0b30           130435 Translation-en.gz
 SHA1:
- 563712431be78ea6710ce33e878e2f8695165dd8           374864 Packages
- 956e2d576715d7e51ffbe0edfd83b1833bca50ba           130186 Packages.gz
- 1a340d8b63cb54a6aef155f9208b3b1804735f7f              188 Release
- 956e2d576715d7e51ffbe0edfd83b1833bca50ba           130186 Translation-en.gz
+ f5c00a5257ee589bffb6558a4bdbd8f88e30c39a           375477 Packages
+ c1f0070419f0ddb57b31dd1b2740e4ea075a5ccd           130435 Packages.gz
+ 164a71208ce131341f0739ca693f1b8a1b19b10f              188 Release
+ c1f0070419f0ddb57b31dd1b2740e4ea075a5ccd           130435 Translation-en.gz
 SHA256:
- e6273e706267561855ca816e995d02178b6d61b1d986af26bd23cc480b494cb7           374864 Packages
- 60ee739535214a17746fef78e8a6f384f947fda2966ab152bd4fc5bfb224090e           130186 Packages.gz
- 88fa30c2c88e13248970e38e1915dc951c0164123fd1ffb66014fbe06477d86b              188 Release
- 60ee739535214a17746fef78e8a6f384f947fda2966ab152bd4fc5bfb224090e           130186 Translation-en.gz
+ 2a77af75a5b3bfac9c6378fa81a0a7625eed3fcfbe557fce0dd48c930dfcbbd8           375477 Packages
+ 742b573014d56c0b9975fb3d7a2f92c82396f350b6c82b051a59c7f3fe9c020e           130435 Packages.gz
+ a515216a0e44d6da184031ebaa5605ef2a284ca4b6299969c9eec3371f580b69              188 Release
+ 742b573014d56c0b9975fb3d7a2f92c82396f350b6c82b051a59c7f3fe9c020e           130435 Translation-en.gz
 SHA512:
- 21ea13cc0ef7f317957305088c018803f3f10b36be64c6fa8cc59015b6e957dc8ec0370322b944937d90d1eacc99efe7f0e0931c81d6e8dcd8e739a36fc06469           374864 Packages
- 68d95a361a956dc0aaf1856e9561098efc8fb03dc2a04be017f13583cba31973a42041a7e0fea24bd20cbf0ef18766dfeb271bb93f2ba25b3bfc817a5922f8d0           130186 Packages.gz
- 49c7ac01e66295643b5c99e2e51cd802f3c9b1692e916f40db597dac7b0ba82dcf6ef2f88d879cb86cfb94e9a807414788ea64265fdbbde4746dbe75114b98a7              188 Release
- 68d95a361a956dc0aaf1856e9561098efc8fb03dc2a04be017f13583cba31973a42041a7e0fea24bd20cbf0ef18766dfeb271bb93f2ba25b3bfc817a5922f8d0           130186 Translation-en.gz
+ 7f417e3b715f69ff2378cdf1d7125e94fca831b22b0d1580c22be734cd0fcf3ee58c4ee595699c87075f74c7eddfaed2c9e9be44420dd732066c1bbd2a644e85           375477 Packages
+ 0fa784cef9c76d445c9579b05301990756bcf1df78207b930e1a9124922414b355e442970404f4d40f761bc0d137cd6e4426dfd69417ce6a0b239a6119731244           130435 Packages.gz
+ e7342b8045c3502db0925eba0f31e57d3004c408e36edbeded12e67da2326d8bb250ac33c64f400414cd43c2fed04648c5f757fbf4f32a9218787185c500efeb              188 Release
+ 0fa784cef9c76d445c9579b05301990756bcf1df78207b930e1a9124922414b355e442970404f4d40f761bc0d137cd6e4426dfd69417ce6a0b239a6119731244           130435 Translation-en.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAl/fvLMACgkQrYe8en1z
-CB3Hpgf8DZMfje+3t97XNhrrAShg4KdNYcv614He9XtVDI/iKr85r0RL3cPOlr70
-6GbWQb9GFECtL1xwfQZgSB7SYAmU9jCS+R/oPFJIHol74toyZYZqu0EKLNOryFwD
-ABcyfU7I31PtuB0lcbHVGQtgMHx55TBoh17fSKvQwYYrexbwPmnFzCcPMFy5zC7i
-qcdLqEHpU8yL9nhK9dANhf0GYVHEPxYOzCU+MG6/o8yMSdC5FETSkhtvq8OxLYdr
-v4UmPf1gePKPpjGVB8ViC3PDKM0ebhvTe51nkTS8Lc9yuFs8epjbO25g0oV+QLZL
-ce9Dnws5aOhRmuoZBOicOR4bnSBKMw==
-=/2KX
+iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAl/jgJEACgkQrYe8en1z
+CB3xqgf7BNfWU1q9LfAQroTspVHYCAyDjANW8ffZXadteF6xczRDDi7hoGjRR4bS
+yy08m7917Y2ASpzOfw3ZqMJV5SNXqSm+qrMGnJSt0dooNcWPLC/Z+w3Cd7sxs5HM
+KYKdYRseCcqLVuk2ZhxWVA7ZdU0dPdaYe8RXHH4rMgL1eQz8R1OASzxT14qNX023
+6CrLL79CaF6yvxA+wHI/aW0eCMn+KQwLKf6hVzGp3hXOy+aWq4uToIFrvE6i38CX
+ZwOx6+rmlFh3P3+WEO/s4UbgY+B4vOo3IS6g9HjXs4brFFR8rT2ntObEBRCftGZ9
+HmAVFrTHfUjt1iVXiZO0WKXpajt0/g==
+=91Rw
 -----END PGP SIGNATURE-----
