@@ -4502,46 +4502,6 @@ Description: Transitional package to ensure multiarch compatibility
  in ld.so before unpacking libraries to the multiarch directories.  It can
  be removed once nothing on the system depends on it.
 
-Package: my-squash-loader
-Architecture: amd64
-Version: 1.3-2
-Priority: optional
-Maintainer: rcrsn51
-Depends: gtkdialog, sfsload
-Filename: ./my-squash-loader_1.3-2_amd64.deb
-Size: 6224
-MD5sum: 01c506229aa1e089a0e4cc9e9412fcb3
-SHA1: faaeded04cf10396bbef5a15df4da6ed5c516d28
-SHA256: 0fa59e403bff1e422fc5ffb01288b507f6f1b974cd9b20a1ef08a268ff53ff73
-SHA512: 17e3e0ae9d1dfe709ca1046d0c96613493b3cc009a43517bea21aced1ba3a0ef27d4e207ccd6bbf509445736d7dc053c41ebb06542ee6186a15534e7f37ab7d2
-Description: Load squashfs modules on-the-fly
-
-Package: my-squash-loader
-Architecture: amd64
-Version: 1.4
-Priority: optional
-Maintainer: rcrsn51
-Filename: ./my-squash-loader_1.4_amd64.deb
-Size: 6810
-MD5sum: 16839500552c9bd725c48c5125d5cce6
-SHA1: 73764058412bfe1b3bf218c76cb2d4e720f58ff9
-SHA256: c4dfaff0e74da4a323e3a895aa083258ea0ec02654b2600571446ede506cfb3c
-SHA512: 188c025f227cd30cf0c71a3c72afc731c0c021dc6a31b517c56c20d4db541d935506b1c0d2915d2936143ca9ba2868f91afdf86d30f2224b7461e22fe86c910e
-Description: Load squashfs modules on-the-fly
-
-Package: my-squash-loader
-Architecture: amd64
-Version: 1.5
-Priority: optional
-Maintainer: rcrsn51
-Filename: ./my-squash-loader_1.5_amd64.deb
-Size: 6672
-MD5sum: aa3a728bd6a2bfff5420d679b1963594
-SHA1: c03396df83b423c5b6df27414cfa77318d94b845
-SHA256: 186c1d3737336f9a399f3015d190caec99e3de7648f167ff195cadba138acfc1
-SHA512: 1dbefd9c53020f9417c06a961a00a5274c5d89ef9f4adabd3b9503eb1efb2337e097ddacc18ffad37ac4f8ea07f669760247821b3af8beb45a890bc60d4555df
-Description: Load squashfs modules on-the-fly
-
 Package: notecase
 Architecture: amd64
 Version: 1.9.8
@@ -4730,34 +4690,6 @@ SHA1: 29541cb61fb229c9fc1a449a7e33b43baaa6f8dc
 SHA256: 57bd5cdb62a22eab144504f709f16a34d519995a9dfc3573a66c1574a8d9512c
 SHA512: 045c74d056425a979e89a717ef838091e6c0639a192d410b48a8eba727349e1fd261a6cc4b1ecdef08c3ccae7560f95094bf2f44326f4e601463baa90d3338d2
 Description: packit-converted-pet-to-deb
-
-Package: palemoon
-Architecture: amd64
-Version: 28.8.0
-Priority: optional
-Section: web
-Maintainer: fredx181 <fredx@nomail.nl>
-Original-Maintainer: Marian Kadanka <marian.kadanka@openmailbox.org>
-Installed-Size: 61619
-Provides: x-www-browser
-Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.20.0), libgtk2.0-0 (>= 2.24.0), libpango1.0-0 (>= 1.14.0), libstdc++6 (>= 4.6), libx11-6, libxext6, libxrender1, libxt6
-Suggests: gstreamer0.10-ffmpeg
-Filename: ./palemoon_28.8.0_amd64.deb
-Size: 41225544
-MD5sum: 627a03a9041f1299e04c3bcf92a90dd2
-SHA1: 01cd6b01d32ea8ac6e0e82596d7c0ba01b150ea6
-SHA256: 2a99c38a4fb585a6ca7db4a4c488a9f89c8bb2eab8f0768afa743b09a305aa51
-SHA512: a30f9fffef49c2a4037d81c255eff7cdde25fdbd7e23b99994626081c58b1e116da706e02ffb48b42282d787df8412c459eb07b561194d547d70e2a37e96506c
-Homepage: http://www.palemoon.org/
-Description: Firefox-based, efficient and easy to use web browser
- Pale Moon offers selected features and optimizations to maximize
- the browser's speed, stability and user experience, while maintaining
- compatibility with the thousands of Firefox extensions you have come
- to love and rely on.
- .
- Pale Moon requires a processor that supports the SSE2 instruction set.
- Run /proc/cpuinfo in a terminal, and look for sse2 in the flags to ensure
- that your processor supports it.
 
 Package: palemoon
 Architecture: amd64
@@ -5763,107 +5695,6 @@ Description: QIV-slideshow:
  Slideshow using qiv and yad
 
 Package: quick-remaster
-Architecture: amd64
-Version: 1.1.7
-Maintainer: fredx181 dog@root.nl
-Installed-Size: 336
-Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso, isolinux
-Filename: ./quick-remaster_1.1.7_amd64.deb
-Size: 159910
-MD5sum: 70073d2093cd1e3c05dfa79782f79a8c
-SHA1: 879e748ca2102b13a5bdf93ecc1a9f8854385571
-SHA256: a94863bd5934b432fda307f12038c44fd926ce95ec06751fe9d3df090f517149
-SHA512: 81faa887e122f24ab394920cada8f9322956a63c9ce561da3bd92343258f8cc0a201f032d92137338d20b51394d628c79a9e02eb565e8a907114fa50962cd563
-Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
- Included GUI version using yad: quick-remastergui
- Bug fix: gz compression option not working in previous version 1.0.3
- Bug fix: set the correct permissions for /tmp 
- Fix in v 1.0.6: skip symlinks while cleaning man and doc files
- Version 1.0.7: added option to create ISO
- Version: 1.1.2, cleaning, do not remove /etc/rc.d
- Version: 1.1.3, added GUI progress bar
- Version: 1.1.5, for Devuan beowulf
- Version 1.1.7, major bugfix, previously worked properly only when used EXIT: parameter
-
-Package: quick-remaster
-Architecture: amd64
-Version: 1.1.9
-Maintainer: fredx181 dog@root.nl
-Installed-Size: 336
-Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso, isolinux
-Filename: ./quick-remaster_1.1.9_amd64.deb
-Size: 159784
-MD5sum: e775dd39419ad2f2b1493002b2a46bbd
-SHA1: c3af6657f6a47e0a239dbb28701f1baa1ec50234
-SHA256: 38faad6d8431952fb2fe5017c1a2fc7c7b155cc0d75149b38a99a0ce3934e505
-SHA512: c1f9d35e808d0641cf366280b509a694e55eb5bb5a66ccced11ce951a486856f9b6a8a3fcbba4a6856b80a848c6ec556e4efe9e43f828e4839c315c8d3dc65e6
-Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
- Included GUI version using yad: quick-remastergui
- Bug fix: gz compression option not working in previous version 1.0.3
- Bug fix: set the correct permissions for /tmp 
- Fix in v 1.0.6: skip symlinks while cleaning man and doc files
- Version 1.0.7: added option to create ISO
- Version: 1.1.2, cleaning, do not remove /etc/rc.d
- Version: 1.1.3, added GUI progress bar
- Version: 1.1.5, for Devuan beowulf
- Version 1.1.7, major bugfix, previously worked properly only when used EXIT: parameter
-
-Package: quick-remaster
-Architecture: all
-Version: 1.2.2
-Maintainer: fredx181 dog@root.nl
-Installed-Size: 336
-Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso, isolinux
-Filename: ./quick-remaster_1.2.2_all.deb
-Size: 159078
-MD5sum: cc0f74864b1ca73e24a54dde8e8f7f1c
-SHA1: abad6cbf080432ca03767621a584e18e2c72ad43
-SHA256: 729abe7ad7115f55e9198960b77d84e5208c8126e77d99789b79a62333c3066a
-SHA512: fbd50132100e9cf88f01cdf4a2e4adddc10a46f0b81699dc5007f745a186210aea8f977eb5c4eb8b7c0954aaa645de26683d66ed779be0ec29b8eaafda8bff52
-Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
- Included GUI version using yad: quick-remastergui
- Bug fix: gz compression option not working in previous version 1.0.3
- Bug fix: set the correct permissions for /tmp 
- Fix in v 1.0.6: skip symlinks while cleaning man and doc files
- Version 1.0.7: added option to create ISO
- Version: 1.1.2, cleaning, do not remove /etc/rc.d
- Version: 1.1.3, added GUI progress bar
- Version: 1.1.5, for Devuan beowulf
- Version 1.1.7, major bugfix, previously worked properly only when used EXIT: parameter
- Version 1.1.9, added mksquashfs compression option zstd
- Version 1.2.0, very different method, using mksquashfs -exclude option (e.g. for cleaning)
- Version 1.2.1, added more info in GUI
- Version 1.2.1, bugfix, when canceling, restore backup worked not properly
-
-Package: quick-remaster
-Architecture: all
-Version: 1.2.3
-Maintainer: fredx181 dog@root.nl
-Installed-Size: 336
-Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso, isolinux
-Filename: ./quick-remaster_1.2.3_all.deb
-Size: 159172
-MD5sum: f18961b24815304bfacdbac327675aaa
-SHA1: a2617bae4c06f5496c2971afc464528ea5aae586
-SHA256: 47526fc774d281b9b70a995f8566cff9df615ed659b7f19cbbd9113e1d8f8b8f
-SHA512: 6017303489d7a030ef3e50a8c4df8483ac3114361d55c5c7ae421e37f3400e2300421d403c530760a9477b13735920c16ce38b4d01dcad949d300e6b24de0a1b
-Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
- Included GUI version using yad: quick-remastergui
- Bug fix: gz compression option not working in previous version 1.0.3
- Bug fix: set the correct permissions for /tmp 
- Fix in v 1.0.6: skip symlinks while cleaning man and doc files
- Version 1.0.7: added option to create ISO
- Version: 1.1.2, cleaning, do not remove /etc/rc.d
- Version: 1.1.3, added GUI progress bar
- Version: 1.1.5, for Devuan beowulf
- Version 1.1.7, major bugfix, previously worked properly only when used EXIT: parameter
- Version 1.1.9, added mksquashfs compression option zstd
- Version 1.2.0, very different method, using mksquashfs -exclude option (e.g. for cleaning)
- Version 1.2.1, added more info in GUI
- Version 1.2.1, bugfix, when canceling, restore backup worked not properly
- Version 1.2.3, bugfix, fixed that in some cases the path to the live folder not found
-
-Package: quick-remaster
 Architecture: all
 Version: 1.2.4
 Maintainer: fredx181 dog@root.nl
@@ -5965,6 +5796,38 @@ MD5sum: 95109731d8f12f0e98daed7896fd6d88
 SHA1: 8e05d6bc195679ce952b99a0fdd81a58f55406f6
 SHA256: ff056c0886e105f8b746422216f474ea2f52f01ec6a90e1930b3288e2b04406f
 SHA512: cae0149acc498a1bb6cd209d5e0b01ebecd23ef9bfe0555abcfa0c42d1237bc4e5791e14e46bcb584c7e0487d60f160901f7c9effb4b1117ac658fa11a334ddc
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ Fix in v 1.0.6: skip symlinks while cleaning man and doc files
+ Version 1.0.7: added option to create ISO
+ Version: 1.1.2, cleaning, do not remove /etc/rc.d
+ Version: 1.1.3, added GUI progress bar
+ Version: 1.1.5, for Devuan beowulf
+ Version 1.1.7, major bugfix, previously worked properly only when used EXIT: parameter
+ Version 1.1.9, added mksquashfs compression option zstd
+ Version 1.2.0, very different method, using mksquashfs -exclude option (e.g. for cleaning)
+ Version 1.2.1, added more info in GUI
+ Version 1.2.1, bugfix, when canceling, restore backup worked not properly
+ Version 1.2.3, bugfix, fixed that in some cases the path to the live folder not found
+ Version 1.2.4, choice to merge extra loaded .squashfs modules or not
+ Version 1.2.5, fix for mkiso script, should find frugal install path in any case now 
+ Version 1.2.6, instead excluding whole /lib/modules directory, exclude files only that exist in the extra loaded kernel module
+ Version 1.2.7, run save2flash in case of booting with EXIT parameter
+
+Package: quick-remaster
+Architecture: all
+Version: 1.2.8
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 336
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso, isolinux
+Filename: ./quick-remaster_1.2.8_all.deb
+Size: 160108
+MD5sum: 83f0b13e23532af60d4720e47a306099
+SHA1: 598595d16fa3dc3b81dc19d571c7b884ff32e714
+SHA256: 23a637ebb9e1e3e8d231c603bc03e3ffe5a61b3f1dea9bcef27394f5608366fd
+SHA512: 7346e62db0887460dd48491fbb887d68c80b1878deea114a1fee812a1ae7f999527854af13ec87bd358947e91864f7adc3b7d1ab5be8f1c7fb7413e6ef6f6bb0
 Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
  Included GUI version using yad: quick-remastergui
  Bug fix: gz compression option not working in previous version 1.0.3
@@ -6914,159 +6777,6 @@ Description: Extract gz, tgz, bz2, xz, zip, 7z archives
 
 Package: upgrade-kernel
 Architecture: all
-Version: 0.0.4
-Priority: optional
-Section: utilities
-Maintainer: fredx181
-Installed-Size: 2800
-Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse, yad
-Filename: ./upgrade-kernel_0.0.4_all.deb
-Size: 1035358
-MD5sum: f7ddc0b1a5ee93c9fc3a804117551111
-SHA1: 98d03f86632c805bee3b698a1e5f8987de55fed8
-SHA256: 6604a95533357911a7fe80e8655e6da023781716009ff34b764f854f95091f8f
-SHA512: 06b97d3a132e5c3f7ffc30a401b2948b3ef253d4aca43cef763e049c01b6b11b90887f63e3d3b2761c8c5d1bd30295cddd7b8464450a790ccedb14300f99dddb
-Description: Install kernel and build aufs using aufs-dkms
- And create initrd1.xz and initrd.img
-
-Package: upgrade-kernel
-Architecture: all
-Version: 0.0.5
-Priority: optional
-Section: utilities
-Maintainer: fredx181
-Installed-Size: 2800
-Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse, yad
-Filename: ./upgrade-kernel_0.0.5_all.deb
-Size: 1035336
-MD5sum: c1795902f3f1f543253e8234d100ebe9
-SHA1: 83c941b3898c25ebb007d6b0540eade4822b8408
-SHA256: 609a9e08ec4112c8c32f720dd76b0c9f584d7de25c1c5ebc4d39f62a56a17434
-SHA512: 88e64aab09fa20821fa6cb637786b18b941ef5ba7348446993b13caa31474a5e5f6eed29f714692dfb5409f5f64730e60b232919754bff61dac2b722c51cb9a9
-Description: Install kernel and build aufs using aufs-dkms
- And create initrd1.xz and initrd.img
-
-Package: upgrade-kernel
-Architecture: all
-Version: 0.0.6
-Priority: optional
-Section: utilities
-Maintainer: fredx181
-Installed-Size: 2800
-Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse, yad
-Filename: ./upgrade-kernel_0.0.6_all.deb
-Size: 1035324
-MD5sum: ea3e1f1c6f723e4fe1abc64f9d5604ab
-SHA1: 80e7e7a37f3d93222d785b26c881826013671ac8
-SHA256: f59d65b56687d06fbdb598e18ee7afbe0aa2506e4c506f84e537b35fe3cb194f
-SHA512: a851b29a5d475351324f6e3f2da2f3c0412b662bb846f974a30a2de98503e467ecdbe44d00e8e7909fad2b7702e094c960b2439ac7271dd57d9e8723512404ba
-Description: Install kernel and build aufs using aufs-dkms
- And create initrd1.xz and initrd.img
-
-Package: upgrade-kernel
-Architecture: all
-Version: 0.0.7
-Priority: optional
-Section: utilities
-Maintainer: fredx181
-Installed-Size: 2800
-Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse, yad
-Filename: ./upgrade-kernel_0.0.7_all.deb
-Size: 1035344
-MD5sum: c1e8bd12b3b469f62afe7eee63ae9578
-SHA1: 51e84af353468ca4ccdcb33e63953b68f88c7587
-SHA256: 38952df97e1d8dbc3d99019c16acc456d36348cd21193934bf623d066f833b75
-SHA512: 4c784390c6a31a052466699e4043d7969114e3922cd6e41444164272a6e0253e1cd779f5df1695805ee9e145b46f8c8395bd02fd45fef1e411622470d5e67dad
-Description: Install kernel and build aufs using aufs-dkms
- And create initrd1.xz and initrd.img
-
-Package: upgrade-kernel
-Architecture: all
-Version: 0.0.8
-Priority: optional
-Section: utilities
-Maintainer: fredx181
-Installed-Size: 2800
-Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse, yad
-Filename: ./upgrade-kernel_0.0.8_all.deb
-Size: 1034906
-MD5sum: 17648994ec93e0bdae9ea32fe4dc5405
-SHA1: 5e422bff04c75ac0322d1f9bad7997fef545e084
-SHA256: dc6c0b152b7125843c8e2241285388daf4ad2bb7c7cfdb4bb4953c1dd37ec965
-SHA512: fcbfaf96283b76b2a1cd882d4ce2a926663d54228c120f903c4ba9f22578e2fd1320bd27d17c03c7a8a4c207726c5db04a1a4a9d04ff9a5a6dab46671d221d92
-Description: Install kernel and build aufs using aufs-dkms
- And create initrd1.xz and initrd.img
-
-Package: upgrade-kernel
-Architecture: all
-Version: 0.0.9
-Priority: optional
-Section: utilities
-Maintainer: fredx181
-Installed-Size: 2800
-Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse, yad
-Filename: ./upgrade-kernel_0.0.9_all.deb
-Size: 1037768
-MD5sum: fb807db54badd1e1b692c39cb6cf02c0
-SHA1: 288676fc52fca70dc40ddd436206c776ff60449b
-SHA256: 80d8d42e854e639c9e31394328d1f234d922ef93b373ec0f1501ad031c64fd0d
-SHA512: 60d4430c880849c34ee2d7180b6cef25bba49fd8e102398722a268b4572ece3c1bdd2b551d73c6f9bdc163931f0c4830ee60ed8bb1793590bf72ada698b975aa
-Description: Install kernel and build aufs using aufs-dkms
- And create initrd1.xz and initrd.img
-
-Package: upgrade-kernel
-Architecture: all
-Version: 1.0.0
-Priority: optional
-Section: utilities
-Maintainer: fredx181
-Installed-Size: 2800
-Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse
-Filename: ./upgrade-kernel_1.0.0_all.deb
-Size: 1039024
-MD5sum: f080949a8e96c63cde00db4aae02e939
-SHA1: 15e89ef636430d7477da3a381d1e53158c329e05
-SHA256: 74b2e5aa9738ed51e7cff797decc06e551c7aa402e1a2e4241e47deeaf1072b8
-SHA512: 9a66b2be7fb6e63c6970abe6805087219df7330f2611700198a5008e1391f18b815bb7da9b049ff049f336bb42fa7c556cb01680a561bfa67e7822ad7f237ba4
-Description: Install kernel and build aufs using aufs-dkms
- And create initrd1.xz and initrd.img
-
-Package: upgrade-kernel
-Architecture: all
-Version: 1.0.1
-Priority: optional
-Section: utilities
-Maintainer: fredx181
-Installed-Size: 2800
-Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse
-Filename: ./upgrade-kernel_1.0.1_all.deb
-Size: 1039320
-MD5sum: 1ce20b36ab0d2362abc1a7eb8a841057
-SHA1: 7b2127b699e8a363ad8c0a60f8a68fba38e68783
-SHA256: fbb4631f8657b3751c387650ca9fb37b091a6321e7aa17019db097b21ac31533
-SHA512: cb331334fe4ba08cc5159a68ca0268a17a18ec36af56e76856198a470c92b1d6e89216a761add78e03be2583ae83253cd75394581328d60ecc3164aedef965e5
-Description: Install kernel and build aufs using aufs-dkms
- And create initrd1.xz and initrd.img
-
-Package: upgrade-kernel
-Architecture: all
-Version: 1.0.2
-Priority: optional
-Section: utilities
-Maintainer: fredx181
-Installed-Size: 2800
-Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse
-Filename: ./upgrade-kernel_1.0.2_all.deb
-Size: 1039160
-MD5sum: bd08dee7a2901dfaf9ad6a4d5a42b127
-SHA1: fe37b2043242822ff45b54ddb4e736be20740da4
-SHA256: 26209e052619a3d728794342727cd93578fe3e224a9f57a9d6a6c8727b7e4e38
-SHA512: 872a8e16886ee3f3f1ecc0be8e1ab9578d58b57d0159454749cf64653f71216316c1f433ee7c31af2066c3dcf6cb4c39097f9ce9d702e38cf2f16e7e7f0301cf
-Description: Install kernel and build aufs using aufs-dkms
- And create initrd1.xz and initrd.img
-
-Package: upgrade-kernel
-Architecture: all
 Version: 1.0.3
 Priority: optional
 Section: utilities
@@ -7096,6 +6806,23 @@ MD5sum: 9c1babffcde4f417808e6922c04bf3d3
 SHA1: b9f932a19db3cb509721db4b47bdc52a30723ac0
 SHA256: fc6d6aa2f0400d8423848e2e31e6a1bcd64ea36ddff6942dce84d450cdd9e198
 SHA512: 4e9a7fff69b0ed6935fad96ae9ae90900251df5574bfefcc3a70e661cab4ad7404f5cea2ddcee94c18b395a396b44f1b1e3f0057ed80f2121e93ff82cd16aab9
+Description: Install kernel in chroot
+ And create initrd1.xz and initrd.img
+
+Package: upgrade-kernel
+Architecture: all
+Version: 1.0.6
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 2800
+Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse
+Filename: ./upgrade-kernel_1.0.6_all.deb
+Size: 1121064
+MD5sum: a7e9855ebcbf73c2dbf604a849b36f7c
+SHA1: 29fd6b44906656552fec4fd2ccf29223671823b9
+SHA256: 4435d76a3b01f49e6fdde39c7f84cb0775262bd57793b682788543a0a7a60392
+SHA512: 59e1539dd46d937167e63c188b58d7c7609c5b4b1d955b4d0a8ffa938cd5426dcda3fe3681c6b50c796c936d0432a24aa18ff42289adc9a341dc6592bf19beb1
 Description: Install kernel in chroot
  And create initrd1.xz and initrd.img
 

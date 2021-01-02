@@ -740,7 +740,6 @@ root/Startup/exec_fwstatus-autostart			    firewall-ng
 root/Startup/exec_lxinput-autostart			    lxinputsave
 root/Startup/exec_lxrandr-autostart			    lxrandr-save-fix
 root/Startup/killmenu-cached				    jwm-setup,jwmconf
-root/Startup/my_squash_loader_tray			    my-squash-loader
 root/Startup/network_tray.sh				    frisbee
 root/Startup/p910nd-start				    p910nd-print-server
 root/Startup/peasyfwmon_tray				    peasyfwmon
@@ -5158,7 +5157,6 @@ usr/local/bin/mountlink					    debdogmountscripts
 usr/local/bin/move-in-crypt				    move-in-crypt
 usr/local/bin/mplayer					    gnome-mplayer-1.0.6
 usr/local/bin/ms-sys					    ms-sys
-usr/local/bin/my_squash_loader				    my-squash-loader
 usr/local/bin/obshutdown				    obshutdown
 usr/local/bin/openbox-menu				    jwm-setup-dd64,jwmconf,jwm-setup
 usr/local/bin/p910nd-control				    p910nd-print-server
@@ -7025,13 +7023,6 @@ usr/local/cr-initrd/initramfs/bin/unlink		    upgrade-kernel
 usr/local/cr-initrd/initramfs/bin/usleep		    upgrade-kernel
 usr/local/cr-initrd/initramfs/bin/vi			    upgrade-kernel
 usr/local/cr-initrd/initramfs/cleanup			    upgrade-kernel
-usr/local/cr-initrd/initramfs/dev/console		    upgrade-kernel
-usr/local/cr-initrd/initramfs/dev/null			    upgrade-kernel
-usr/local/cr-initrd/initramfs/dev/ram0			    upgrade-kernel
-usr/local/cr-initrd/initramfs/dev/tty1			    upgrade-kernel
-usr/local/cr-initrd/initramfs/dev/tty2			    upgrade-kernel
-usr/local/cr-initrd/initramfs/dev/tty3			    upgrade-kernel
-usr/local/cr-initrd/initramfs/dev/tty4			    upgrade-kernel
 usr/local/cr-initrd/initramfs/etc/mtab			    upgrade-kernel
 usr/local/cr-initrd/initramfs/etc/porteus/initrd.ver	    upgrade-kernel
 usr/local/cr-initrd/initramfs/fatal			    upgrade-kernel
@@ -7058,6 +7049,7 @@ usr/local/cr-initrd/initramfs/lib/libuClibc-0.9.33.2.so	    upgrade-kernel
 usr/local/cr-initrd/initramfs/lib/libuuid.so.1		    upgrade-kernel
 usr/local/cr-initrd/initramfs/lib/libuuid.so.1.3.0	    upgrade-kernel
 usr/local/cr-initrd/initramfs/linuxrc			    upgrade-kernel
+usr/local/cr-initrd/initramfs/modlist			    upgrade-kernel
 usr/local/cr-initrd/initramfs/modulelist		    upgrade-kernel
 usr/local/cr-initrd/initramfs/usr/bin/blkid		    upgrade-kernel
 usr/local/cr-initrd/initramfs/usr/bin/e2fsck		    upgrade-kernel
@@ -7239,7 +7231,6 @@ usr/local/isodata/isolinux/menu.cfg			    quick-remaster
 usr/local/isodata/isolinux/splash.png			    quick-remaster
 usr/local/isodata/isolinux/stdmenu.cfg			    quick-remaster
 usr/local/isodata/isolinux/vesamenu.c32			    quick-remaster
-usr/local/isodata/live/beowulf-x86_64.sgn		    quick-remaster
 usr/local/lib/X11/mini-icons				    frisbee
 usr/local/lib/X11/mini-icons/mini-camera.xpm		    takeashot
 usr/local/lib/X11/pixmaps/edit24.png			    grub4dosconfig
@@ -8151,7 +8142,6 @@ usr/share/applications/move-in-crypt.desktop		    move-in-crypt
 usr/share/applications/mplayer.desktop			    gmplayer
 usr/share/applications/mpv.desktop			    mpv
 usr/share/applications/mtpaint.desktop			    mtpaint
-usr/share/applications/my-squash-loader.desktop		    my-squash-loader
 usr/share/applications/notecase.desktop			    notecase
 usr/share/applications/obkey.desktop			    obkey
 usr/share/applications/openbox.desktop			    jwm-setup-dd64,jwm-setup
@@ -11273,7 +11263,6 @@ usr/share/pixmaps/md2html.png				    md2html
 usr/share/pixmaps/min.png				    min
 usr/share/pixmaps/mini-record.xpm			    pavrecord
 usr/share/pixmaps/mk-initrd.png				    upgrade-kernel
-usr/share/pixmaps/mkinitrd.png				    upgrade-kernel
 usr/share/pixmaps/mkiso.png				    quick-remaster
 usr/share/pixmaps/mmview.png				    mm-view
 usr/share/pixmaps/mplayer.png				    youtube-get2,youtube-get,youtube-get3
@@ -11368,7 +11357,6 @@ usr/share/pixmaps/shutdown.png				    jwm-setup-dd64,jwmconf,jwm-setup
 usr/share/pixmaps/simpleHTTPserver.png			    simple-python-http-server
 usr/share/pixmaps/snappie.png				    snappie
 usr/share/pixmaps/soundcard.png				    sound-card-selector
-usr/share/pixmaps/squash.png				    my-squash-loader
 usr/share/pixmaps/suspend.png				    jwm-setup,jwmconf
 usr/share/pixmaps/swap2.png				    makeswap
 usr/share/pixmaps/switch.png				    jwm-setup-dd64,jwmconf,jwm-setup
