@@ -704,6 +704,7 @@ root/.local/share/applications/run-as-user.desktop	    run-as-user
 root/.local/share/applications/synaptic.desktop		    jwm-setup-dd64
 root/.local/share/applications/vlc.desktop		    run-as-user
 root/.local/share/file-manager/actions/activate-sfs.desktop sfsload
+root/.local/share/file-manager/actions/activate.desktop	    sfsload
 root/.local/share/file-manager/actions/de-activate.desktop  sfsload
 root/.local/share/file-manager/actions/packit.desktop	    pack-it
 root/.mplayer/config					    gmplayer

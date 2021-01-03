@@ -6190,6 +6190,20 @@ SHA256: 7a74363849da4033ab7ef37d1d8639d9236112e9f59d34bfb5cf7ee3b409ccf1
 SHA512: 362569fa0d04626ddc05278fd6c15c16e181c5f19cb99563fbad7b2d7abef93d06f585013eaf01311d3b703b10555ec0e7446c59d76eaa8ddb6a067b37016976
 Description: Load a *.squashfs or *.sfs module.
 
+Package: sfsload
+Architecture: all
+Version: 1.0.7
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 47
+Depends: libc6, yad, gsu | gksu, porteusbootscripts
+Filename: ./sfsload_1.0.7_all.deb
+Size: 4768
+MD5sum: 5f3b088802dfdb6d4b1c596a21e66ddc
+SHA1: c064d03d0ec5477d446bea6e33208471fa8974b1
+SHA256: 3bc57b1753dd1477058dc53a1910ddea6f9fb0608859a95039644061543815ed
+SHA512: b4a715fe7a9282d7d77ed60a9caa5c0cf34d73e9498a5282a2816fee612df8190c5985745999fc805f084286d3ba2d3bc156c67a7114954f8ec5645e64cbe7a5
+Description: Load a *.squashfs or *.sfs module.
+
 Package: simple-python-http-server
 Architecture: all
 Version: 1.2
