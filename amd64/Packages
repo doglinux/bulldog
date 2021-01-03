@@ -750,6 +750,20 @@ SHA256: b2d603e5e0724a34e980c382b5195f8fe1659fe53bf02beaa6d8e243415d1694
 SHA512: 74ab937d32f81ad4f5837fbd462dec0b76e241ab027aa8af04caaf405717b0677b1e3cc6e499c0893d7aedfa58757d047794bac7cfa52462b02405e13f7dc3e0
 Description: Special DebianDog frugal and full install scripts + added SD card support + full install loop module loading.
 
+Package: debdoginstallscripts
+Architecture: amd64
+Version: 1.1.5
+Maintainer: root
+Installed-Size: 863
+Depends: libc6, debdogmountscripts
+Filename: ./debdoginstallscripts_1.1.5_amd64.deb
+Size: 441496
+MD5sum: 8cf9b32b495eca63bd14147966e8cc8c
+SHA1: f10f2f60918282abd464605f03087cd784ed66b0
+SHA256: 3a56da94d2e739fdd48d0560fbf31426edfbc5f931a3ef05b0e8016c7c672e7a
+SHA512: 3dc34acb3c4ef1cb3072e279336a4c47d4b75110578f34828039910309b49d471a9a711bdeb541953da080457f47e41c1d48dbb32f23b4a7ac8c16990c86232f
+Description: Special DebianDog frugal and full install scripts + added SD card support + full install loop module loading.
+
 Package: debdogmountscripts
 Architecture: all
 Version: 1.0.5
@@ -5902,6 +5916,22 @@ MD5sum: 122f86a9bf1e8a8c6c7b9c7b8e52d42e
 SHA1: d94a324a0d82e7a48059eebc9e68a0dfe0e13a77
 SHA256: fb3d4651536aba8ca14ba8409c2c46fcfd80a9532bdae3cc36f0a55bf065282f
 SHA512: 595d4da93607041777c006c1c6afc72f0b0e8a70c8a41d6ffe8a3808011e19f244629c61bc11d703544fc4b758b67cffe12f4a22574c6a2da56705dcd6c66e80
+Description: Warning - This package works only in DebianDog! In ver. 1.0.3 fixed progress bar bug for very old PC.
+ .
+ For creating a *.squashfs module from changes (from /live/cow directory) or full system remaster (from / directory).
+
+Package: remaster-scripts
+Architecture: all
+Version: 1.0.7
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 57
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu
+Filename: ./remaster-scripts_1.0.7_all.deb
+Size: 7984
+MD5sum: 7e4d3cc07242018aaa5a5c034d159373
+SHA1: faf6c516fb0842167894678e71d17e6de10cbf5e
+SHA256: a26e765ab1558c98862a567799c8dc96d4cef8552d1b8a90c9bbd2b2d9a0feb7
+SHA512: d3469972c1e864ceacac27c39c0ca82e3718d76edd2b8727d126998b9ae4f07668312b28a5a36e6a3b29bc1b6e35f6b52d2567ce954f94794f6e0b6c98e75c9b
 Description: Warning - This package works only in DebianDog! In ver. 1.0.3 fixed progress bar bug for very old PC.
  .
  For creating a *.squashfs module from changes (from /live/cow directory) or full system remaster (from / directory).
