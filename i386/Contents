@@ -615,6 +615,8 @@ opt/docs/pictures/desktop.jpg				    jwm-setup,jwmconf
 opt/docs/pictures/fisherman.jpg				    jwm-setup
 opt/docs/portablesfs-chroot.template			    portablesfs-loadsfs-fuse
 opt/docs/portablesfs.template				    portablesfs-loadsfs-fuse
+opt/jwm/jwm						    jwm-setup,jwmconf
+opt/jwm/jwm-debdog					    jwm-setup,jwmconf
 opt/lib/libdaemon.so.0					    sns
 opt/lib/libdaemon.so.0.5.0				    sns
 opt/master-pdf-editor-4/fonts/standard/Courier-Bold.ttf	    master-pdf-editor

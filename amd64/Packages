@@ -2580,6 +2580,25 @@ Description: Jwm custom setup for Debiandog, includes:
  - jwm-obmenu script for the Jwm window manager. It provides
  a dynamic menu listing of installed applications.
 
+Package: jwm-setup
+Architecture: amd64
+Version: 0.0.4
+Priority: optional
+Section: x11
+Maintainer: fredx181
+Installed-Size: 480
+Depends: libatk1.0-0, libc6, libcairo2, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, libmenu-cache3, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, sed, jwm, rox-filer, wmctrl, hsetroot
+Filename: ./jwm-setup_0.0.4_amd64.deb
+Size: 701372
+MD5sum: 6ff30625200b88eeaf7a7c4bbccb9b9b
+SHA1: 02fc1fb79df143aa0ad2ec217a60f675ba99ac5c
+SHA256: 2a88d2cbb2d017cb0414e788d5278002b06df682621cb4b90c7bb3e3e1e3b9a8
+SHA512: 7adda681ce48bea69568f0c299b95816f6a6b31e42fe13b635350b47a93ec046c853eda4a2ece41ed37d07619dcc6b88a4ff84b0f7463bbbb033ed7afea10b62
+Description: Jwm custom setup for Debiandog, includes:
+ - openbox-menu, pipe-menu setup for JWM to display entries in *.desktop files
+ - jwm-obmenu script for the Jwm window manager. It provides
+ a dynamic menu listing of installed applications.
+
 Package: jwmconf
 Architecture: amd64
 Version: 0.0.5
@@ -2595,6 +2614,26 @@ MD5sum: c0ebb42b092eaad032d052e2fa2e2079
 SHA1: 404f038fad898299b60c4da53c801df6e3588aa8
 SHA256: 3e14bf4d7cc3604e303b54231bc3cd4d4bf2f997afd58a7158985dbb67a341ab
 SHA512: b7ae11a97171f245b557d011fbe5868c921705d3bdd321827b53d8fa33f8fe6a750b9e8010594a5457130e2bfaa21ff4cec6291a57ccd8daab07cb98d3071bfd
+Description: Jwm custom setup for Debiandog, includes:
+ - openbox-menu, pipe-menu setup for JWM to display entries in *.desktop files
+ - jwm-obmenu script for the Jwm window manager. It provides
+ a dynamic menu listing of installed applications.
+
+Package: jwmconf
+Architecture: amd64
+Version: 0.0.6
+Priority: optional
+Section: x11
+Maintainer: fredx181
+Installed-Size: 480
+Depends: libatk1.0-0, libc6, libcairo2, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, libmenu-cache3, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, sed, jwm, rox-filer, wmctrl, hsetroot, scrot
+Replaces: jwm-setup
+Filename: ./jwmconf_0.0.6_amd64.deb
+Size: 1030824
+MD5sum: 984239b97ef4462a76780f0de20ab595
+SHA1: 579d2733929af30fd413feaf186e80cd253f29f5
+SHA256: 3717d3d61c8a602f8f243d89e4f1322c278b6d1178bd793929c77afcbd687ba3
+SHA512: 9ebfed6a45d601f466e481504a809dc95ba248c843d94b1f4af88f6f53de6e738be02bd7f9917fd2915e4c155aa1dd46ee4977537ccc88416b8b820df0812171
 Description: Jwm custom setup for Debiandog, includes:
  - openbox-menu, pipe-menu setup for JWM to display entries in *.desktop files
  - jwm-obmenu script for the Jwm window manager. It provides
