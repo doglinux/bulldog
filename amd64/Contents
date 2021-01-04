@@ -4681,6 +4681,8 @@ usr/lib/x86_64-linux-gnu/directfb-1.2-9/wm/libdirectfbwm_unique.so libdirectfb-1
 usr/lib/x86_64-linux-gnu/gio/modules/libpup-volume-monitor.a pup-volume-monitor
 usr/lib/x86_64-linux-gnu/gio/modules/libpup-volume-monitor.la pup-volume-monitor
 usr/lib/x86_64-linux-gnu/gio/modules/libpup-volume-monitor.so pup-volume-monitor
+usr/lib/x86_64-linux-gnu/libappindicator.so.1		    libappindicator1
+usr/lib/x86_64-linux-gnu/libappindicator.so.1.0.0	    libappindicator1
 usr/lib/x86_64-linux-gnu/libass.so.5			    libass5
 usr/lib/x86_64-linux-gnu/libass.so.5.3.2		    libass5
 usr/lib/x86_64-linux-gnu/libaudiofile.so.1		    libaudiofile1
@@ -8586,6 +8588,11 @@ usr/share/doc/leafpad/README				    leafpad
 usr/share/doc/leafpad/changelog.Debian.gz		    leafpad
 usr/share/doc/leafpad/changelog.gz			    leafpad
 usr/share/doc/leafpad/copyright				    leafpad
+usr/share/doc/libappindicator1/AUTHORS			    libappindicator1
+usr/share/doc/libappindicator1/README			    libappindicator1
+usr/share/doc/libappindicator1/changelog.Debian.gz	    libappindicator1
+usr/share/doc/libappindicator1/changelog.gz		    libappindicator1
+usr/share/doc/libappindicator1/copyright		    libappindicator1
 usr/share/doc/libass5/changelog.Debian.gz		    libass5
 usr/share/doc/libass5/changelog.gz			    libass5
 usr/share/doc/libass5/copyright				    libass5

@@ -2660,6 +2660,30 @@ Description: GTK+ based simple text editor
  similar to Notepad. It aims to be lighter than Gedit and KWrite,
  and to be as useful as them.
 
+Package: libappindicator1
+Architecture: amd64
+Version: 0.4.92-8
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: libappindicator
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 102
+Depends: libdbusmenu-glib4 (>= 0.5.90), libdbusmenu-gtk4 (>= 0.5.90), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.32), libindicator7 (>= 0.4.90)
+Filename: ./libappindicator1_0.4.92-8_amd64.deb
+Size: 53184
+MD5sum: 13bafbbb4abbce65090c3d7878197673
+SHA1: 403d2001878808aac1a269445b7292a9abdffee3
+SHA256: 6beb18c063fbcc4af6ea67c91c7520f992f50365a3c1dab12e26ce4ee34cf6ef
+SHA512: 78042da3d83746aa6225f6e36b8e33c81653fbcb24067b5ead50b76a3d3cc7bbd47aabafa1855a8b71e2ecfef6c31a61ad99d77d2fbc994a993b49909a884e86
+Homepage: https://launchpad.net/libappindicator
+Description: allow applications to export a menu into the panel
+ A library to allow applications to export a menu into the panel.
+ Based on KSNI it also works in KDE and will fallback to generic Systray
+ support if none of those are available.
+ .
+ This package contains shared libraries to be used by applications.
+
 Package: libass5
 Architecture: amd64
 Version: 1:0.13.4-2
