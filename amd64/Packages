@@ -3489,6 +3489,29 @@ Description: spell checker and morphological analyzer (shared library)
  .
  This package contains the shared library.
 
+Package: libindicator7
+Architecture: amd64
+Version: 0.5.0-4
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libindicator
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 106
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.32), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0)
+Filename: ./libindicator7_0.5.0-4_amd64.deb
+Size: 53028
+MD5sum: eeff52103a841397f50594257b49f085
+SHA1: 495c53c3c9ee0f5ce9105efa9d7ad901cb495d96
+SHA256: 0a40b668f49dbd47c7aa859b648179448d44a52bb6e2f62597681330d65508d2
+SHA512: 21f36bd603db9e958660f1b6452b5a8c5d0eee4bec6382bad3c8327e4d3ce7380e1a11255465839f54d4ff1115b560dd6c82c7a2f9098873ff62712577dab40b
+Homepage: https://launchpad.net/libindicator
+Description: panel indicator applet - shared library
+ This library contains information to build indicators to go into
+ the indicator applet.
+ .
+ This package contains the library itself.
+
 Package: libjpeg8
 Architecture: amd64
 Version: 8d-1+deb7u1

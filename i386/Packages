@@ -3678,6 +3678,29 @@ Description: spell checker and morphological analyzer (shared library)
  .
  This package contains the shared library.
 
+Package: libindicator7
+Architecture: i386
+Version: 0.5.0-4
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libindicator
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 109
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.32), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0)
+Filename: ./libindicator7_0.5.0-4_i386.deb
+Size: 53964
+MD5sum: d07db3b407c6159896d35972320882ab
+SHA1: 8c52ddf12f4a786a2d647970369a3ed432466ae6
+SHA256: 7d0da2f50fec4a054e0c3474ff21f02add33bd613eea81d2470a247ee5f722de
+SHA512: ce2f590a8faebec71a87f4630b8605628d52f2eaf135a55fe0099aa35fe66e248c5a47d58881144544d1b620bb851005a658d86923a7c7674e2c4c3fa3872c5d
+Homepage: https://launchpad.net/libindicator
+Description: panel indicator applet - shared library
+ This library contains information to build indicators to go into
+ the indicator applet.
+ .
+ This package contains the library itself.
+
 Package: libjpeg8
 Architecture: i386
 Version: 8d1-2
