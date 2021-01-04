@@ -104,6 +104,7 @@ etc/wex/plugins/video_in.plug				    wex
 etc/wex/user_utilities					    wex
 etc/wex/wexrc						    wex
 etc/wgetrc						    wget
+etc/xdg/autostart/parcellite-startup.desktop		    parcellite
 etc/xdg/menus/dog-applications.menu			    jwm-setup-dd64,jwmconf,jwm-setup
 etc/xdg/menus/xlunch-applications.menu			    xlunch
 etc/xdg/openbox/autostart				    openbox
@@ -854,6 +855,7 @@ usr/bin/obxprop						    openbox
 usr/bin/openbox						    openbox
 usr/bin/openbox-session					    openbox
 usr/bin/palemoon					    palemoon
+usr/bin/parcellite					    parcellite
 usr/bin/pavrecord					    pavrecord
 usr/bin/pburn						    pburn
 usr/bin/pet2tgz						    pburn
@@ -8150,6 +8152,7 @@ usr/share/applications/obkey.desktop			    obkey
 usr/share/applications/openbox.desktop			    jwm-setup-dd64,jwm-setup
 usr/share/applications/p910nd-control.desktop		    p910nd-print-server
 usr/share/applications/palemoon.desktop			    palemoon
+usr/share/applications/parcellite.desktop		    parcellite
 usr/share/applications/pavrecord.desktop		    pavrecord
 usr/share/applications/pburn.desktop			    pburn
 usr/share/applications/peasy-ytdl.desktop		    peasy-ytdl
@@ -8815,6 +8818,11 @@ usr/share/doc/openbox/xbm/shade.xbm			    openbox
 usr/share/doc/openbox/xbm/shade_toggled.xbm		    openbox
 usr/share/doc/palemoon/changelog.Debian.gz		    palemoon
 usr/share/doc/palemoon/copyright			    palemoon
+usr/share/doc/parcellite/README				    parcellite
+usr/share/doc/parcellite/changelog.Debian.amd64.gz	    parcellite
+usr/share/doc/parcellite/changelog.Debian.gz		    parcellite
+usr/share/doc/parcellite/changelog.gz			    parcellite
+usr/share/doc/parcellite/copyright			    parcellite
 usr/share/doc/pburn.html				    pburn
 usr/share/doc/python-gi/NEWS.gz				    python-gi
 usr/share/doc/python-gi/changelog.Debian.gz		    python-gi
@@ -10238,6 +10246,7 @@ usr/share/locale/ca/LC_MESSAGES/evince.mo		    evince
 usr/share/locale/ca/LC_MESSAGES/gftp.mo			    gftp-common
 usr/share/locale/ca/LC_MESSAGES/leafpad.mo		    leafpad
 usr/share/locale/ca/LC_MESSAGES/openbox.mo		    openbox
+usr/share/locale/ca/LC_MESSAGES/parcellite.mo		    parcellite
 usr/share/locale/ca/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/ca/LC_MESSAGES/wget.mo			    wget
 usr/share/locale/ca@valencia/LC_MESSAGES/evince.mo	    evince
@@ -10252,6 +10261,7 @@ usr/share/locale/cs/LC_MESSAGES/gnutls-deb0-28.mo	    libgnutls-deb0-28
 usr/share/locale/cs/LC_MESSAGES/leafpad.mo		    leafpad
 usr/share/locale/cs/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/cs/LC_MESSAGES/openbox.mo		    openbox
+usr/share/locale/cs/LC_MESSAGES/parcellite.mo		    parcellite
 usr/share/locale/cs/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/cs/LC_MESSAGES/wget.mo			    wget
 usr/share/locale/csb/LC_MESSAGES/synaptic.mo		    synaptic
@@ -10262,6 +10272,7 @@ usr/share/locale/da/LC_MESSAGES/evince.mo		    evince
 usr/share/locale/da/LC_MESSAGES/gftp.mo			    gftp-common
 usr/share/locale/da/LC_MESSAGES/leafpad.mo		    leafpad
 usr/share/locale/da/LC_MESSAGES/openbox.mo		    openbox
+usr/share/locale/da/LC_MESSAGES/parcellite.mo		    parcellite
 usr/share/locale/da/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/da/LC_MESSAGES/wget.mo			    wget
 usr/share/locale/de/LC_MESSAGES/elogind.mo		    elogind
@@ -10275,6 +10286,7 @@ usr/share/locale/de/LC_MESSAGES/leafpad.mo		    leafpad
 usr/share/locale/de/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/de/LC_MESSAGES/openbox.mo		    openbox
 usr/share/locale/de/LC_MESSAGES/packit.mo		    pack-it
+usr/share/locale/de/LC_MESSAGES/parcellite.mo		    parcellite
 usr/share/locale/de/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/de/LC_MESSAGES/uextract.mo		    uextract
 usr/share/locale/de/LC_MESSAGES/wget.mo			    wget
@@ -10318,6 +10330,7 @@ usr/share/locale/es/LC_MESSAGES/leafpad.mo		    leafpad
 usr/share/locale/es/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/es/LC_MESSAGES/openbox.mo		    openbox
 usr/share/locale/es/LC_MESSAGES/packit.mo		    pack-it
+usr/share/locale/es/LC_MESSAGES/parcellite.mo		    parcellite
 usr/share/locale/es/LC_MESSAGES/roxterm.mo		    roxterm-common
 usr/share/locale/es/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/es/LC_MESSAGES/uextract.mo		    uextract
@@ -10355,6 +10368,7 @@ usr/share/locale/fr/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/fr/LC_MESSAGES/obkey.mo		    obkey
 usr/share/locale/fr/LC_MESSAGES/openbox.mo		    openbox
 usr/share/locale/fr/LC_MESSAGES/packit.mo		    pack-it
+usr/share/locale/fr/LC_MESSAGES/parcellite.mo		    parcellite
 usr/share/locale/fr/LC_MESSAGES/roxterm.mo		    roxterm-common
 usr/share/locale/fr/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/fr/LC_MESSAGES/websearch.mo		    websearch
@@ -10404,6 +10418,7 @@ usr/share/locale/hu/LC_MESSAGES/gftp.mo			    gftp-common
 usr/share/locale/hu/LC_MESSAGES/leafpad.mo		    leafpad
 usr/share/locale/hu/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/hu/LC_MESSAGES/openbox.mo		    openbox
+usr/share/locale/hu/LC_MESSAGES/parcellite.mo		    parcellite
 usr/share/locale/hu/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/hu/LC_MESSAGES/wget.mo			    wget
 usr/share/locale/hy/LC_MESSAGES/synaptic.mo		    synaptic
@@ -10424,6 +10439,7 @@ usr/share/locale/it/LC_MESSAGES/gnutls-deb0-28.mo	    libgnutls-deb0-28
 usr/share/locale/it/LC_MESSAGES/leafpad.mo		    leafpad
 usr/share/locale/it/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/it/LC_MESSAGES/openbox.mo		    openbox
+usr/share/locale/it/LC_MESSAGES/parcellite.mo		    parcellite
 usr/share/locale/it/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/it/LC_MESSAGES/wget.mo			    wget
 usr/share/locale/it/LC_MESSAGES/yad.mo			    yad
@@ -10436,6 +10452,7 @@ usr/share/locale/ja/LC_MESSAGES/gftp.mo			    gftp-common
 usr/share/locale/ja/LC_MESSAGES/leafpad.mo		    leafpad
 usr/share/locale/ja/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/ja/LC_MESSAGES/openbox.mo		    openbox
+usr/share/locale/ja/LC_MESSAGES/parcellite.mo		    parcellite
 usr/share/locale/ja/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/ja/LC_MESSAGES/wget.mo			    wget
 usr/share/locale/ja_JP/LC_MESSAGES/madedit.mo		    madedit
@@ -10486,6 +10503,7 @@ usr/share/locale/ms/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/my/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/nb/LC_MESSAGES/evince.mo		    evince
 usr/share/locale/nb/LC_MESSAGES/gftp.mo			    gftp-common
+usr/share/locale/nb/LC_MESSAGES/parcellite.mo		    parcellite
 usr/share/locale/nb/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/nb/LC_MESSAGES/wget.mo			    wget
 usr/share/locale/nds/LC_MESSAGES/evince.mo		    evince
@@ -10525,9 +10543,11 @@ usr/share/locale/pl/LC_MESSAGES/leafpad.mo		    leafpad
 usr/share/locale/pl/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/pl/LC_MESSAGES/openbox.mo		    openbox
 usr/share/locale/pl/LC_MESSAGES/packit.mo		    pack-it
+usr/share/locale/pl/LC_MESSAGES/parcellite.mo		    parcellite
 usr/share/locale/pl/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/pl/LC_MESSAGES/uextract.mo		    uextract
 usr/share/locale/pl/LC_MESSAGES/wget.mo			    wget
+usr/share/locale/pl_PL/LC_MESSAGES/parcellite.mo	    parcellite
 usr/share/locale/ps/LC_MESSAGES/evince.mo		    evince
 usr/share/locale/ps/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/pt/LC_MESSAGES/evince.mo		    evince
@@ -10545,6 +10565,7 @@ usr/share/locale/pt_BR/LC_MESSAGES/gftp.mo		    gftp-common
 usr/share/locale/pt_BR/LC_MESSAGES/leafpad.mo		    leafpad
 usr/share/locale/pt_BR/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/pt_BR/LC_MESSAGES/openbox.mo		    openbox
+usr/share/locale/pt_BR/LC_MESSAGES/parcellite.mo	    parcellite
 usr/share/locale/pt_BR/LC_MESSAGES/roxterm.mo		    roxterm-common
 usr/share/locale/pt_BR/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/pt_BR/LC_MESSAGES/wget.mo		    wget
@@ -10556,6 +10577,7 @@ usr/share/locale/ro/LC_MESSAGES/elogind.mo		    elogind
 usr/share/locale/ro/LC_MESSAGES/evince.mo		    evince
 usr/share/locale/ro/LC_MESSAGES/gftp.mo			    gftp-common
 usr/share/locale/ro/LC_MESSAGES/openbox.mo		    openbox
+usr/share/locale/ro/LC_MESSAGES/parcellite.mo		    parcellite
 usr/share/locale/ro/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/ro/LC_MESSAGES/wget.mo			    wget
 usr/share/locale/ru/LC_MESSAGES/elogind.mo		    elogind
@@ -10568,6 +10590,7 @@ usr/share/locale/ru/LC_MESSAGES/mount-wizard.mo		    mount-wizard
 usr/share/locale/ru/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/ru/LC_MESSAGES/openbox.mo		    openbox
 usr/share/locale/ru/LC_MESSAGES/packit.mo		    pack-it
+usr/share/locale/ru/LC_MESSAGES/parcellite.mo		    parcellite
 usr/share/locale/ru/LC_MESSAGES/roxterm.mo		    roxterm-common
 usr/share/locale/ru/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/ru/LC_MESSAGES/uextract.mo		    uextract
@@ -10614,6 +10637,7 @@ usr/share/locale/sv/LC_MESSAGES/gnutls-deb0-28.mo	    libgnutls-deb0-28
 usr/share/locale/sv/LC_MESSAGES/leafpad.mo		    leafpad
 usr/share/locale/sv/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/sv/LC_MESSAGES/openbox.mo		    openbox
+usr/share/locale/sv/LC_MESSAGES/parcellite.mo		    parcellite
 usr/share/locale/sv/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/sv/LC_MESSAGES/wget.mo			    wget
 usr/share/locale/ta/LC_MESSAGES/evince.mo		    evince
@@ -10635,6 +10659,7 @@ usr/share/locale/tr/LC_MESSAGES/gftp.mo			    gftp-common
 usr/share/locale/tr/LC_MESSAGES/leafpad.mo		    leafpad
 usr/share/locale/tr/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/tr/LC_MESSAGES/openbox.mo		    openbox
+usr/share/locale/tr/LC_MESSAGES/parcellite.mo		    parcellite
 usr/share/locale/tr/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/tr/LC_MESSAGES/wget.mo			    wget
 usr/share/locale/tt/LC_MESSAGES/synaptic.mo		    synaptic
@@ -10672,6 +10697,7 @@ usr/share/locale/zh_CN/LC_MESSAGES/leafpad.mo		    leafpad
 usr/share/locale/zh_CN/LC_MESSAGES/madedit.mo		    madedit
 usr/share/locale/zh_CN/LC_MESSAGES/mtpaint.mo		    mtpaint
 usr/share/locale/zh_CN/LC_MESSAGES/openbox.mo		    openbox
+usr/share/locale/zh_CN/LC_MESSAGES/parcellite.mo	    parcellite
 usr/share/locale/zh_CN/LC_MESSAGES/synaptic.mo		    synaptic
 usr/share/locale/zh_CN/LC_MESSAGES/wget.mo		    wget
 usr/share/locale/zh_HK/LC_MESSAGES/evince.mo		    evince
@@ -10769,6 +10795,7 @@ usr/share/man/man1/nicinfo.1p.gz			    ceni
 usr/share/man/man1/obxprop.1.gz				    openbox
 usr/share/man/man1/openbox-session.1.gz			    openbox
 usr/share/man/man1/openbox.1.gz				    openbox
+usr/share/man/man1/parcellite.1.gz			    parcellite
 usr/share/man/man1/roxterm-config.1.gz			    roxterm-common
 usr/share/man/man1/roxterm.1.gz				    roxterm-common
 usr/share/man/man1/sessreg.1.gz				    x11-xserver-utils
@@ -11311,6 +11338,9 @@ usr/share/pixmaps/other.png				    jwm-setup,jwmconf
 usr/share/pixmaps/p910nd-control.png			    p910nd-print-server
 usr/share/pixmaps/palemoon.png				    palemoon
 usr/share/pixmaps/palemoon.xpm				    palemoon
+usr/share/pixmaps/parcellite.png			    parcellite
+usr/share/pixmaps/parcellite.svg			    parcellite
+usr/share/pixmaps/parcellite.xpm			    parcellite
 usr/share/pixmaps/partview-24.png			    peasypartview
 usr/share/pixmaps/partview-48.png			    peasypartview
 usr/share/pixmaps/peasy-ytdl.png			    peasy-ytdl

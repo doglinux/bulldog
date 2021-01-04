@@ -5223,6 +5223,32 @@ Description: Firefox-based, efficient and easy to use web browser
  Run /proc/cpuinfo in a terminal, and look for sse2 in the flags to ensure
  that your processor supports it.
 
+Package: parcellite
+Architecture: i386
+Version: 1.2.1-3
+Priority: optional
+Section: misc
+Maintainer: Hugo Lefeuvre <hle@debian.org>
+Installed-Size: 562
+Depends: libappindicator1 (>= 0.2.91), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libdbusmenu-glib4 (>= 0.4.2), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libx11-6
+Filename: ./parcellite_1.2.1-3_i386.deb
+Size: 260492
+MD5sum: 8db05d192930996f6ee606c0f83b3d62
+SHA1: 9f6a20f2b0a33804b2fb5af002b8535c699330e6
+SHA256: a10685235d5a1117acb0525ce9bc108bdfba6d98fe5b69bae9fd87789c939192
+SHA512: 9016a481183b3973c43b633dedf15c904239dee1afc5b8d1be7f3868a4edc02725316da1442dfe78c6e393ea3a32b0de562aee050a4ea1a14224508b6974e529
+Homepage: https://github.com/rickyrockrat/parcellite
+Description: lightweight GTK+ clipboard manager
+ Parcellite is a stripped down, basic-features-only clipboard manager
+ with a small memory footprint for those who like simplicity.
+ .
+ Features:
+ .
+  * Keeps a clipboard history.
+  * Various view options to display items the way you like it.
+  * Daemon mode; guard your clipboard contents when you close applications.
+  * Perform custom commands using clipboard contents.
+
 Package: pavrecord
 Architecture: i386
 Version: 9.0.5
