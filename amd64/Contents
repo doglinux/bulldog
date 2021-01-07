@@ -164,7 +164,6 @@ lib/elogind/elogind-uaccess-command			    elogind
 lib/elogind/libelogind-shared-241.1.so			    elogind
 lib/elogind/libelogind-shared-241.3.so			    elogind
 lib/elogind/libelogind-shared-243.7.so			    elogind
-lib/elogind/libelogind-shared-246.9.1.so		    elogind
 lib/elogind/system-shutdown/.keep_dir			    elogind
 lib/elogind/system-sleep/.keep_dir			    elogind
 lib/modprobe.d/fbdev-blacklist.conf			    eudev
@@ -211,7 +210,6 @@ lib/udev/rules.d/60-serial.rules			    eudev
 lib/udev/rules.d/64-btrfs.rules				    eudev
 lib/udev/rules.d/70-joystick.rules			    eudev
 lib/udev/rules.d/70-mouse.rules				    eudev
-lib/udev/rules.d/70-power-switch.rules			    elogind
 lib/udev/rules.d/70-touchpad.rules			    eudev
 lib/udev/rules.d/70-uaccess.rules			    elogind
 lib/udev/rules.d/71-seat.rules				    elogind
@@ -232,8 +230,6 @@ lib/udev/scsi_id					    eudev
 lib/udev/udev-finish					    eudev
 lib/udev/v4l_id						    eudev
 lib/udev/write_net_rules				    eudev
-lib/x86_64-linux-gnu/libelogind.so.0			    libelogind0
-lib/x86_64-linux-gnu/libelogind.so.0.29.0		    libelogind0
 lib/x86_64-linux-gnu/libpng12.so.0			    libpng12-0
 lib/x86_64-linux-gnu/libpng12.so.0.50.0			    libpng12-0
 lib/x86_64-linux-gnu/libsystemd.so.0			    libelogind0
@@ -928,7 +924,6 @@ usr/include/elogind/sd-id128.h				    libelogind-dev
 usr/include/elogind/sd-journal.h			    libelogind-dev
 usr/include/elogind/sd-login.h				    libelogind-dev
 usr/include/elogind/sd-messages.h			    libelogind-dev
-usr/include/elogind/sd-path.h				    libelogind-dev
 usr/include/elogind/systemd/_sd-common.h		    libelogind-dev
 usr/include/elogind/systemd/sd-bus-protocol.h		    libelogind-dev
 usr/include/elogind/systemd/sd-bus-vtable.h		    libelogind-dev
@@ -941,7 +936,6 @@ usr/include/elogind/systemd/sd-id128.h			    libelogind-dev
 usr/include/elogind/systemd/sd-journal.h		    libelogind-dev
 usr/include/elogind/systemd/sd-login.h			    libelogind-dev
 usr/include/elogind/systemd/sd-messages.h		    libelogind-dev
-usr/include/elogind/systemd/sd-path.h			    libelogind-dev
 usr/include/evince/2.32/evince-document.h		    evince
 usr/include/evince/2.32/evince-view.h			    evince
 usr/include/evince/2.32/libdocument/ev-annotation.h	    evince
