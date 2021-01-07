@@ -3140,16 +3140,16 @@ Source: elogind
 Origin: Devuan
 Maintainer: Mark Hindley <mark@hindley.org.uk>
 Installed-Size: 689
-Provides: libsystemd0 (= 247.2-3)
+Provides: libsystemd0 (= 246.9.1)
 Depends: libc6 (>= 2.28), libcap2 (>= 1:2.10)
 Conflicts: libsystemd0
 Replaces: libsystemd0
 Filename: ./libelogind0_249.7-2.0antix1_amd64.deb
-Size: 250576
-MD5sum: 4f577bbed03e2edb60e6b3f30174d566
-SHA1: 1c21112ca9c367cb5432b3b08d6fb869951e2228
-SHA256: 85ad28bd3e349acdeb384982f8867bfa4971af3be0c65c64ebedda4ab67e5669
-SHA512: c4b5cb1e0f5fbc4abaf9fd1f093149663dc86354b2c1bc1e4e75740ae4c015e1bbd57065d2329ecca644b9601d30729c4a802d0b5ab85e509680bb64b82b8b1a
+Size: 250572
+MD5sum: bfd2c2ac9c83a759bb3b38f4cb701ab8
+SHA1: 82b1f703716ea1426434065efe9d7954f7beda75
+SHA256: c96ab7cce09b7e9dc3661ced5159c0cbf351a64ffa7ded171df0cd3182c82b1a
+SHA512: 422a2a2110bf6ee963a7c5d3b00fe54827db2600fae929df9cb8f78e733b5b26a61d3ae1bb34cec6ea3010ee74c2eae7d7f4545a1de5184f22dc265424170d43
 Homepage: https://github.com/elogind/elogind
 Description: user, seat and session management library
  This library provides runtime access to elogind session management.
