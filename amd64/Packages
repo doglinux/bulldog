@@ -1184,19 +1184,17 @@ Priority: optional
 Section: admin
 Origin: Devuan
 Maintainer: Mark Hindley <mark@hindley.org.uk>
-Installed-Size: 2236
-Pre-Depends: debconf, init-system-helpers (>= 1.54~)
-Depends: libacl1 (>= 2.2.23), libaudit1 (>= 1:2.2.1), libc6 (>= 2.28), libcap2 (>= 1:2.10), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.0.82), libudev1, libelogind0 (= 249.7-2.0antix1), lsb-base (>= 3.1), dbus (>= 1.9.14)
+Installed-Size: 1978
+Pre-Depends: debconf
+Depends: libacl1 (>= 2.2.23), libaudit1 (>= 1:2.2.1), libc6 (>= 2.28), libcap2 (>= 1:2.10), libselinux1 (>= 2.0.65), libudev1, libelogind0 (= 249.7-2.0antix1), lsb-base (>= 3.1), dbus (>= 1.9.14)
 Recommends: libpam-elogind, policykit-1
 Conflicts: systemd
-Breaks: udev (<< 1:3.2.2+devuan1)
-Replaces: udev (<< 1:3.2.2+devuan1)
 Filename: ./elogind_249.7-2.0antix1_amd64.deb
-Size: 656972
-MD5sum: f59a5613b4cf90ecf40c6edbb220def3
-SHA1: 2e50f83dc3e5712fd3d6fe6e0a527fecb9705808
-SHA256: a5311128e8dba06623cf1ed89963e4051ffcafc431a31b543bb1187f829d432a
-SHA512: ac7e098e1b29ddb62b9cf27210aefc7e53e8bd18b7ff72bbef0c89bd474edb2374653abe66c5acc71136ff49b47815a268dbac0ebf867ec551f9738f4d2db409
+Size: 656916
+MD5sum: 13fecbf6f3891db863d561b29b687347
+SHA1: 55ba2f9db5d49b55147427c50aebff1def28ac16
+SHA256: b969cf628057f04eb538a2867861bd720ff05656f88c96c59edf2ac8263e7cca
+SHA512: 8eb4d827b8aeb2474ca11710fd4c189a96fc0d686b30c64302a6a53bde44fd9c53043ed9c3367a7d4ed710759186d94d808978e2d336ae0cd3fe8925a1838d58
 Homepage: https://github.com/elogind/elogind
 Description: user, seat and session management daemon
  elogind is a session management daemon extracted from systemd project's
