@@ -2589,11 +2589,11 @@ Maintainer: fredx181
 Installed-Size: 480
 Depends: libatk1.0-0, libc6, libcairo2, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, libmenu-cache3, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, sed, jwm, rox-filer, wmctrl, hsetroot
 Filename: ./jwm-setup_0.0.4_amd64.deb
-Size: 701372
-MD5sum: 6ff30625200b88eeaf7a7c4bbccb9b9b
-SHA1: 02fc1fb79df143aa0ad2ec217a60f675ba99ac5c
-SHA256: 2a88d2cbb2d017cb0414e788d5278002b06df682621cb4b90c7bb3e3e1e3b9a8
-SHA512: 7adda681ce48bea69568f0c299b95816f6a6b31e42fe13b635350b47a93ec046c853eda4a2ece41ed37d07619dcc6b88a4ff84b0f7463bbbb033ed7afea10b62
+Size: 701392
+MD5sum: 2a6017f52e4281d3df34d6efca9ee736
+SHA1: 5d9f2cbc73f334b7118fcd7d2ff6a440f5da764a
+SHA256: 972ec9c1a1c63724d684d7edca9b2a9745598c4c3511b10d77d6bb6e8d642753
+SHA512: 565e2d5019a066ebc95c97243ad197925be5ea8fa3ea51d42522340126e2805254d6eea20591ba59895ad862eb31bed005b1a89e7d507c90594272fdea1c9f18
 Description: Jwm custom setup for Debiandog, includes:
  - openbox-menu, pipe-menu setup for JWM to display entries in *.desktop files
  - jwm-obmenu script for the Jwm window manager. It provides
