@@ -4979,6 +4979,41 @@ Description: Transitional package to ensure multiarch compatibility
  in ld.so before unpacking libraries to the multiarch directories.  It can
  be removed once nothing on the system depends on it.
 
+Package: network-manager
+Architecture: i386
+Version: 1:1.28.0-2
+Priority: optional
+Section: net
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 15550
+Depends: libaudit1 (>= 1:2.2.1), libbluetooth3 (>= 4.91), libc6 (>= 2.28), libcurl3-gnutls (>= 7.24.0), libglib2.0-0 (>= 2.61.2), libgnutls30 (>= 3.7.0), libjansson4 (>= 2.0.1), libmm-glib0 (>= 1.4.0), libndp0 (>= 1.2), libnewt0.52 (>= 0.52.21), libnm0 (= 1.28.0-2), libpsl5 (>= 0.13.0), libreadline8 (>= 6.0), libselinux1 (>= 3.1~), libsystemd0 (>= 221), libteamdctl0 (>= 1.9), libudev1 (>= 183), libuuid1 (>= 2.16), wpasupplicant, dbus, udev, adduser, policykit-1
+Recommends: ppp, dnsmasq-base, iptables, modemmanager, wireless-regdb, libpam-systemd
+Suggests: libteam-utils, isc-dhcp-client
+Breaks: ppp (>= 2.4.8-2~), ppp (<< 2.4.8-1+~)
+Filename: ./network-manager_1.28.0-2_i386.deb
+Size: 3048700
+MD5sum: eea0f205abf12cdc851e5b296c8bde75
+SHA1: 2f0ded034fff7ca1231213c7f686c6c5cf26f256
+SHA256: ce8d3a7f1e858d5f8f3ed96e3a4b596a44ba09477b5b7e37703e26e1f00f6929
+SHA512: d1e7feada8df03515a07f4a2b5b45c32ce0169b1003a0ef4c32cac2da87e5402dfb41bbbd8249ee7a5d558d3f4f39a364bc89576c7f762ed4ace67d4a720e329
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Description: network management framework (daemon and userspace tools)
+ NetworkManager is a system network service that manages your network devices
+ and connections, attempting to keep active network connectivity when
+ available. It manages ethernet, WiFi, mobile broadband (WWAN), and PPPoE
+ devices, and provides VPN integration with a variety of different VPN
+ services.
+ .
+ This package provides the userspace daemons and a command line interface to
+ interact with NetworkManager.
+ .
+ Optional dependencies:
+  * ppp: Required for establishing dial-up connections (e.g. via GSM).
+  * dnsmasq-base/iptables: Required for creating Ad-hoc connections and
+    connection sharing.
+  * libteam-utils: Network Team driver allows multiple network interfaces to be
+    teamed together and act like a single one. This process is called ethernet
+
 Package: notecase-portable
 Architecture: i386
 Version: 1.9.8-1
