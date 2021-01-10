@@ -7099,6 +7099,23 @@ SHA512: f51e4f7b9eb8e9ee72ff7f80edfad417e932cd03753758955ca61e60797ccb4e56ae169d
 Description: Install kernel in chroot
  And create initrd1.xz and initrd.img
 
+Package: upgrade-kernel
+Architecture: all
+Version: 1.0.8
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 2800
+Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse
+Filename: ./upgrade-kernel_1.0.8_all.deb
+Size: 1120980
+MD5sum: b24882ea9a1123194a6297d3ac21adf9
+SHA1: 0e71f929b95aec033f0d8472331721be3d1a11f0
+SHA256: 39c38e7b1e454369c41c2daa315dfad3ec37896d028d17eef269c09efa23b533
+SHA512: 41925fe2051a1bf94b09e17250953e4596b68e184c4f2ce3bc810188709d8364e0a16357a6611d9129aa87d5643eecf1d33095036853ee7ade7ee36f6baa796c
+Description: Install kernel in chroot
+ And create initrd1.xz and initrd.img
+
 Package: vnstat-tray
 Architecture: amd64
 Version: 1.1
