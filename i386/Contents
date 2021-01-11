@@ -976,6 +976,7 @@ usr/bin/notecase					    notecase-portable,notecase
 usr/bin/obkey						    obkey
 usr/bin/obxprop						    openbox
 usr/bin/openbox						    openbox
+usr/bin/openbox-menu					    openbox-menu
 usr/bin/openbox-session					    openbox
 usr/bin/osmo						    osmo-portable
 usr/bin/palemoon					    palemoon
@@ -6431,6 +6432,9 @@ usr/share/doc/nls/yalrm/pot_generate			    yalarm2
 usr/share/doc/nls/yalrm/yalrm.pot			    yalarm2
 usr/share/doc/notecase/help.ncd				    notecase-portable,notecase
 usr/share/doc/obkey/changelog.Debian.gz			    obkey
+usr/share/doc/openbox-menu/changelog.Debian.gz		    openbox-menu
+usr/share/doc/openbox-menu/changelog.gz			    openbox-menu
+usr/share/doc/openbox-menu/copyright			    openbox-menu
 usr/share/doc/openbox/AUTHORS				    openbox
 usr/share/doc/openbox/COMPLIANCE			    openbox
 usr/share/doc/openbox/NEWS.Debian.gz			    openbox
@@ -9791,6 +9795,7 @@ usr/share/man/man1/nmtui-edit.1.gz			    network-manager
 usr/share/man/man1/nmtui-hostname.1.gz			    network-manager
 usr/share/man/man1/nmtui.1.gz				    network-manager
 usr/share/man/man1/obxprop.1.gz				    openbox
+usr/share/man/man1/openbox-menu.1.gz			    openbox-menu
 usr/share/man/man1/openbox-session.1.gz			    openbox
 usr/share/man/man1/openbox.1.gz				    openbox
 usr/share/man/man1/parcellite.1.gz			    parcellite

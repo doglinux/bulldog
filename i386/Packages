@@ -5127,6 +5127,26 @@ SHA256: 92ff337a410762e6b9db2532fea8a52b587cf0ac4c4d9ab4f5e11bcb427ca3bd
 SHA512: 70e4d4bc128087a91d294cbf16a3d7705ad6ceb8d66200d07979a987a9bc3c53ebda5013af6ce98f57fff2b562877cc8334ab05c638c0200853303866d618ad2
 Description: Openbox keybind configuration GUI
 
+Package: openbox-menu
+Architecture: i386
+Version: 0.8.0+hg20161009-2
+Priority: optional
+Section: x11
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Installed-Size: 44
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.8.0), libmenu-cache3 (>= 0.4.0), openbox, lxmenu-data | gnome-menus | libgarcon-common
+Filename: ./openbox-menu_0.8.0+hg20161009-2_i386.deb
+Size: 16124
+MD5sum: 32b9fd683e97d2efb4426024d68b1139
+SHA1: 06386d35430dd1e3d52980dfb726256777244f6a
+SHA256: d5df69222d33e6716ba101080eb70fae2fc03c61917dc9698c879ca1475dd348
+SHA512: c4085b7ec39fced65731b2458e34b710a917122335568f85f7f617246bbfa54e70327a10ee9956f80c794b2d8028f9c4b54fff05cfcc82d63d677bee3a871497
+Homepage: https://bitbucket.org/fabriceT/openbox-menu
+Description: openbox pipe-menu to display entries in *.desktop files
+ openbox-menu is a pipemenu for the openbox window manager. It provides
+ a dynamic menu listing of installed applications. Most of the work is
+ done by the LXDE library menu-cache.
+
 Package: openbox
 Architecture: i386
 Version: 3.6.1-4.3
