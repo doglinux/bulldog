@@ -792,6 +792,20 @@ SHA256: 2c32b38b6831da65febe1edcf1186165936be129d64ec3ba0b969bd8636fac2c
 SHA512: 5d1753fde9ebc9b38d7cde1a82ab5ef6d73959f0d1db61cae5e454d6438c5479ff20c7e2294a3a440228b9b122d6a539cc712405b727358883fd1f0e28481adf
 Description: Special DebianDog mount and drive information scripts.
 
+Package: debdogmountscripts
+Architecture: all
+Version: 1.0.7
+Maintainer: root
+Installed-Size: 73
+Depends: libc6
+Filename: ./debdogmountscripts_1.0.7_all.deb
+Size: 2920
+MD5sum: 80a38f7fea6a0b9a776af87e063303e8
+SHA1: 3d15d9833f21b5bbbd7ff9cd2b25971cf789cceb
+SHA256: 08722c5f5ca712fb8e59881dd5e76676d243505fc1d29f2da7e0507e916bbc2c
+SHA512: 2f678e1a5dd93556a761498e95d1cd2522c7701933676f77c3849b4bcec617e19d1d778da7dbf021e8977404edc3c5ef68f5bce6b260b6750db59e0bd63a5d24
+Description: Special DebianDog mount and drive information scripts.
+
 Package: desktop-drive-icons
 Architecture: amd64
 Version: 0.0.5
@@ -7199,6 +7213,23 @@ MD5sum: 3a6c08917576040214d59a2306ff5303
 SHA1: ed4b6b09028534505f5f3812db1fba9b9d0c3c78
 SHA256: 3c7f923c43ad5d1e267d268ef3064f7bbe7bc41106502d1c65ed67da9e8b4170
 SHA512: 3b58c3807944bc0249a9dcf1a44cdc602e9aefdda919aa4fa80fd871643405d44832ade6d1863bfe92231a48d3cf2d64e731a5506076fcb275ae2e365fbcca94
+Description: Install kernel in chroot
+ And create initrd1.xz and initrd.img
+
+Package: upgrade-kernel
+Architecture: all
+Version: 1.1.0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 2800
+Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse
+Filename: ./upgrade-kernel_1.1.0_all.deb
+Size: 1121372
+MD5sum: a3b469889a52f063ef0de72617adc21a
+SHA1: 150371116cbd056991d4537af3594f39760b5af2
+SHA256: c4caecaff951e33632920f63c511437ea8e5f8df22f8881abda2a4033c7eaf06
+SHA512: 989c478cc409771441c4b1d850468051eb7b52e40c3ffbda441116af99d0ee47795734a872ccc31d78b41a8b5001bb55689bb4ecebffbfe4bc392a1656cd92d9
 Description: Install kernel in chroot
  And create initrd1.xz and initrd.img
 
