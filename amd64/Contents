@@ -514,6 +514,8 @@ opt/docs/pictures/desktop.jpg				    jwm-setup,jwmconf
 opt/docs/pictures/fisherman.jpg				    jwm-setup
 opt/docs/portablesfs-chroot.template			    portablesfs-loadsfs-fuse
 opt/docs/portablesfs.template				    portablesfs-loadsfs-fuse
+opt/docs/sources.list.snap				    repo-conf
+opt/docs/sources.list.stand				    repo-conf
 opt/jwm/jwm						    jwm-setup,jwmconf
 opt/jwm/jwm-debdog					    jwm-setup,jwmconf
 opt/master-pdf-editor-4/fonts/standard/Courier-Bold.ttf	    master-pdf-editor
@@ -5250,6 +5252,7 @@ usr/local/bin/remastercow-start				    remaster-scripts
 usr/local/bin/remasterdog				    remaster-scripts
 usr/local/bin/remasterdog-cli				    remaster-scripts
 usr/local/bin/remasterdog-start				    remaster-scripts
+usr/local/bin/repo-conf					    repo-conf
 usr/local/bin/resize-save				    resize-save-file
 usr/local/bin/rshift-gui-lite				    redshift-gui-lite
 usr/local/bin/run-as-user				    run-as-user
@@ -8219,6 +8222,7 @@ usr/share/applications/poster-sel.desktop		    gopoststuff
 usr/share/applications/poster.desktop			    gopoststuff
 usr/share/applications/qiv-slideshow.desktop		    qiv-slideshow
 usr/share/applications/quick-remastergui.desktop	    quick-remaster
+usr/share/applications/repo-conf.desktop		    repo-conf
 usr/share/applications/resize-save.desktop		    resize-save-file
 usr/share/applications/rox.desktop			    jwmconf
 usr/share/applications/roxterm.desktop			    roxterm-gtk2
@@ -11250,6 +11254,7 @@ usr/share/pixmaps/clock_face45.png			    conkyclock
 usr/share/pixmaps/computer.png				    inxi-gui
 usr/share/pixmaps/dance.png				    dancing-letters
 usr/share/pixmaps/dancegif.png				    gifdance
+usr/share/pixmaps/deb_logo.png				    repo-conf
 usr/share/pixmaps/diffing.png				    diff-sync-umount
 usr/share/pixmaps/dirs.png				    jwm-setup,jwmconf
 usr/share/pixmaps/disc.png				    mount-wizard
