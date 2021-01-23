@@ -790,6 +790,52 @@ SHA256: 045ff34febef783039e15908e6018b9204ae52688ec45cc1246af4618a3b5ebc
 SHA512: 2fe2a68afb64146684b86205f9d4eb9ac76dac5efde35dc860550a55f0c5a546fae58bd3fe5c89c4afe2b5453a188bdcbd064fbfb0b1fea23ddc02d2059556b3
 Description: Dancing Letters Generator (forum and HTML)
 
+Package: deadbeef-gtk2
+Architecture: i386
+Version: 1.8.2-1~mx19+1
+Priority: optional
+Section: sound
+Source: deadbeef
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Original-Maintainer: Alexander Pozdnyakov <almipo@mail.ru>
+Installed-Size: 1112
+Depends: deadbeef (>= 1.8.2-1~mx19+1), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.32), libjansson4 (>= 2.0.1), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0)
+Filename: ./deadbeef-gtk2_1.8.2-1~mx19+1_i386.deb
+Size: 319404
+MD5sum: 8e6975931017031492712aae98e25aee
+SHA1: 4e5a9ec5596923e8ed3098a33ff361d1c5202a8c
+SHA256: aa1c7b7adb000c75ec3812889b937962ef2405a2f36e1acbc9a2593fbfc33e01
+SHA512: 5df4c6c383b925ab191a1426205f6b5d6dfd8108053fe547748a400921f65494716682dfda286b9a578a99cfe79f136fb3b40e04123816b79eeffe2dbe4eb95b
+Homepage: http://deadbeef.sourceforge.net/
+Description: GTK+ 2 interface to DeaDBeeF
+ DeaDBeeF (as in 0xDEADBEEF) is an audio player for GNU/Linux systems with X11.
+ .
+ This package has the GTK+ 2 interface to DeaDBeef. If you want to use it,
+ install it and remove deadbeef-gtk3.
+
+Package: deadbeef-gtk3
+Architecture: i386
+Version: 1.8.2-1~mx19+1
+Priority: optional
+Section: sound
+Source: deadbeef
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Original-Maintainer: Alexander Pozdnyakov <almipo@mail.ru>
+Installed-Size: 1129
+Depends: deadbeef (>= 1.8.2-1~mx19+1), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.4.10), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.3.18), libjansson4 (>= 2.0.1), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0)
+Filename: ./deadbeef-gtk3_1.8.2-1~mx19+1_i386.deb
+Size: 322488
+MD5sum: 8c6643c880ac61d146a95663aeadc1b4
+SHA1: 078dd5885e6ab39e8e716a79fd06bb2a5342673b
+SHA256: 00b3be18f8eb2cb1c19cd1c925f71ec5099dddf8e7eb8774b8ecb1d1c542944f
+SHA512: 9f2d4f3762a55b14e23d2f54735e301b01ca1a49c8720c72d3125724a5f4d16373f4ad82178db54b2e7c3a2962af1ac0220725f44a304736bc803b7c938ecdec
+Homepage: http://deadbeef.sourceforge.net/
+Description: GTK+ 3 interface to DeaDBeeF
+ DeaDBeeF (as in 0xDEADBEEF) is an audio player for GNU/Linux systems with X11.
+ .
+ This package has the GTK+ 3 interface to DeaDBeef. If you want to use it,
+ install it and remove deadbeef-gtk2.
+
 Package: deadbeef-static
 Architecture: i386
 Version: 0.7.2-2
@@ -808,6 +854,48 @@ SHA512: bfc0abeefc0cb39716878b46fc444c97090f473c803157ca9909556af52b3aad1d4f7e32
 Homepage: http://deadbeef.sourceforge.net/
 Description: The Ultimate Music Player
  DeaDBeeF (as in 0xDEADBEEF) is a cross-platform audio player
+ .
+ Features:
+ .
+  * mp3, ogg vorbis, flac, ape, wv, wav
+  * ID3v1, ID3v2.2, ID3v2.3, ID3v2.4, APEv2, xing/info tags support
+  * character set detection for non-unicode ID3 tags - supports cp1251
+    and iso8859-1
+  * unicode tags are fully supported as well (both utf8 and ucs2)
+  * cuesheet support for mp3, ogg, flac, ape
+  * autodetection of utf8/cp1251/iso8859-1 charsets in cuesheets
+  * sid and some popular chiptune formats like nsf
+  * tracker modules like mod, s3m, it, xm, etc
+  * HVSC song length database support for sid
+  * gtk2 interface with custom highly speed/memory optimized widgets
+  * no GNOME or KDE dependencies - just gtk2 and several small libraries
+  * minimize to tray, with scrollwheel volume control
+  * drag and drop, both inside of playlist, and from filemanagers and such
+  * control playback from command line (allows global hotkeys using xbindkeys)
+  * seeking works in all supported formats
+  * plugin support; ships with several standard plugins, such as global hotkeys
+    and last.fm scrobbler; sdk is included
+  * duration calculation is as precise as possible for vbr mp3
+    files (with and without xing/info tags)
+
+Package: deadbeef
+Architecture: i386
+Version: 1.8.2-1~mx19+1
+Priority: optional
+Section: sound
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Original-Maintainer: Alexander Pozdnyakov <almipo@mail.ru>
+Installed-Size: 9245
+Depends: libasound2 (>= 1.0.16), libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libc6 (>= 2.28), libcddb2, libcdio18 (>= 2.0.0), libcurl3-gnutls (>= 7.16.2), libdbus-1-3 (>= 1.9.14), libfaad2 (>= 2.7), libflac8 (>= 1.3.0), libgcc1 (>= 1:3.0), libimlib2 (>= 1.4.5), libjansson4 (>= 2.0.1), libmad0 (>= 0.15.1b-3), libmpg123-0 (>= 1.6.2), libogg0 (>= 1.3.0), libopusfile0 (>= 0.5), libpulse0 (>= 0.99.1), libsamplerate0 (>= 0.1.7), libsndfile1 (>= 1.0.20), libstdc++6 (>= 5), libvorbis0a (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 4.40.0), libx11-6, libzip4 (>= 0.10), zlib1g (>= 1:1.1.4), deadbeef-gtk2 | deadbeef-gtk3
+Filename: ./deadbeef_1.8.2-1~mx19+1_i386.deb
+Size: 2898744
+MD5sum: 30fa03d2f607683788c93359a2af73a9
+SHA1: 08dda1fb495ef251f13f2550580da49b08a44b71
+SHA256: 45339027e06c34e29872378a61af560080e305aa416ca1c1eac9e68a7d0d42f2
+SHA512: 0a62e6aa2217f6b5912fee683f8247e15b6743f44b27246bdd6a17535f9250f7bac89fac1d38efcb2eccf087028dfb97f74ab9d3d5dd4ffde6df077e8c85ded1
+Homepage: http://deadbeef.sourceforge.net/
+Description: ultimate music player for GNU/Linux systems
+ DeaDBeeF (as in 0xDEADBEEF) is an audio player for GNU/Linux systems with X11.
  .
  Features:
  .
@@ -3024,6 +3112,32 @@ MD5sum: 89cc8379dd37e7ac34a73ac2a5cb445a
 SHA1: f1410cd6bcdf29db261142111d7262eb2c5fed2e
 SHA256: bd0001c42e406c1baa6def39a97d1ca9acbb54f2800f5e3c87ce07e2a7103914
 SHA512: 80e69fcb5503f909ea47fc9c6dfcb30b3ec8b1eef4c9b87d4de57e2e2a03988d8112128a7a0ed0cf6793f3c7ca913044368a518a9e887751c71daa1e7fa28ffe
+Homepage: http://www.gnu.org/software/libcdio/
+Description: library to read and control CD-ROM
+ This library is to encapsulate CD-ROM reading and
+ control. Applications wishing to be oblivious of the OS- and
+ device-dependant properties of a CD-ROM can use this library.
+ .
+ Some support for disk image types like BIN/CUE and NRG is available,
+ so applications that use this library also have the ability to read
+ disc images as though they were CD's.
+
+Package: libcdio18
+Architecture: i386
+Version: 2.0.0-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libcdio
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 326
+Depends: libc6 (>= 2.27)
+Filename: ./libcdio18_2.0.0-2_i386.deb
+Size: 206288
+MD5sum: d8b60dd985c50bec004bb9090568aec2
+SHA1: fc808498a39d180daef7d5026087dbd4f7298c2f
+SHA256: daeef1b6419da8dbbd31633f407008f1e3c572cad5ba044cc77b8e3294bd745f
+SHA512: 0f6a93e944016b11415655ce9a0aa4344d3a88d2ccc3195f6ca2537d9e2d6cc012d6137d2af24aadad97d814f1dd5875f3a582fea75d19460712cae5269f8d6c
 Homepage: http://www.gnu.org/software/libcdio/
 Description: library to read and control CD-ROM
  This library is to encapsulate CD-ROM reading and
@@ -6187,6 +6301,31 @@ Description: Load a *.squashfs or *.sfs module.
  - kill processes which are keeping from proper unmounting (might be needed in some cases for SFS-load mode)
  version 1.0.8: second argument for loadsfs-fuse now supported, e.g. loadsfs-fuse /path/modules.squashfs <app-name>
 
+Package: portablesfs-loadsfs-fuse
+Architecture: all
+Version: 1.0.9
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 87
+Depends: libc6, yad, unionfs-fuse, gsu | gksu, linux-user-chroot, squashfuse, aufs-tools, lsof
+Filename: ./portablesfs-loadsfs-fuse_1.0.9_all.deb
+Size: 7744
+MD5sum: 986bb72c267d20dc3905f4f5d23d2600
+SHA1: 64b04f9ca5eb1d27c0071a7fada459dc97982f8d
+SHA256: 5f83defac5c51baf1e97ae19a1e5582f9f5a10334c687965ed807db1ed2299ce
+SHA512: e17fc90a4ed3af90ea9978b61c0b86aefce46fd0a759848d6a3d17c9d7d099dbc5cecd4ac5f24fed63c31317243d7699c47421c989bbbef988db2a801bfe36e7
+Description: Load a *.squashfs or *.sfs module.
+ Changes in v 1.0.3:
+ When logged in as unprivileged user, no password is required to run portable sfs script with 'Chroot Mode'
+ Same for activating a .squashfs module with loadsfs-fuse.
+ - portablesfs creates a portable script to activate *.squashfs or *.sfs module
+ (changed in v 1.0.2: added (optional) choice to enter a command that will be executed directly when running created portable script, instead of showing 'Applications' menu)  
+ - loadsfs-fuse activates a provided *.squashfs or *.sfs module from the commandline or:
+ by drag and drop (can be used on a full install).
+ - loadsfs-fuse-writesfs: basically the same as loadsfs-fuse but it leaves no traces in / (rootfs), instead it writes the config files (or any other) that a program creates to: /root/<name_of_module> directory  
+ Changes in v 1.0.5:
+ - kill processes which are keeping from proper unmounting (might be needed in some cases for SFS-load mode)
+ - 2021-01-23, v1.0.9, only 'Chroot mode' now supported
+
 Package: porteusbootscripts
 Architecture: all
 Version: 0.0.5
@@ -6877,36 +7016,6 @@ SHA512: 18add3856737d4e288ad470ea6cb5e7a34ee5c15b8299d9700401f4bdf9458fd53f72933
 Description: scrox is a fork of the scrot command line screen capture utility 
  including identical functionality plus can output coordinate information for
  full screen or the selected rectangular area.
-
-Package: sfs-get-smokey-get
-Architecture: all
-Version: 1.0.4-stretch
-Maintainer: fredx181 dog@root.nl
-Installed-Size: 224
-Depends: libc6, yad, wget, elinks, gsu | gksu
-Filename: ./sfs-get-smokey-get_1.0.4-stretch_all.deb
-Size: 77648
-MD5sum: f797a358f36f332da31c83ce113e0989
-SHA1: 46883c70b4d11e2f3f61e89964f8eaf1d0ddd1a4
-SHA256: 053f8da1acc879077666c4d69a564e5569723d2923961ec33a1dbaf887862471
-SHA512: 99de1cb622f6213151358b987aa9a2f22f65aecb87e8099e540c6e343ded71ec2badd3901f8e0a65ae03d4bc9b942fc98ff83e73b7b0c65897573f03d7f639e0
-Description: The sfs-get-smokey-get program downloads files from github.com or smokey01.com
- sfs-get_smokey-get by MakeDEBPackage-GUI.
-
-Package: sfs-get-smokey-get
-Architecture: all
-Version: 1.0.5-buster
-Maintainer: fredx181 dog@root.nl
-Installed-Size: 224
-Depends: libc6, yad, wget, elinks, gsu | gksu
-Filename: ./sfs-get-smokey-get_1.0.5-buster_all.deb
-Size: 77658
-MD5sum: c5e87b1d956bf3a38ba9c8508dbdaeae
-SHA1: e0ad42ee50e1291cc4f52e159415225b2c06b7aa
-SHA256: c39a219b427d0b9a5f0ff8996cc7aa4cc25fc1ba3853a16ddb657870a2ad279c
-SHA512: bcbf4ce5268ab0ab74c8f8f41d02833ef5d811f99efad987222cebdd20952e29457ec1eca174d38839fb78fb0257fc56e68c2ab1406a52f647f0a572a4e1f864
-Description: The sfs-get-smokey-get program downloads files from github.com or smokey01.com
- sfs-get_smokey-get by MakeDEBPackage-GUI.
 
 Package: sfsload
 Architecture: i386
