@@ -6,24 +6,24 @@ Codename: buster
 Architectures: i386
 Components: main
 Description: DebianDog repository
-Date: Sat, 23 Jan 2021 16:21:02 +0000
+Date: Sat, 13 Feb 2021 12:35:20 +0000
 MD5Sum:
- be22560b9303128626c35372663fbdb9           356259 Packages
- 9d5f6bfceb9e2f383a0fbd676fca9c32           120906 Packages.gz
- 7edd64f76ae5f541769ca15d2c376668              186 Release
- 9d5f6bfceb9e2f383a0fbd676fca9c32           120906 Translation-en.gz
+ a08eba5f9e9ff7856eb0b692db5d55ca           357675 Packages
+ bfe08478fc283bc1acff31904ab9c419           121130 Packages.gz
+ 41f11e2303c95db75688e3559cdb0cc9              186 Release
+ bfe08478fc283bc1acff31904ab9c419           121130 Translation-en.gz
 SHA1:
- fdea69759bd3cf8d67029c138c766b48d62d3a80           356259 Packages
- 385dcd14e253f1a95d217f6dcbf38e0ca3607d3e           120906 Packages.gz
- 46fd5ffa725ba5a6b168956966de396023ca3a15              186 Release
- 385dcd14e253f1a95d217f6dcbf38e0ca3607d3e           120906 Translation-en.gz
+ 5d27646f707322c019d6001ec747b387eb614dba           357675 Packages
+ e7669d64190954d27f1d0d2e61ac90dcf06276f0           121130 Packages.gz
+ 7fe0aa41b59850e58c646711c8db79dcb3c3a5f6              186 Release
+ e7669d64190954d27f1d0d2e61ac90dcf06276f0           121130 Translation-en.gz
 SHA256:
- af6399bc5666c091f8bc44c71aae7d3871605aafdbf4a1ae6b9bf08e5a5dd606           356259 Packages
- 3e7f8dc935dbf2b5b21408dad07d7e2f3d1f7c4f3aa5b1d08ee5e21341ed3bdd           120906 Packages.gz
- 28e48838a1d3ffb22fff9dd9629a6e03237f653a18df70bbed3e20eb85671b71              186 Release
- 3e7f8dc935dbf2b5b21408dad07d7e2f3d1f7c4f3aa5b1d08ee5e21341ed3bdd           120906 Translation-en.gz
+ 9b549f003fe16dacdeb5049e415c5a13d32740e97c3266394e7a5d598f302c89           357675 Packages
+ 35d7afed608add8f214e85af8e7564fc4b7104a470035a91d0095b9241071667           121130 Packages.gz
+ 199cb7a9ef557290c0767b90fc464f11cba07bba13950037cbdd60a25d4799a4              186 Release
+ 35d7afed608add8f214e85af8e7564fc4b7104a470035a91d0095b9241071667           121130 Translation-en.gz
 SHA512:
- c920ee0cdad0119e31067205a9d521c70e52e6bfddc4c2b3ed3a329a88fb72f4b1d14377180e994542d292fee32367c92ec165e589b9a2b32be977f6b11ac5fb           356259 Packages
- ba2e0734597fb94bab1c196e81d00c5ac17e2e5857d47bad05fcb22e2c461888de067b00a4b69b13cf77e7e84d8287abdf6b04d20a2db8c238c8a8ebd94e7fa0           120906 Packages.gz
- 6a0135b315e097d2ccd57800427c6334deaea4be9302cd9978880a629d46408c2f87a5788e9f5ceda88871dca98299ef1d938b5f3a0365d6699a83e4433d79e6              186 Release
- ba2e0734597fb94bab1c196e81d00c5ac17e2e5857d47bad05fcb22e2c461888de067b00a4b69b13cf77e7e84d8287abdf6b04d20a2db8c238c8a8ebd94e7fa0           120906 Translation-en.gz
+ 9c38930914057c1d29ff46d4097d519d0acab483973e0d2be1da453502023a6b52db2381648a6e8d6300b082f2513fa1a4a2eed2eb29139f7b29b0eb8b315d81           357675 Packages
+ 26c3e6b520ea5e8f98ade9ade7f1216f1bb342e8938cd39fac7986efdd7b987ec0e5703eeeecdcff70a328e0a86d0f4ca7552a9e54aacabd5bd5bc65de2d7a80           121130 Packages.gz
+ 3ae91109950e73896a01909acaac7bef75c67fe04383058479231bd905ac551b05012d7317d9cb0ec3d859224c6093e6132b9182d6e3ee2f54b0a4db7e7612d9              186 Release
+ 26c3e6b520ea5e8f98ade9ade7f1216f1bb342e8938cd39fac7986efdd7b987ec0e5703eeeecdcff70a328e0a86d0f4ca7552a9e54aacabd5bd5bc65de2d7a80           121130 Translation-en.gz

@@ -2513,7 +2513,7 @@ usr/local/bin/yad-fontview				    font-viewer
 usr/local/bin/yad-splash				    yad-splash
 usr/local/bin/yalarm					    yalarm
 usr/local/bin/yassm					    yassm
-usr/local/bin/youtube-dl				    youtube-get2
+usr/local/bin/youtube-dl				    youtube-get2,youtube-get3
 usr/local/bin/youtube-dlc				    youtube-get3
 usr/local/bin/youtube-get				    youtube-get
 usr/local/bin/youtube-get-xterm				    youtube-get
