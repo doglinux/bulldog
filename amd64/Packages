@@ -2082,6 +2082,21 @@ SHA256: c9e8fad1dbdc93b51436eabf7bae2fc3100793dece9e5991d9e0b136df5d0438
 SHA512: 3c7b3615e1d6a4610aedf40404c7953489764ce95b81a963384046aa7b5b0c4773877f94b17363022459f93ad04e388fb340090502fa59784cf58a005295d660
 Description: File transfer with busybox nc
 
+Package: gnetcat
+Architecture: all
+Version: 1.6
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: lzop
+Filename: ./gnetcat_1.6_all.deb
+Size: 5472
+MD5sum: c06a71c9468fee309c26ef5cc203c1c1
+SHA1: 3e34cf8cfd20d6a34f25a5f4bd6eb341eb5cf5fd
+SHA256: 20d76f08eb39ceb5c7f35c8650d9b5657e9d4a8d4073ef0218fded35af831ec7
+SHA512: 305faac450b3e65a70a30b26a8d7d09ced4397178434065f96a7f98134a7051e68537f240e84a89ee5a926e09359e8fec06fc71172db94c60dfdba418e13ac9b
+Description: File transfer with busybox nc
+
 Package: gnome-mplayer-1.0.6
 Architecture: amd64
 Version: 1.0.6-1
@@ -5344,6 +5359,20 @@ SHA256: a85f617aae83c2903bea6b7c811e915ed2eb7bd5a1a8fa095dbb8c5d401340bd
 SHA512: 12785dbd777215b3c14efba50222cfd94c1cd5ece14cf51261ec91c33be3844f8aa949fce250bfefd9b8e18aa7bc407086fe6f5a22dbf1fb3e737f83d9976c97
 Description: graphic-utility
 
+Package: peasymag
+Architecture: amd64
+Version: 1.0
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./peasymag_1.0_amd64.deb
+Size: 4902
+MD5sum: cb5306ce23c892bf3413323516337e02
+SHA1: 7aa79f2d7ca3292c4ea206beca240f0575266fc9
+SHA256: af4db1cf1ccf01a1098e5dbc70d4a979d101d8d9d456e0b568bc963315c4fad1
+SHA512: 1d5e317af70bbd656f82ef588fcf38615df2b7030106030d894b56db626d60c860c94d4ec0b699b1bcc2e272d925a4bc949dc6e27d8ca023f68f47bdbc1362f2
+Description: Screen magnifier
+
 Package: peasymount
 Architecture: all
 Version: 1.4-2
@@ -5748,6 +5777,21 @@ SHA1: b058c58fc0a8505253132dca26436ec3aad82a85
 SHA256: e3e417eed56bda6d8b5e907a419f3fb051f7800a44b354c6a40fcb1abb4a270b
 SHA512: 2925448b534fdd1bcab8760cb81b5f58db379d3c42dfb0841594e8a39823b8f99820e6e10c76eb194fd6a728ae70fc5c0b164195ddd7624af015c349dcc20063
 Description: pfind-converted-pet-to-deb by zigbert
+
+Package: photo-cropper
+Architecture: all
+Version: 1.3
+Priority: optional
+Section: Graphics;
+Maintainer: rcrsn51
+Depends: viewnior, netpbm, peasyscale, peasyprint
+Filename: ./photo-cropper_1.3_all.deb
+Size: 4582
+MD5sum: 6c6fe085ededd549890662a97357f1de
+SHA1: af3b51beacef1752737dab333965c38a05669430
+SHA256: aebc2cc7fc5411df70824f86da8730f375986baebd256ece960be63a84da3afa
+SHA512: ec6713a39c85f40b7f54e9f711624694ce4c35d95c7da9e50f4d08be9b9482254d059f4fafd836c165a8e1ea2bd4cadceea4ae83fb1e0004f83c09ebe0f84193
+Description: Crops digital photos to 4:6 for printing
 
 Package: picdrop
 Architecture: amd64

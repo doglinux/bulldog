@@ -758,6 +758,7 @@ root/Startup/killmenu-cached				    jwm-setup,jwmconf
 root/Startup/network_tray.sh				    frisbee
 root/Startup/p910nd-start				    p910nd-print-server
 root/Startup/peasyfwmon_tray				    peasyfwmon
+root/Startup/peasymag_tray				    peasymag
 root/Startup/peasymp3_tray				    peasymp3
 root/Startup/peasywifi_tray				    PeasyWiFi
 root/Startup/rshift-gui-lite				    redshift-gui-lite
@@ -5422,6 +5423,7 @@ usr/local/bin/peasydvdplayer				    peasy-dvd-player
 usr/local/bin/peasydvdripper				    peasy-dvd-player
 usr/local/bin/peasyfwmon				    peasyfwmon
 usr/local/bin/peasyglue					    peasyglue
+usr/local/bin/peasymag					    peasymag
 usr/local/bin/peasymedclip				    peasy-media-clipper
 usr/local/bin/peasymount				    peasymount
 usr/local/bin/peasymp3					    peasymp3
@@ -5447,6 +5449,7 @@ usr/local/bin/pet2sfs-dir-convert			    petconvert2deb
 usr/local/bin/pet2sfsdir				    petconvert2deb
 usr/local/bin/pfilesearch				    pfind
 usr/local/bin/pfind					    pfind
+usr/local/bin/photo-cropper				    photo-cropper
 usr/local/bin/picdrop					    picdrop
 usr/local/bin/picscale					    picdrop
 usr/local/bin/pmusic					    pmusic
@@ -8403,6 +8406,7 @@ usr/share/applications/peasywifi.desktop		    PeasyWiFi
 usr/share/applications/peasyxorburn.desktop		    peasyxorburn
 usr/share/applications/pequalizer.desktop		    pequalizer
 usr/share/applications/pfind.desktop			    pfind
+usr/share/applications/photo-cropper.desktop		    photo-cropper
 usr/share/applications/pmusic.desktop			    pmusic
 usr/share/applications/pmwget.desktop			    pmirrorget
 usr/share/applications/poster-sel.desktop		    gopoststuff
@@ -11749,6 +11753,7 @@ usr/share/pixmaps/peasyclock.png			    peasyclock
 usr/share/pixmaps/peasydial.png				    peasydial
 usr/share/pixmaps/peasydvd.png				    peasy-dvd-player
 usr/share/pixmaps/peasyglue48.png			    peasyglue
+usr/share/pixmaps/peasymag.png				    peasymag
 usr/share/pixmaps/peasymedclip.png			    peasy-media-clipper
 usr/share/pixmaps/peasymount-48.png			    peasymount
 usr/share/pixmaps/peasymp3-24.png			    peasymp3
@@ -11764,6 +11769,7 @@ usr/share/pixmaps/peasywifi-24.png			    PeasyWiFi
 usr/share/pixmaps/peasywifi-48.png			    PeasyWiFi
 usr/share/pixmaps/peasyxorburn.png			    peasyxorburn
 usr/share/pixmaps/pet.png				    petconvert2deb
+usr/share/pixmaps/photo-cropper.png			    photo-cropper
 usr/share/pixmaps/picdrop.png				    picdrop
 usr/share/pixmaps/pmusic.svg				    pmusic
 usr/share/pixmaps/pmusic_backend_cmd.svg		    pmusic

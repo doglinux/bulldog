@@ -2442,6 +2442,7 @@ usr/local/bin/pet2sfs-dir-convert			    petconvert2deb
 usr/local/bin/pet2sfsdir				    petconvert2deb
 usr/local/bin/pfilesearch				    pfind
 usr/local/bin/pfind					    pfind
+usr/local/bin/photo-cropper				    photo-cropper
 usr/local/bin/picdrop					    picdrop
 usr/local/bin/picscale					    picdrop
 usr/local/bin/pmusic					    pmusic
@@ -5932,6 +5933,7 @@ usr/share/applications/peasywifi.desktop		    PeasyWiFi
 usr/share/applications/peasyxorburn.desktop		    peasyxorburn
 usr/share/applications/pequalizer.desktop		    pequalizer
 usr/share/applications/pfind.desktop			    pfind
+usr/share/applications/photo-cropper.desktop		    photo-cropper
 usr/share/applications/pmusic.desktop			    pmusic
 usr/share/applications/pmwget.desktop			    pmirrorget
 usr/share/applications/poster-sel.desktop		    gopoststuff
@@ -10714,6 +10716,7 @@ usr/share/pixmaps/peasywifi-24.png			    PeasyWiFi
 usr/share/pixmaps/peasywifi-48.png			    PeasyWiFi
 usr/share/pixmaps/peasyxorburn.png			    peasyxorburn
 usr/share/pixmaps/pet.png				    petconvert2deb
+usr/share/pixmaps/photo-cropper.png			    photo-cropper
 usr/share/pixmaps/picdrop.png				    picdrop
 usr/share/pixmaps/pmusic.svg				    pmusic
 usr/share/pixmaps/pmusic_backend_cmd.svg		    pmusic
