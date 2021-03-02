@@ -283,6 +283,20 @@ SHA256: a0d0e9d3744d6fa05d3be8fda98aa94b8a30cfa56ab65ffcbcb4da5da9550bea
 SHA512: fc364640695c75260024e216118b0c30268ea9952bc3c76add1eb84d8789d984ba8b96300e57054cabf6be1520f1011e1de6945b320c7b2cd18cab890273c6e5
 Description: Batterup battery monitor
 
+Package: batterup
+Architecture: amd64
+Version: 1.7
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./batterup_1.7_amd64.deb
+Size: 7892
+MD5sum: 184607a30c2f84698e953f99c498a937
+SHA1: 1eb39328ebc4fbcd75571ca5c421148428b1e903
+SHA256: d0f982ae85526d8042d77ea12df94e566daf545bc3392a42392a91bf82eaae51
+SHA512: 99f89e946df11fca30b0d01a11cf226776dc4b74c7e5a9ddbba00f0e225b12bcd98108d7a6731e531a9b7a768870c6b487fce73949c879b603850c2f5a95c44b
+Description: Batterup battery monitor
+
 Package: bt4stretch
 Architecture: amd64
 Version: 1.2
@@ -556,6 +570,21 @@ MD5sum: e4b5f150e04cc09a56926760b0d27545
 SHA1: c62ca32717d866fef2f38b052ae6f3bd7aec486d
 SHA256: 297d688047cbe0d04107716ea7650df8ba06e4497f89320801a1b9592bc6739d
 SHA512: 0f6e77e3295fdf4f0d1084455912dd0e5fd54d498322ce4033c2a61478cc795cb8feec34268245552ab866a93b0e4c132ecddb463c5f9b8baaeeddfac20cff12
+Description: CPU temperature monitor
+
+Package: cputemp
+Architecture: amd64
+Version: 3.4
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: lm-sensors, cpufrequtils, lshw
+Filename: ./cputemp_3.4_amd64.deb
+Size: 6368
+MD5sum: a4aaa832e32e221b77ef4252609fdd63
+SHA1: ced268c98693a0732179ed0df9e1a9e422eca9c8
+SHA256: b4b28c2a88ba4d5718bc2a3b43a11da5220d44821d9a80bc58fa7cc89bf151ae
+SHA512: a39cc7ab06b5d19bf7874adc905896dc72fd3babd9c04cd4e3f2dd27f53f7f4e71d3c7f60da3ecf8da56dab562acff7317fac6a462e99b8500a7623afb3f1fa1
 Description: CPU temperature monitor
 
 Package: create-portable

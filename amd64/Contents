@@ -5306,6 +5306,7 @@ usr/local/bin/apt2sfs					    apt2sfs
 usr/local/bin/apt2sfs-fullinst				    apt2sfs
 usr/local/bin/audio-converter				    audio-converter
 usr/local/bin/batterup					    batterup
+usr/local/bin/batterup_calibrate			    batterup
 usr/local/bin/batterup_restart				    batterup
 usr/local/bin/batterup_tray				    batterup
 usr/local/bin/beep.wav					    batterup
@@ -8324,6 +8325,7 @@ usr/share/applications/apt2sfs.desktop			    apt2sfs
 usr/share/applications/audio-converter.desktop		    audio-converter
 usr/share/applications/azpainter.desktop		    azpainter
 usr/share/applications/bacongui.desktop			    bacon
+usr/share/applications/batterup_calibrate.desktop	    batterup
 usr/share/applications/batterup_restart.desktop		    batterup
 usr/share/applications/bt4stretch.desktop		    bt4stretch
 usr/share/applications/camphonetab.desktop		    camphonetab
