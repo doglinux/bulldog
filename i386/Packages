@@ -7712,6 +7712,21 @@ Description: Touchpad/mouse/touchscreen setup
 
 Package: touchpad
 Architecture: all
+Version: 1.11
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: xserver-xorg-input-libinput, xinput, sct
+Filename: ./touchpad_1.11_all.deb
+Size: 6806
+MD5sum: 6f740260f77890044235e9b5f88c894e
+SHA1: edd40ea049f3cfa2455f9d291ae865548de6e80b
+SHA256: 8b0534639251071d7bce48d2fd20732a8d81e8b73e338d36b170d5dca9a0339a
+SHA512: db904572c147c4176967e4a61c68401748816e7d04c81a584aaf0067018a44ee336995203a133b09a44c022c9c7cde2e28fc1fdde7bf22d9806f619b84b86ec4
+Description: Touchpad/mouse/touchscreen setup
+
+Package: touchpad
+Architecture: all
 Version: 1.7
 Priority: optional
 Section: base
