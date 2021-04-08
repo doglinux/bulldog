@@ -35,6 +35,7 @@ etc/init.d/frisbee					    frisbee
 etc/init.d/network-manager				    network-manager
 etc/init.d/rc.network-start				    PeasyWiFi
 etc/init.d/rc.yassm					    yassm
+etc/init.d/sfsunload					    sfsload
 etc/init.d/start-pup-volume-monitor			    pup-volume-monitor
 etc/init.d/start-tzupdate				    tzupdate
 etc/init.d/udev						    eudev
@@ -559,7 +560,9 @@ opt/tmp/jwm						    jwm-setup,jwmconf
 opt/tmp/jwm-debdog					    jwm-setup,jwmconf
 opt/tmp/makepfile.sh					    porteusbootscripts
 opt/tmp/mk-save.gtkdlg					    porteusbootscripts
+opt/tmp/rc.local.shutdown				    porteusbootscripts
 opt/tmp/save2flash					    porteusbootscripts
+opt/tmp/saveatshutdown.service				    porteusbootscripts
 opt/tmp/snap						    porteusbootscripts
 opt/tmp/snap-ex						    porteusbootscripts
 opt/tmp/snapexit					    porteusbootscripts
@@ -11506,6 +11509,7 @@ usr/share/pixmaps/batterup.png				    batterup
 usr/share/pixmaps/bluetooth.png				    bt4stretch
 usr/share/pixmaps/camphonetab.png			    camphonetab
 usr/share/pixmaps/card24.png				    mount-wizard
+usr/share/pixmaps/ccsm.svg				    sfsload
 usr/share/pixmaps/ceni-16.xpm				    ceni
 usr/share/pixmaps/ceni.xpm				    ceni
 usr/share/pixmaps/chromium64.png			    run-as-user
