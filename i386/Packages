@@ -7133,11 +7133,11 @@ Maintainer: fredx181 dog@root.nl
 Installed-Size: 47
 Depends: libc6, yad, gsu | gksu, porteusbootscripts
 Filename: ./sfsload_1.0.9_all.deb
-Size: 8144
-MD5sum: 3b479036ff5e890f46780af0aeacd7c7
-SHA1: 4bbfb5309a7857058d765db4cf9404f300d86765
-SHA256: 9a5b64914b1d96d3f83d2c23dfff96e57f57e30c6ca3e7d115e1baea32213c29
-SHA512: d90fa4f6025d5de437891bb6b61838aa8dcf6673b9c09e11ed8ac1b440e5b62c2b29258ebcb26c22d49fe1b88f16c3fc22e670b6101ae2ed1b45df8142fd8f60
+Size: 8096
+MD5sum: fa83fd6259af3601b7f994e6c97615e5
+SHA1: 36a383fec3fa785bfc687012219350e270b7aacb
+SHA256: 805030cb1d37007073cb774795a5de29c294db3a6d5b2e6683e8253b3e3e3421
+SHA512: 905729344b23e6433bdd6caf5837e3af3bbd9f8892ed0f68e986e642b62c6061c55244b7617084b22916837971cb32697cabf8b7bc111a23f7e65b4900619a39
 Description: Load a *.squashfs or *.sfs module.
  v1.0.9 added service to unload sfs module at shutdown
 
