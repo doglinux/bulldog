@@ -1590,6 +1590,8 @@ usr/lib/i386-linux-gnu/libcdio.so.18			    libcdio18
 usr/lib/i386-linux-gnu/libcdio.so.18.0.0		    libcdio18
 usr/lib/i386-linux-gnu/libcrypto.so.1.0.0		    libssl1.0.0
 usr/lib/i386-linux-gnu/libcrypto.so.1.0.2		    libssl1.0.2
+usr/lib/i386-linux-gnu/libcrystalhd.so.3		    libcrystalhd3
+usr/lib/i386-linux-gnu/libcrystalhd.so.3.6		    libcrystalhd3
 usr/lib/i386-linux-gnu/libdconf.so.0			    libdconf0
 usr/lib/i386-linux-gnu/libdconf.so.0.0.0		    libdconf0
 usr/lib/i386-linux-gnu/libdirect-1.2.so.9		    libdirectfb-1.2-9
@@ -6435,6 +6437,8 @@ usr/share/doc/libcdio13/copyright			    libcdio13
 usr/share/doc/libcdio18/changelog.Debian.gz		    libcdio18
 usr/share/doc/libcdio18/changelog.gz			    libcdio18
 usr/share/doc/libcdio18/copyright			    libcdio18
+usr/share/doc/libcrystalhd3/changelog.Debian.gz		    libcrystalhd3
+usr/share/doc/libcrystalhd3/copyright			    libcrystalhd3
 usr/share/doc/libdconf0/NEWS.gz				    libdconf0
 usr/share/doc/libdconf0/changelog.Debian.gz		    libdconf0
 usr/share/doc/libdconf0/copyright			    libdconf0

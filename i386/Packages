@@ -3163,6 +3163,31 @@ Description: library to read and control CD-ROM
  so applications that use this library also have the ability to read
  disc images as though they were CD's.
 
+Package: libcrystalhd3
+Architecture: i386
+Version: 1:0.0~git20110715.fdd2f19-13
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: crystalhd
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 145
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.2), libstdc++6 (>= 4.1.1)
+Suggests: firmware-crystalhd
+Filename: ./libcrystalhd3_0.0~git20110715.fdd2f19-13_i386.deb
+Size: 50244
+MD5sum: 76b13fec3f7ef0b4ece96b07aff863e9
+SHA1: 84696931ea7dfa5c00defe935192cc027173a942
+SHA256: 3e50330ca55c754634ab6b2a1c6d5f444ce3658734395d9a0c4a2a6e3e5a1576
+SHA512: 984c4336ccd460e57a32489554b4a7da49ce893542e161683578f32d6e5cda1a8fa54acefb901cea5c12b2d473fb377f835861982f59c0a78252ed86df73ef6b
+Homepage: http://www.broadcom.com/support/crystal_hd/
+Description: Crystal HD Video Decoder (shared library)
+ Crystal HD Solution is a product offered by Broadcom. It is used to enable
+ flawless playback of 1080p high definition video across a wide range of
+ systems.
+ .
+ This package contains the shared library.
+
 Package: libdconf0
 Architecture: i386
 Version: 0.12.1-3
