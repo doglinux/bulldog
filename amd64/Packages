@@ -6107,6 +6107,27 @@ Description: Porteus-boot helper-scripts (Note: works only on DebianDog)
  improved snapmergepuppy script (for save on exit)
  and added systemd service saveatshutdown.service (save on exit from console)
 
+Package: porteusbootscripts
+Architecture: all
+Version: 1.1.1
+Section: checkinstall
+Maintainer: root@jessie
+Installed-Size: 56
+Depends: libc6, gtkdialog, yad, rsync, cryptsetup-dd
+Filename: ./porteusbootscripts_1.1.1_all.deb
+Size: 20732
+MD5sum: 67003bd55254d44204f61461a9760bf2
+SHA1: f0c962adf3698160edee6cf5542ce58997f78494
+SHA256: 6db1ccbcbb15f870a8e092a96cd59589690eae4896d12b184a5b0859d70ea42a
+SHA512: f92b4abe0ac8afa9aea80c4873afc7c71e3b950e2518bcb662f64b82b58cd1610a535d93a2c631029535aaa85bd0067387411167ffb7800e68003ce6ee8de7b0
+Description: Porteus-boot helper-scripts (Note: works only on DebianDog)
+ This version has included the scripts for the new-save-setup
+ Note: Removing this package does not make any change.
+ This is on purpose because the scrips are essential for porteus-boot to work
+ v1.1.0:
+ improved snapmergepuppy script (for save on exit)
+ and added systemd service saveatshutdown.service (save on exit from console)
+
 Package: probepart
 Architecture: all
 Version: 1.0.1
