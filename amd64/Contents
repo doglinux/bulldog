@@ -5214,6 +5214,15 @@ usr/local/01-create-appimage64/usr/bin/testappimage	    create-portable
 usr/local/01-create-appimage64/usr/bin/unionfs-fuse	    create-portable
 usr/local/01-create-appimage64/usr/bin/yad		    create-portable
 usr/local/01-create-appimage64/usr/share/pixmaps/package.png create-portable
+usr/local/DriveSpeed_v4-portable/.DirIcon		    drivespeed
+usr/local/DriveSpeed_v4-portable/DATA/ICONS/cancel-icon.png drivespeed
+usr/local/DriveSpeed_v4-portable/DATA/ICONS/drivespeed-about.png drivespeed
+usr/local/DriveSpeed_v4-portable/DATA/ICONS/drivespeed-icon.png drivespeed
+usr/local/DriveSpeed_v4-portable/DATA/ICONS/drivespeed.png  drivespeed
+usr/local/DriveSpeed_v4-portable/DATA/clear_cache	    drivespeed
+usr/local/DriveSpeed_v4-portable/DATA/dsabout		    drivespeed
+usr/local/DriveSpeed_v4-portable/DATA/info.sh		    drivespeed
+usr/local/DriveSpeed_v4-portable/DriveSpeed		    drivespeed
 usr/local/apps/Connect/AppRun				    frisbee
 usr/local/apps/PackIt/.DirIcon				    pack-it
 usr/local/apps/PackIt/AppIcon.xpm			    pack-it
@@ -5341,6 +5350,7 @@ usr/local/bin/dogradio					    dogradio
 usr/local/bin/dogradiorip				    dogradio
 usr/local/bin/drive					    googledrivegui
 usr/local/bin/drive-info				    debdogmountscripts
+usr/local/bin/drivespeed				    drivespeed
 usr/local/bin/dropbox_gui				    dropboxgui
 usr/local/bin/dropbox_uploader.sh			    dropboxgui
 usr/local/bin/exec_desktopfile.awk			    lxrandr-save-fix
@@ -8343,6 +8353,7 @@ usr/share/applications/desktop_view_edit.desktop	    desktop-editor
 usr/share/applications/diffing.desktop			    diff-sync-umount
 usr/share/applications/domycommand.desktop		    domycommand
 usr/share/applications/domyfile.desktop			    domyfile
+usr/share/applications/drivespeed.desktop		    drivespeed
 usr/share/applications/dropbox.desktop			    dropboxgui
 usr/share/applications/dropboxGUI.desktop		    dropboxgui
 usr/share/applications/edit-sfs.desktop			    edit-sfs-pcmanfm,edit-sfs-thunar

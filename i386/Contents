@@ -2137,6 +2137,15 @@ usr/local/01-create-appimage32/usr/bin/yad		    create-portable
 usr/local/01-create-appimage32/usr/lib/appimagekit/mksquashfs create-portable
 usr/local/01-create-appimage32/usr/share/pixmaps/d.png	    create-portable
 usr/local/01-create-appimage32/usr/share/pixmaps/package.png create-portable
+usr/local/DriveSpeed_v4-portable/.DirIcon		    drivespeed
+usr/local/DriveSpeed_v4-portable/DATA/ICONS/cancel-icon.png drivespeed
+usr/local/DriveSpeed_v4-portable/DATA/ICONS/drivespeed-about.png drivespeed
+usr/local/DriveSpeed_v4-portable/DATA/ICONS/drivespeed-icon.png drivespeed
+usr/local/DriveSpeed_v4-portable/DATA/ICONS/drivespeed.png  drivespeed
+usr/local/DriveSpeed_v4-portable/DATA/clear_cache	    drivespeed
+usr/local/DriveSpeed_v4-portable/DATA/dsabout		    drivespeed
+usr/local/DriveSpeed_v4-portable/DATA/info.sh		    drivespeed
+usr/local/DriveSpeed_v4-portable/DriveSpeed		    drivespeed
 usr/local/abiword-portable-3.0.0/.DirIcon		    abiword-portable
 usr/local/abiword-portable-3.0.0/AppInfo.xml		    abiword-portable
 usr/local/abiword-portable-3.0.0/AppRun			    abiword-portable
@@ -2321,6 +2330,7 @@ usr/local/bin/dogradio					    dogradio
 usr/local/bin/dogradiorip				    dogradio
 usr/local/bin/drive					    googledrivegui
 usr/local/bin/drive-info				    debdogmountscripts
+usr/local/bin/drivespeed				    drivespeed
 usr/local/bin/dropbox_gui				    dropboxgui
 usr/local/bin/dropbox_uploader.sh			    dropboxgui
 usr/local/bin/echinus					    echinus
@@ -5859,6 +5869,7 @@ usr/share/applications/dillo.desktop			    dillo
 usr/share/applications/dmmediaconverter.desktop		    dmmediaconverter
 usr/share/applications/domycommand.desktop		    domycommand
 usr/share/applications/domyfile.desktop			    domyfile
+usr/share/applications/drivespeed.desktop		    drivespeed
 usr/share/applications/dropbox.desktop			    dropboxgui
 usr/share/applications/dropboxGUI.desktop		    dropboxgui
 usr/share/applications/edit-sfs.desktop			    edit-sfs-pcmanfm,edit-sfs-thunar
