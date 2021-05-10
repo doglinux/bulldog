@@ -1846,6 +1846,21 @@ SHA256: b305bae543be98b902a0b8dca63e8b26453b0e54c18aed57151921a6075f3d23
 SHA512: f1142df6fb7514f1c9a54833fbd8c867cb6b0d540eb6c46a51e8e781bdef6df382c19e18cc0f8de30764aeedf26ce1f237f8809e1369c405e2723d64dbb1562e
 Description: Mount images, savefile, modules
 
+Package: filemnt-pcmanfm
+Architecture: i386
+Version: 1.0.2
+Maintainer: fredx181 root@dog
+Installed-Size: 39
+Depends: libc6, disktype, menu
+Replaces: filemnt-rox, filemnt-xfe, filemnt-thunar
+Filename: ./filemnt-pcmanfm_1.0.2_i386.deb
+Size: 20404
+MD5sum: b33112d7ef9b8b1434c29eb5d8e75736
+SHA1: 2445d6bc53257157445267547b0ac05891b9e3b0
+SHA256: 38ef752cacf5404b338faadce6f609368f380a6648053a50b8f3a6ba2007cab1
+SHA512: 141c6c7c32e67e65462cd113c4b3194649a3904e350f9001e5122a25065a9eee476b5840797165929842b4463752f80cf753f5b9df31215c5d3f98feb0317e60
+Description: Mount images, savefile, modules
+
 Package: filemnt-rox
 Architecture: i386
 Version: 1.0.1
@@ -1874,6 +1889,21 @@ MD5sum: 1892fa2d9ca6594d205d9d997d9d9efd
 SHA1: cd665981f8dd7769a7319d28dd236e299538f71f
 SHA256: fe878b6595a57dfe02d94b5adc45cb68ac50cc872365c59bed767da99bdadfbb
 SHA512: f08f87963d8ec24e3ae40db4ba0f0a5a258a7001e13d97fa969433d141eafce4a53e6aeba69ac6f98c1fe84dfda87240c97c9832bd74446e269dfdf49713e773
+Description: Mount images, savefile, modules
+
+Package: filemnt-thunar
+Architecture: i386
+Version: 1.0.2
+Maintainer: fredx181 root@dog
+Installed-Size: 39
+Depends: libc6, gtkdialog, disktype, thunar, gsu | gksu, menu
+Replaces: filemnt-rox, filemnt-xfe, filemnt-pcmanfm
+Filename: ./filemnt-thunar_1.0.2_i386.deb
+Size: 20460
+MD5sum: 82cdc6eff3736ac8b9713d510ab2a033
+SHA1: 013d847238f031c331894de4de7157e7b19eb7b7
+SHA256: 68f4e13fca85d7e16746fc886851ed5c5936a326121a7d54a96d8259b604a70c
+SHA512: 786c8320c2f1abd581650f25fa87612b30ec9b6b1aa193a7adc144bcb5619c2d15192c0d8fccfaf2f99bba8f390f1d37962a000c6c6e725d4d17a191f945e198
 Description: Mount images, savefile, modules
 
 Package: findnrun-doc
@@ -7980,6 +8010,25 @@ SHA256: fbb35ed7ecd2bcde111aeb675144d43280144f06f99e7a18ce5ffe8bea914b29
 SHA512: 28404167254d12d8434d3f6f50564c3f4d54b9417dd7895e19b3d157eeddac7827ed652e774d9da1defa140e923aa2841a9057eaf0ed327fae655b34fa241642
 Description: Extract gz, tgz, bz2, xz, zip, 7z archives
 
+Package: upgrade-kernel-mod
+Architecture: all
+Version: 1.4.0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 2800
+Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse
+Conflicts: upgrade-kernel
+Replaces: upgrade-kernel
+Filename: ./upgrade-kernel-mod_1.4.0_all.deb
+Size: 1121568
+MD5sum: be2dfc32d99e7eb2388118df8e9b1298
+SHA1: 22ad1af5e753a6556b1985780c45f0270ae0f08d
+SHA256: e8ffb15c22c45445e5c2283d9590825c14b78c73fe6092b20ecaa84546d32754
+SHA512: cdabef207b582ed078f1ead72fff13cf90d52ebc11c8f5f4bbf7c50af886c541e9a7a10abe9c332a8e4c7ee27488a72de6abeba71b52f53c666d492832d47b51
+Description: Install kernel in chroot
+ And create initrd1.xz and initrd.img, modified by gumanzoy, to create much smaller initrd1.xz
+
 Package: upgrade-kernel
 Architecture: all
 Version: 1.0.3
@@ -8130,6 +8179,25 @@ MD5sum: dedb3420888c215e08e1065b7f19a7fd
 SHA1: 83660c1156a7609c32d0bd43f390111a0bb0079f
 SHA256: 7d937747424c8828e5e6740050a80b3c8a1a59f8df9dfaf46baff54ca872c468
 SHA512: a5b0884c74804bbf47e0759513aa4c6ebab4830763474593e7e6a508004782311373edff6b90da565c398bf736e33378feb11c19a0afc4f717d4f5a791eca612
+Description: Install kernel in chroot
+ And create initrd1.xz and initrd.img
+
+Package: upgrade-kernel
+Architecture: all
+Version: 1.4.0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 2800
+Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse
+Conflicts: upgrade-kernel-mod
+Replaces: upgrade-kernel-mod
+Filename: ./upgrade-kernel_1.4.0_all.deb
+Size: 1121656
+MD5sum: 8626e56b75fd983f2d50711ab25a53c0
+SHA1: 469bb8182c088e3c7fabfca350f9d42785896892
+SHA256: d6fdffd24a5e7a93f45f6b4203a95ab89df6abbebcfdbac2499092cd1fee713a
+SHA512: 774ba55fbb09664d8b009d80d02e76d5a12d6a85ae41939db3aef07856c00f14f89cd2e0e776af65ee363afc9c109f53fd044f82992906d1310249632429513a
 Description: Install kernel in chroot
  And create initrd1.xz and initrd.img
 
