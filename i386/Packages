@@ -8029,6 +8029,25 @@ SHA512: cdabef207b582ed078f1ead72fff13cf90d52ebc11c8f5f4bbf7c50af886c541e9a7a10a
 Description: Install kernel in chroot
  And create initrd1.xz and initrd.img, modified by gumanzoy, to create much smaller initrd1.xz
 
+Package: upgrade-kernel-mod
+Architecture: all
+Version: 1.4.1
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 2800
+Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse
+Conflicts: upgrade-kernel
+Replaces: upgrade-kernel
+Filename: ./upgrade-kernel-mod_1.4.1_all.deb
+Size: 1121000
+MD5sum: a910b19113bb2def02e8d10be8f5bc5d
+SHA1: 5330264f6ae525a827b2953ca02f318d65259f78
+SHA256: 81cfcde7ef2a24f9bd9a1f50aae0a23ee1d5612ad6b7cd9e86f27a0161463fe2
+SHA512: d11d745a971c5b67ee1ea87c9efd4966724455c092a632bfb66716750bb795aecef7002285c25eb1146b3337fcd2f1c50b76712af8ddea13627b4a0539aab52d
+Description: Install kernel in chroot
+ And create initrd1.xz and initrd.img, modified by gumanzoy, to create much smaller initrd1.xz
+
 Package: upgrade-kernel
 Architecture: all
 Version: 1.0.3
