@@ -1,0 +1,113 @@
+#!/bin/sh
+#rcrsn51 2018-01-28
+
+export TEXTDOMAIN=my_squash_loader
+export OUTPUT_CHARSET=UTF-8
+
+eval_gettext () {
+	local myMESSAGE=$(gettext "$1")
+	eval echo -n \"$myMESSAGE\"
+}
+export -f eval_gettext
+
+SAVEREPOLOCATION ()
+{
+echo $REPO > $CONFIGFILE
+Xdialog --title " " --msgbox "$(eval_gettext 'Repo location saved to $CONFIGFILE\nRestart the program.')" 0 0
+}
+export -f SAVEREPOLOCATION
+
+UNLOADALL ()
+{
+CHNGS="/media/SQUASHFS" #mount point for modules
+
+mkdir -p $CHNGS
+for BUNDLE in $(ls $CHNGS  2>/dev/null); do
+	loadmodule -d ${BUNDLE}.squashfs
+done
+}
+export -f UNLOADALL
+
+HELP ()
+{
+Xdialog --title "Help" --left --wrap --msgbox "\nWhen installing additional packages to your system, some new files may conflict with those in a loaded module.\n\n1. Run 'Unload all'\n2. Install the package.\n3. Reload the module.\n" 0 60
+}
+export -f HELP
+
+######################
+
+[ ! -d /media/SQUASHFS ] && Xdialog --title " " --left --msgbox "Please click the 'Help' button\nfor important information." 0 0
+
+export CONFIGFILE=$HOME/.my-squash-loader
+
+DEFAULTREPO=$(cat $CONFIGFILE)
+if [ -z "$DEFAULTREPO" ]; then
+	DEFAULTREPO="none"
+	MODULELIST="<item>none</item>"
+else
+	MODULELIST=$(ls -1 $DEFAULTREPO | grep ".squashfs" | sed 's|^|<item>|;s|$|</item>|')
+fi
+
+export DIALOG="
+<window title=\"My Squash Loader v2.1\">
+<vbox>
+	<frame $(gettext 'My Squash Repo')>
+		<hbox>
+			<entry accept=\"directory\">
+				<variable>REPO</variable>
+				<default>$DEFAULTREPO</default>
+			</entry>
+			<button>
+				<input file stock=\"gtk-open\"></input>
+				<action type=\"fileselect\">REPO</action>
+			</button>
+			<button>
+				<label>Save</label>
+			 	<action>SAVEREPOLOCATION</action>
+			</button>
+			<button>
+				<label>Edit</label>
+			 	<action>pcmanfm \$REPO &</action>
+			</button>
+		</hbox>
+	</frame>
+	<frame $(gettext 'Squash Modules')>
+		<hbox>
+			<combobox width-request=\"500\">
+		 		$MODULELIST
+				<variable>MODULE</variable>
+			</combobox>
+		</hbox>
+	</frame>
+	<hbox>
+		<button>
+			<label>$(gettext 'Help')</label>
+			<action>HELP &</action>
+		</button>
+		<text><label>\"   \"</label></text>
+		<button>
+			<label>$(gettext 'Load')</label>
+			<action>loadmodule -a \$REPO/\$MODULE &</action>
+		</button>
+		<button>
+			<label>$(gettext 'Unload')</label>
+			<action>loadmodule -d \$REPO/\$MODULE &</action>
+		</button>
+		<button>
+			<label>$(gettext 'Unload all')</label>
+			<action>UNLOADALL &</action>
+		</button>
+		<button><label>$(gettext 'Quit')</label></button>
+	</hbox>
+</vbox>
+</window>"
+
+gtkdialog3 -G +600+100 -p DIALOG
+
+for I in $(seq 1 10); do
+	wmctrl -c "LoadModule"
+	[ $? -gt 0 ] && break
+	sleep 0.1
+done
+sync
+lxpanelctl restart

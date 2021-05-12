@@ -1,0 +1,209 @@
+#!/bin/bash
+# by fredx181 
+# modified by rcrsn51 2020-12-08
+
+if [ $# -lt 2 ]; then
+echo -en "This script will (de)activate a module 'On the Fly', e.g. *.squashfs, *.xzm or *.sfs.\nUsage:\n`basename ${0}` -a </path/to/module> to activate or: \n`basename ${0}` -d </path/to/module> to deactivate \n"
+exit 0
+fi
+
+[ ! -L $HOME/Startup/remove-broken-links ] && ln -sf /usr/local/bin/remove-broken-links $HOME/Startup
+
+check_if_exists()
+{
+if [ ! -f "$BUNDLEPATH" ]; then
+	Xdialog --title "LoadModule" --msgbox "Module $BUNDLE\ndoes not exist!" 0 0
+	exit 1
+fi
+}
+
+check_if_deactivated()
+{
+if [ -d $CHNGS/$BUNDLE ]; then
+	Xdialog --title "LoadModule"  --msgbox "Module $BUNDLE\nis already loaded! Unload it first." 0 0
+	exit 1
+elif [ -n "$(mount | grep $BUNDLE)" ]; then
+	Xdialog --title "LoadModule" --msgbox "Module $BUNDLE\nis already mounted in some way!\nUnmount it first." 0 0
+	exit 1
+fi
+}
+
+check_if_activated()
+{
+if [ ! -d $CHNGS/$BUNDLE ]; then
+	Xdialog --title "LoadModule" --msgbox "Module $BUNDLE\nis not currently loaded!" 0 0
+    	exit 1
+fi
+}
+
+bundle_activate()
+{
+check_if_exists
+check_if_deactivated
+
+mkdir -p $CHNGS/$BUNDLE		
+mount -o loop "$BUNDLEPATH" $CHNGS/$BUNDLE	#mount the module at /media/SQUASHFS/module-name
+
+if [ $? -gt 0 ]; then
+	Xdialog --title "LoadModule" --msgbox "Module $BUNDLE\nfailed to load!" 0 0
+	umount $CHNGS/$BUNDLE
+	rmdir $CHNGS/$BUNDLE
+	exit 1
+fi
+
+if [ ! -f $MODULEDB/${BUNDLE}.txt ]; then	#no file for this module in the database yet - make it
+	DATEANDSIZE=$(stat -c %Y%s "$BUNDLEPATH")
+	echo -n $DATEANDSIZE > $MODULEDB/${BUNDLE}.txt
+	find $CHNGS/$BUNDLE | sed "s|$CHNGS/$BUNDLE||" >> $MODULEDB/${BUNDLE}.txt
+fi
+
+DATEANDSIZE=$(head -n1 $MODULEDB/${BUNDLE}.txt) #check if module has changed
+CHECK=$(stat -c %Y%s "$BUNDLEPATH") 
+if [ "$DATEANDSIZE" != "$CHECK" ]; then
+	Xdialog --title "LoadModule" --msgbox "Module $BUNDLE\nappears to have changed!\nFixing things ... load it again." 0 0
+	rm -f $MODULEDB/${BUNDLE}.txt
+	umount $CHNGS/$BUNDLE
+	rmdir $CHNGS/$BUNDLE
+	exit 1
+fi
+
+tail -n +2 $MODULEDB/${BUNDLE}.txt | while read F; do
+	[ ! -e "$F" ] && ln -s "$CHNGS/$BUNDLE$F" "$F"	#symlink module content into filesystem
+done
+
+Xdialog --title "LoadModule" --msgbox "Module $BUNDLE\nis now loaded." 0 0 &
+
+post_actions_check_if_needed
+post_actions_run_list
+update-menus
+# Ugly workaround for OpenBox version to update the menu:
+# Create a .desktop in /usr/share/applications with random name and remove it directly
+    FILE=$RANDOM
+    touch /usr/share/applications/$FILE.desktop && rm -f /usr/share/applications/$FILE.desktop
+    touch /usr/local/share/applications/$FILE.desktop 2> /dev/null && rm -f /usr/local/share/applications/$FILE.desktop 2> /dev/null
+exit 0
+}
+
+bundle_deactivate()
+{
+check_if_activated
+post_actions_check_if_needed
+
+umount $CHNGS/$BUNDLE
+rmdir $CHNGS/$BUNDLE
+
+if [ $? -gt 0 ]; then
+	Xdialog --title "LoadModule" --msgbox "Module $BUNDLE\nfailed to unload!" 0 0 
+	exit 1
+fi
+
+tail -n +2 $MODULEDB/${BUNDLE}.txt | while read F; do
+	[ -L "$F" -a ! -e "$F" ] && rm -f "$F" 		#remove broken symlinks after module unmounted
+done
+
+Xdialog --title "LoadModule" --msgbox "Module $BUNDLE\nis now unloaded." 0 0 &
+
+post_actions_run_list
+update-menus
+# Ugly workaround for OpenBox version to update the menu:
+# Create a .desktop in /usr/share/applications with random name and remove it directly
+    FILE=$RANDOM
+    touch /usr/share/applications/$FILE.desktop && rm -f /usr/share/applications/$FILE.desktop
+    touch /usr/local/share/applications/$FILE.desktop 2> /dev/null && rm -f /usr/local/share/applications/$FILE.desktop 2> /dev/null
+return 0
+}
+
+bundle_small()
+{
+check_if_activated
+DATEANDSIZE=$(stat -c %Y%s "$BUNDLEPATH")
+echo $DATEANDSIZE > $MODULEDB/${BUNDLE}.small
+tail -n +2 $MODULEDB/${BUNDLE}.txt | while read F; do
+	[ -L "$F" ] &&  echo "$F" >> $MODULEDB/${BUNDLE}.small
+done
+bundle_deactivate
+sleep 0.2
+wmctrl -c "LoadModule"
+mv $MODULEDB/${BUNDLE}.small $MODULEDB/${BUNDLE}.txt
+bundle_activate
+}
+
+bundle_reset()
+{
+check_if_exists
+check_if_deactivated
+rm -f $MODULEDB/${BUNDLE}.txt
+bundle_activate
+}
+
+post_actions_check_if_needed()
+{
+  MODULES=$(ls $CHNGS/$BUNDLE/lib/modules 2>/dev/null)
+  ICONS=$(ls $CHNGS/$BUNDLE/usr/share/icons/hicolor 2>/dev/null)
+  DESKTOP=$(ls $CHNGS/$BUNDLE/usr/share/applications 2>/dev/null)
+  DESKTOP1=$(ls $CHNGS/$BUNDLE/usr/local/share/applications 2>/dev/null)
+  GSETTINGS=$(ls $CHNGS/$BUNDLE/usr/share/glib-2.0/schemas 2>/dev/null)
+  FONTS=$(ls $CHNGS/$BUNDLE/usr/share/fonts/TTF 2>/dev/null)
+  MIME=$(ls $CHNGS/$BUNDLE/usr/share/mime/ 2>/dev/null)
+}
+
+post_actions_run_list()
+{
+  if [ "$MODULES" ]; then 
+    echo -e $Green"ACTION:"$Color_Off" updating loadable kernel modules list"
+    depmod -a
+  fi
+  if [ "$MIME" ]; then
+    echo -e $Green"ACTION:"$Color_Off" updating mime cache"
+    update-mime-database /usr/share/mime &>/dev/null 2>&1
+  fi
+  if [ "$ICONS" ]; then 
+    echo -e $Green"ACTION:"$Color_Off" rebuilding the gtk+ icon cache"
+    update-icon-caches /usr/share/icons/* &>/dev/null 2>&1
+    gtk-update-icon-cache --force /usr/share/icons/hicolor &>/dev/null 2>&1
+  fi
+  if [ "$DESKTOP" ]; then
+    echo -e $Green"ACTION:"$Color_Off" updating mimeinfo cache"
+    update-desktop-database &>/dev/null 2>&1
+    #rm -r $HOME/.cache &>/dev/null 2>&1
+  fi
+  if [ "$DESKTOP1" ]; then
+    echo -e $Green"ACTION:"$Color_Off" updating mimeinfo cache"
+    update-desktop-database /usr/local/share/applications &>/dev/null 2>&1
+    #rm -r $HOME/.cache &>/dev/null 2>&1
+  fi
+  if [ "$GSETTINGS" ]; then
+    echo -e $Green"ACTION:"$Color_Off" gsettings xml schema files"
+    /usr/lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas /usr/share/glib-2.0/schemas &>/dev/null 2>&1
+  fi
+  if [ "$FONTS" ]; then
+    echo -e $Green"ACTION:"$Color_Off" updating font cache"
+    fc-cache -f -s > /dev/null
+    mkfontscale /usr/share/fonts/TTF
+    mkfontdir /usr/share/fonts/TTF
+  fi
+}
+
+################
+
+CHNGS="/media/SQUASHFS" #mount point for modules
+mkdir -p $CHNGS
+
+MODULEDB="/etc/SQUASHFS" #modules database
+mkdir -p $MODULEDB
+
+BUNDLEPATH=$2
+case "$BUNDLEPATH" in
+	*.squashfs) true;;
+	*) Xdialog --title "LoadModule" --msgbox "$BUNDLEPATH\nis not a squashfs file!" 0 0
+	exit 1 ;;
+esac
+
+BUNDLE=$(basename "$BUNDLEPATH" ".squashfs")
+
+case "$1" in
+  -a) bundle_activate ;;
+  -d) bundle_deactivate ;;
+  -s) bundle_small ;;
+  -r) bundle_reset ;;
+esac

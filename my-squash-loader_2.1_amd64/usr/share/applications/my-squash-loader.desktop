@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=My Squash Loader
+Comment=Mount squashfs modules on-the-fly
+Exec=my_squash_loader
+Icon=/usr/share/pixmaps/squash.png
+Terminal=false
+Type=Application
+Categories=Utility;
+GenericName=Squash filesystem loader

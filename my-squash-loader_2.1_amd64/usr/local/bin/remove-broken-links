@@ -1,0 +1,18 @@
+#!/bin/bash
+#rcrsn51 2020-12-12
+
+MODULEDB="/etc/SQUASHFS"
+CHNGS="/media/SQUASHFS" #mount point for modules
+mkdir -p $CHNGS
+FORGOTTEN=$(ls $CHNGS 2> /dev/null)
+[ -z "$FORGOTTEN" ] && exit
+
+for BUNDLE in $FORGOTTEN; do
+	grep -q "$BUNDLE" /proc/mounts
+	[ $? -eq 0 ] && break		#found a loaded module, this is not the first run
+	Xdialog --title "LoadModule" --no-buttons --infobox "Cleaning up forgotten modules ..." 0 0 2000 &
+	tail -n +2 $MODULEDB/${BUNDLE}.txt | while read F; do
+		[ -L "$F" -a ! -e "$F" ] && rm -f "$F" 
+	done
+	rmdir $CHNGS/$BUNDLE
+done

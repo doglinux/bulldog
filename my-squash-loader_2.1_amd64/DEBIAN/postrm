@@ -1,0 +1,4 @@
+#!/bin/sh
+cd /usr/local/bin
+mv loadmodule.000 loadmodule
+exit 0

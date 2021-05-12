@@ -1,0 +1,6 @@
+Package: my-squash-loader
+Version: 2.1
+Architecture: amd64
+Priority: optional
+Maintainer: rcrsn51
+Description: Load squashfs modules on-the-fly
