@@ -1,6 +1,0 @@
-#!/bin/sh
-cd /usr/local/bin
-mv loadmodule loadmodule.000
-cp loadmodule2 loadmodule
-Xdialog --msgbox "Restart X to load the tray applet." 0 0
-exit 0
