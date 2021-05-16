@@ -7562,6 +7562,26 @@ Description: Install kernel in chroot
  And create initrd1.xz and initrd.img, modified by gumanzoy, to create much smaller initrd1.xz
  v1.4.2, added support for booting with encrypted savefile.
 
+Package: upgrade-kernel-mod
+Architecture: all
+Version: 1.4.3
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 2800
+Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse
+Conflicts: upgrade-kernel
+Replaces: upgrade-kernel
+Filename: ./upgrade-kernel-mod_1.4.3_all.deb
+Size: 1121476
+MD5sum: 641be60591a4c70468196f1824cac8a8
+SHA1: ca587383fb2e0460cdce9689beeced25aff5071d
+SHA256: cf6d0374820a71b2c5e67c4d214f215367993e318c3dde5f8edfad98ebb117d4
+SHA512: 900e478f18a964775bcd2dafb23d60b1232067f6a2684e3b5033ead8f915bfe878f33d6f6827ab824a755ba7f74e12b94b8d76801eb53cd932e8ef537fe120b4
+Description: Install kernel in chroot
+ And create initrd1.xz and initrd.img, modified by gumanzoy, to create much smaller initrd1.xz
+ v1.4.2, added support for booting with encrypted savefile.
+
 Package: upgrade-kernel
 Architecture: all
 Version: 1.0.3
@@ -7731,6 +7751,25 @@ MD5sum: 8626e56b75fd983f2d50711ab25a53c0
 SHA1: 469bb8182c088e3c7fabfca350f9d42785896892
 SHA256: d6fdffd24a5e7a93f45f6b4203a95ab89df6abbebcfdbac2499092cd1fee713a
 SHA512: 774ba55fbb09664d8b009d80d02e76d5a12d6a85ae41939db3aef07856c00f14f89cd2e0e776af65ee363afc9c109f53fd044f82992906d1310249632429513a
+Description: Install kernel in chroot
+ And create initrd1.xz and initrd.img
+
+Package: upgrade-kernel
+Architecture: all
+Version: 1.4.1
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 2800
+Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse
+Conflicts: upgrade-kernel-mod
+Replaces: upgrade-kernel-mod
+Filename: ./upgrade-kernel_1.4.1_all.deb
+Size: 1121112
+MD5sum: 91fc1a8b5362ffc643143500374965b7
+SHA1: 8923210dae608d43300770d5c13dea1585a6bed0
+SHA256: 1a11dafd56b2853a45bea356e7e9efa47fa10c580eb349f86550f4ca2e2149d8
+SHA512: 4e3ad697fe9d24d3cb23baf0473ed10a3b81869401829b8d00ecd24ddc48b3e17e68fdc257518e020d10f1bddd55caf006ca33181a188c38c49060e523192a4c
 Description: Install kernel in chroot
  And create initrd1.xz and initrd.img
 
