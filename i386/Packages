@@ -141,6 +141,21 @@ SHA256: 50051ae063981a3d1f120c250391d0a419984310241cb17d80f49a79fc8fc59c
 SHA512: 18c2a1759a9e23129f25012e9598c7f3abae67a9545455619211a910913ca130198890fdf87847861bf32268f49ef406ff1839d7142785235539e1348b207edd
 Description: converts mp3/ogg/wav/flac/webm files
 
+Package: audio-converter
+Architecture: all
+Version: 1.5
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: lame, vorbis-tools, flac
+Filename: ./audio-converter_1.5_all.deb
+Size: 6098
+MD5sum: c318832ffe07cd44c4f21321ad3ccd64
+SHA1: b5ec9370522fcd0e4395d04f3d5545cc835ca566
+SHA256: 174ea11793821fa0cf5303f196a38ad5e364418d49f42c27c4bd51c5c7a0c892
+SHA512: 26de84df52b3e5488e316e8a3bcd9c079460eb1b97e473cc5d4f8a71cff08aedadc4e991fcbfc40b341ab45426012e810195d39d0ee74d2a90dd7aa407e304ce
+Description: converts mp3/ogg/wav/flac/webm/aac files
+
 Package: aufs-tools
 Architecture: i386
 Version: 1:4.14+20190211-1
@@ -8278,6 +8293,27 @@ SHA256: 1a11dafd56b2853a45bea356e7e9efa47fa10c580eb349f86550f4ca2e2149d8
 SHA512: 4e3ad697fe9d24d3cb23baf0473ed10a3b81869401829b8d00ecd24ddc48b3e17e68fdc257518e020d10f1bddd55caf006ca33181a188c38c49060e523192a4c
 Description: Install kernel in chroot
  And create initrd1.xz and initrd.img
+
+Package: upgrade-kernel
+Architecture: all
+Version: 1.5.0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 2800
+Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse
+Conflicts: upgrade-kernel
+Replaces: upgrade-kernel
+Filename: ./upgrade-kernel_1.5.0_all.deb
+Size: 1121208
+MD5sum: 20b1fb6f2da0bbb7814a8588d72db915
+SHA1: 4bf210b610d6d94a061e6251e41c73d3f417ecd8
+SHA256: d624b4c33d44695f56d1155bc9aa9c8ec657960d9973fc4319db8f870b89b79b
+SHA512: d581bb1fb74debce4dc607bd55d35e03be0a25c0f723c74a9f888342c78734a00dcf04df43f2fcde7670fad96867e062d6b2ec180ada6311703aef528102390d
+Description: Install kernel in chroot
+ And create initrd1.xz and initrd.img, modified by gumanzoy, to create much smaller initrd1.xz
+ v1.4.2, added support for booting with encrypted savefile.
+ v1.5.0, create initrd for porteus-boot method taken from Tomas M, much smaller size.
 
 Package: vnstat-tray
 Architecture: i386
