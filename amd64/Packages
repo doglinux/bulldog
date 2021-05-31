@@ -5333,6 +5333,21 @@ SHA256: b14d2727928eae9ebccadbbdf6055431e64c898f403515d35fd8145797008c23
 SHA512: e2aba28b12bd28f3777341e7ff8982de5a071faa424870a2ecf29c9f7d0cef6b0b51d5b4006694c71d310ad32c3bdd093ac7c02bba5eb42f8a16fe9d3c64425b
 Description: Get tracks from HTTP music server, open in PeasyMP3
 
+Package: peasy-net-player
+Architecture: all
+Version: 1.2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: peasymp3
+Filename: ./peasy-net-player_1.2_all.deb
+Size: 4976
+MD5sum: b5ca1901b9f573ac8c678189d9689cdf
+SHA1: c71401583e909129f72146ae5bc6c0cb3553e558
+SHA256: 10b89472b21e78add8441be16a64b898e59b00179e7447e42422b0775c032e69
+SHA512: 589131fd0255fe1226131f575609948ceaf51c6bf738b02bfba6a190bc252de5e8b14447d9bcc7596d06f87db775332f3f26251b22f99844aa55f7c617ef93aa
+Description: Get tracks from HTTP music server, open in PeasyMP3
+
 Package: peasy-net-viewer
 Architecture: all
 Version: 1.2
@@ -5516,6 +5531,21 @@ MD5sum: 49cc0816548aea0acf44fcba6a216939
 SHA1: 88fe3aa19ac1005e8ec9b456d5cd2d0dd6fcff88
 SHA256: 8e3d5e30e841425a9c11c5022715aa027f951ce6cf2942732114de4e1802e8fa
 SHA512: 540cdefa1c9e7638c7abb7f6d2c783e8e9cf066d532f98fdd186e680fed8417c7410e014daf3670602e803eafe91ff33af3c61301c9e623d11499519437deb93
+Description: Media player, CD player, Carousel
+
+Package: peasymp3
+Architecture: amd64
+Version: 4.2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: gmplayer, icedax, eject, xterm, libasound2-plugin-equal
+Filename: ./peasymp3_4.2_amd64.deb
+Size: 12232
+MD5sum: 02d8c7263bab85a56a9934049434dca5
+SHA1: 7343365de7a0b3f7a598b671c7ce0616fc4bf493
+SHA256: 4f43cc4914842d0d938cc876909fa5be6ceafdbeea7d4435f58d44eb72990209
+SHA512: 77f4830ca1edea5cdcb43f00b7a364a15bf5bce38d61312b86e79deb0517ef126e835cfa26f65aee6b55d621cc1d03791321222eeb8c139611e1ff0289fdcf99
 Description: Media player, CD player, Carousel
 
 Package: peasypartview

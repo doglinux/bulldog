@@ -5443,6 +5443,7 @@ usr/local/bin/peasymag					    peasymag
 usr/local/bin/peasymedclip				    peasy-media-clipper
 usr/local/bin/peasymount				    peasymount
 usr/local/bin/peasymp3					    peasymp3
+usr/local/bin/peasymp3-vlc				    peasymp3
 usr/local/bin/peasymp3carousel				    peasymp3
 usr/local/bin/peasynetplayer				    peasy-net-player
 usr/local/bin/peasynetviewer				    peasy-net-viewer

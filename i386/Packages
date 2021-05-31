@@ -5771,6 +5771,21 @@ SHA256: b14d2727928eae9ebccadbbdf6055431e64c898f403515d35fd8145797008c23
 SHA512: e2aba28b12bd28f3777341e7ff8982de5a071faa424870a2ecf29c9f7d0cef6b0b51d5b4006694c71d310ad32c3bdd093ac7c02bba5eb42f8a16fe9d3c64425b
 Description: Get tracks from HTTP music server, open in PeasyMP3
 
+Package: peasy-net-player
+Architecture: all
+Version: 1.2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: peasymp3
+Filename: ./peasy-net-player_1.2_all.deb
+Size: 4976
+MD5sum: b5ca1901b9f573ac8c678189d9689cdf
+SHA1: c71401583e909129f72146ae5bc6c0cb3553e558
+SHA256: 10b89472b21e78add8441be16a64b898e59b00179e7447e42422b0775c032e69
+SHA512: 589131fd0255fe1226131f575609948ceaf51c6bf738b02bfba6a190bc252de5e8b14447d9bcc7596d06f87db775332f3f26251b22f99844aa55f7c617ef93aa
+Description: Get tracks from HTTP music server, open in PeasyMP3
+
 Package: peasy-net-viewer
 Architecture: all
 Version: 1.2
