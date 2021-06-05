@@ -602,6 +602,21 @@ SHA256: b4b28c2a88ba4d5718bc2a3b43a11da5220d44821d9a80bc58fa7cc89bf151ae
 SHA512: a39cc7ab06b5d19bf7874adc905896dc72fd3babd9c04cd4e3f2dd27f53f7f4e71d3c7f60da3ecf8da56dab562acff7317fac6a462e99b8500a7623afb3f1fa1
 Description: CPU temperature monitor
 
+Package: cputemp
+Architecture: amd64
+Version: 3.5
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: lm-sensors, cpufrequtils, lshw
+Filename: ./cputemp_3.5_amd64.deb
+Size: 6292
+MD5sum: c1e69668b509ccf176ca4e8af65ca871
+SHA1: e53f6ae8620b54ea04270e1c5f72e34a6da895cc
+SHA256: 4dae6f527a09e182bfd617e4c8ab9dcd5994f99f69419c5d4f54b44ba06cd065
+SHA512: cd28de973daaac21dd40c24eefd3b13c66aeab87e2f9346e47ec95e460e94ba9cb93ca7e4d71e0c62aba9097317c341ab70b5fc4eecbc4120b22ab27f1bce920
+Description: CPU temperature monitor
+
 Package: create-portable
 Architecture: amd64
 Version: 2.0.2
