@@ -519,32 +519,6 @@ opt/docs/sources.list.snap				    repo-conf
 opt/docs/sources.list.stand				    repo-conf
 opt/jwm/jwm						    jwm-setup,jwmconf
 opt/jwm/jwm-debdog					    jwm-setup,jwmconf
-opt/master-pdf-editor-4/fonts/standard/Courier-Bold.ttf	    master-pdf-editor
-opt/master-pdf-editor-4/fonts/standard/Courier-BoldOblique.ttf master-pdf-editor
-opt/master-pdf-editor-4/fonts/standard/Courier-Oblique.ttf  master-pdf-editor
-opt/master-pdf-editor-4/fonts/standard/Courier.ttf	    master-pdf-editor
-opt/master-pdf-editor-4/fonts/standard/Helvetica-Bold.ttf   master-pdf-editor
-opt/master-pdf-editor-4/fonts/standard/Helvetica-BoldOblique.ttf master-pdf-editor
-opt/master-pdf-editor-4/fonts/standard/Helvetica-Oblique.ttf master-pdf-editor
-opt/master-pdf-editor-4/fonts/standard/Helvetica.ttf	    master-pdf-editor
-opt/master-pdf-editor-4/fonts/standard/Times-Bold.ttf	    master-pdf-editor
-opt/master-pdf-editor-4/fonts/standard/Times-BoldItalic.ttf master-pdf-editor
-opt/master-pdf-editor-4/fonts/standard/Times-Italic.ttf	    master-pdf-editor
-opt/master-pdf-editor-4/fonts/standard/Times-Roman.ttf	    master-pdf-editor
-opt/master-pdf-editor-4/lang/en_en.qm			    master-pdf-editor
-opt/master-pdf-editor-4/lang/en_en.ts			    master-pdf-editor
-opt/master-pdf-editor-4/lang/qt/qt_de_de.qm		    master-pdf-editor
-opt/master-pdf-editor-4/lang/qt/qt_el_gr.qm		    master-pdf-editor
-opt/master-pdf-editor-4/lang/qt/qt_es_es.qm		    master-pdf-editor
-opt/master-pdf-editor-4/lang/qt/qt_fr_fr.qm		    master-pdf-editor
-opt/master-pdf-editor-4/lang/qt/qt_it_it.qm		    master-pdf-editor
-opt/master-pdf-editor-4/lang/qt/qt_pl_pl.qm		    master-pdf-editor
-opt/master-pdf-editor-4/lang/qt/qt_pt_br.qm		    master-pdf-editor
-opt/master-pdf-editor-4/lang/qt/qt_ru_ru.qm		    master-pdf-editor
-opt/master-pdf-editor-4/lang/qt/qt_sl_si.qm		    master-pdf-editor
-opt/master-pdf-editor-4/lang/qt/qt_sv_se.qm		    master-pdf-editor
-opt/master-pdf-editor-4/license.txt			    master-pdf-editor
-opt/master-pdf-editor-4/masterpdfeditor4		    master-pdf-editor
 opt/stream2chromecast/LICENSE				    stream2chromecast
 opt/stream2chromecast/README.md				    stream2chromecast
 opt/stream2chromecast/cc_device_finder.py		    stream2chromecast
@@ -570,7 +544,6 @@ opt/tmp/snapmergepuppy					    porteusbootscripts
 opt/tmp/wmpoweroff					    porteusbootscripts
 opt/tmp/wmreboot					    porteusbootscripts
 root/.asoundrc						    peasymp3
-root/.config/Code Industry/Master PDF Editor.conf	    master-pdf-editor
 root/.config/rox.sourceforge.net/MIME-types/application	    jwm-setup,jwmconf
 root/.config/rox.sourceforge.net/MIME-types/image_png	    jwm-setup,jwmconf
 root/.config/rox.sourceforge.net/MIME-types/image_x-xpixmap jwm-setup,jwmconf
@@ -853,7 +826,6 @@ usr/bin/linux-user-chroot				    linux-user-chroot
 usr/bin/losetup-FULL					    filemnt-caja,filemnt-thunar,filemnt-pcmanfm
 usr/bin/mac						    monkeys-audio
 usr/bin/madedit						    madedit
-usr/bin/masterpdfeditor4				    master-pdf-editor
 usr/bin/md2html-gui					    md2html
 usr/bin/min						    min
 usr/bin/mkplaylist					    ffconvert
@@ -8317,7 +8289,6 @@ usr/share/applications/Make ISO from frugal install.desktop quick-remaster
 usr/share/applications/Make Swap.desktop		    makeswap
 usr/share/applications/MakeScreenshot.desktop		    scrotdlg
 usr/share/applications/Markdown_to_HTML.desktop		    md2html
-usr/share/applications/MasterPDFEditor.desktop		    master-pdf-editor
 usr/share/applications/PackIt.desktop			    pack-it
 usr/share/applications/PeasyPDF.desktop			    peasypdf
 usr/share/applications/Play_with_mplayer.desktop	    youtube-get2,youtube-get
@@ -11715,7 +11686,6 @@ usr/share/pixmaps/lock.png				    jwm-setup-dd64,jwmconf,jwm-setup
 usr/share/pixmaps/logout.png				    jwm-setup-dd64,jwmconf,jwm-setup
 usr/share/pixmaps/madedit.xpm				    madedit
 usr/share/pixmaps/makedebpkg.png			    makedebpackage
-usr/share/pixmaps/masterpdfeditor4.png			    master-pdf-editor
 usr/share/pixmaps/md2html.png				    md2html
 usr/share/pixmaps/min.png				    min
 usr/share/pixmaps/mini-record.xpm			    pavrecord
