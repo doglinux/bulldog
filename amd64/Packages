@@ -149,6 +149,21 @@ SHA256: 174ea11793821fa0cf5303f196a38ad5e364418d49f42c27c4bd51c5c7a0c892
 SHA512: 26de84df52b3e5488e316e8a3bcd9c079460eb1b97e473cc5d4f8a71cff08aedadc4e991fcbfc40b341ab45426012e810195d39d0ee74d2a90dd7aa407e304ce
 Description: converts mp3/ogg/wav/flac/webm/aac files
 
+Package: audio-converter
+Architecture: all
+Version: 1.7
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: lame, vorbis-tools, flac
+Filename: ./audio-converter_1.7_all.deb
+Size: 6204
+MD5sum: dc868192d538f6d8182919c7742adb30
+SHA1: 5ccc22a42dae6ba0b4e1d6db9d108bcabafc52ca
+SHA256: dc83685689a21722528bca7417bcb4610d1dc848da9b85639c7c7fd709f68c72
+SHA512: 74ccdc56b0175119d74f3e34fa4f9e94179810389c45739908f17b58bc221cd2d3f81f630cd3d71fbcf5b439a0e9f1a0e39dd4dcc24c300649e4f0d17f87d14b
+Description: converts mp3/ogg/wav/flac/webm/aac files
+
 Package: aufs-dkms
 Architecture: amd64
 Version: 4.19+20190103-1
@@ -4662,6 +4677,20 @@ SHA256: a2c4c4934fc18b509dde798b4e2999cb4d818f96a5e21fbe52f4cba49f29b152
 SHA512: b0ce0cae691f8e714bfa1ec1786c6b8875dbe2a088fb060ec08ff704ead14ad61b36901d5ba7f9282bbfed92b814ac09f20fc658cc11cbacc6db40f79f6b2f61
 Description: Markdown to HTML converter
 
+Package: media-file-joiner
+Architecture: all
+Version: 1.0
+Priority: optional
+Section: graphics
+Maintainer: rcrsn51
+Filename: ./media-file-joiner_1.0_all.deb
+Size: 4922
+MD5sum: 63bd7b64650ff0d45be45dfd0646e334
+SHA1: bf65413a6ddb25765a395ab9f14d8ff2997f307f
+SHA256: cad578b4b96d55e5a993564cb80120f50da81a537f5edd3b6061aefbde5c44e2
+SHA512: 42c869660ba97c31e0f1e4b47132b3a8d16f92dddde744221f6f59d6451e0e317a24a82fd7970a5ca564bd5741196a735882742f7969acb8df65f8f26edf4994
+Description: Joins media files
+
 Package: min
 Architecture: amd64
 Version: 1.7.0-1
@@ -6218,6 +6247,27 @@ Description: Porteus-boot helper-scripts (Note: works only on DebianDog)
  improved snapmergepuppy script (for save on exit)
  and added systemd service saveatshutdown.service (save on exit from console)
 
+Package: porteusbootscripts
+Architecture: all
+Version: 1.1.2
+Section: checkinstall
+Maintainer: root@jessie
+Installed-Size: 56
+Depends: libc6, gtkdialog, yad, rsync, cryptsetup-dd
+Filename: ./porteusbootscripts_1.1.2_all.deb
+Size: 20780
+MD5sum: 55a3abf0bda3850a450a0c4044c035c9
+SHA1: 3f4e22d5a58c22ae575e418b42ff9e7bb4cd8127
+SHA256: 0e039d02f1b19d206da27272d13181cb2ae585173eff9ab3b2dc4c5635fc51b2
+SHA512: 98def92ddd9138fa47800a81f48fb8b2e23812a113327eca218393b206d4fc9544c955e5b79588051a777591352e93cf5f02e90c485e7cf699d31a57bb5f3841
+Description: Porteus-boot helper-scripts (Note: works only on DebianDog)
+ This version has included the scripts for the new-save-setup
+ Note: Removing this package does not make any change.
+ This is on purpose because the scrips are essential for porteus-boot to work
+ v1.1.0:
+ improved snapmergepuppy script (for save on exit)
+ and added systemd service saveatshutdown.service (save on exit from console)
+
 Package: probepart
 Architecture: all
 Version: 1.0.1
@@ -6460,6 +6510,38 @@ MD5sum: 83f0b13e23532af60d4720e47a306099
 SHA1: 598595d16fa3dc3b81dc19d571c7b884ff32e714
 SHA256: 23a637ebb9e1e3e8d231c603bc03e3ffe5a61b3f1dea9bcef27394f5608366fd
 SHA512: 7346e62db0887460dd48491fbb887d68c80b1878deea114a1fee812a1ae7f999527854af13ec87bd358947e91864f7adc3b7d1ab5be8f1c7fb7413e6ef6f6bb0
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ Fix in v 1.0.6: skip symlinks while cleaning man and doc files
+ Version 1.0.7: added option to create ISO
+ Version: 1.1.2, cleaning, do not remove /etc/rc.d
+ Version: 1.1.3, added GUI progress bar
+ Version: 1.1.5, for Devuan beowulf
+ Version 1.1.7, major bugfix, previously worked properly only when used EXIT: parameter
+ Version 1.1.9, added mksquashfs compression option zstd
+ Version 1.2.0, very different method, using mksquashfs -exclude option (e.g. for cleaning)
+ Version 1.2.1, added more info in GUI
+ Version 1.2.1, bugfix, when canceling, restore backup worked not properly
+ Version 1.2.3, bugfix, fixed that in some cases the path to the live folder not found
+ Version 1.2.4, choice to merge extra loaded .squashfs modules or not
+ Version 1.2.5, fix for mkiso script, should find frugal install path in any case now 
+ Version 1.2.6, instead excluding whole /lib/modules directory, exclude files only that exist in the extra loaded kernel module
+ Version 1.2.7, run save2flash in case of booting with EXIT parameter
+
+Package: quick-remaster
+Architecture: all
+Version: 1.2.9
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 336
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso, isolinux
+Filename: ./quick-remaster_1.2.9_all.deb
+Size: 160160
+MD5sum: 8dfdda107f29d1530967e200477dee1a
+SHA1: a589d890d1dcf4a08cc27d1fa363b1c70ff09d96
+SHA256: 589ffae1d685a7850a7c39aba4fcc0da6d31c1271500e22242024c3f805744eb
+SHA512: 935b3b8e452340ff91de63c6036478932cdae00f3e3fedf1315859cca0e616f37741bc8eedbee2cf7b0dd30cd988f827da7c0e11772b02535680b1cd25f56495
 Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
  Included GUI version using yad: quick-remastergui
  Bug fix: gz compression option not working in previous version 1.0.3
@@ -6852,6 +6934,22 @@ SHA256: 805030cb1d37007073cb774795a5de29c294db3a6d5b2e6683e8253b3e3e3421
 SHA512: 905729344b23e6433bdd6caf5837e3af3bbd9f8892ed0f68e986e642b62c6061c55244b7617084b22916837971cb32697cabf8b7bc111a23f7e65b4900619a39
 Description: Load a *.squashfs or *.sfs module.
  v1.0.9 added service to unload sfs module at shutdown
+
+Package: sfsload
+Architecture: all
+Version: 2.0.0
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 47
+Depends: libc6, yad, gsu | gksu, porteusbootscripts
+Filename: ./sfsload_2.0.0_all.deb
+Size: 8356
+MD5sum: 2a0f53950a6d03731a173e81077d0cb8
+SHA1: 999dc6d669b8c6e53969620844bb9e194544e6ce
+SHA256: 3aa17f8e79cc462d543d459b8e509b27698710c8d2c9c81d1e9067e1e4d8b397
+SHA512: d84784fd751d538e9d494e9ffdea75f2060111cbc99a97aeccfcc09487eb3e547f4270127475aa08cdd7642b019dad52428e78b7814b8c30d4f9c5802ffaea76
+Description: Load a *.squashfs or *.sfs module.
+ v1.0.9 added service to unload sfs module at shutdown
+ v2.0.0 now mount module READ-WRITE, so  it's possible that files included can be modified or replaced.
 
 Package: simple-python-http-server
 Architecture: all

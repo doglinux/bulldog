@@ -2377,6 +2377,7 @@ usr/local/bin/m-play					    youtube-get2,youtube-get
 usr/local/bin/make-deb-package				    makedebpackage
 usr/local/bin/make-swap					    makeswap
 usr/local/bin/make-xhippo-playlist			    xhippo
+usr/local/bin/media-file-joiner				    media-file-joiner
 usr/local/bin/menu-openbox				    jwm-setup,jwmconf
 usr/local/bin/menumaker					    desktop-editor
 usr/local/bin/mk-initrd					    upgrade-kernel-mod,upgrade-kernel
@@ -5880,6 +5881,7 @@ usr/share/applications/lumina-info.desktop		    lumina-desktop-debdog
 usr/share/applications/lumina-screenshot.desktop	    lumina-desktop-debdog
 usr/share/applications/lumina-search.desktop		    lumina-desktop-debdog
 usr/share/applications/madedit.desktop			    madedit
+usr/share/applications/media-file-joiner.desktop	    media-file-joiner
 usr/share/applications/menumaker.desktop		    desktop-editor
 usr/share/applications/midori.desktop			    midori
 usr/share/applications/mmview.desktop			    mm-view
@@ -10633,6 +10635,7 @@ usr/share/pixmaps/logout.png				    jwm-setup,jwmconf
 usr/share/pixmaps/madedit.xpm				    madedit
 usr/share/pixmaps/makedebpkg.png			    makedebpackage
 usr/share/pixmaps/md2html.png				    md2html
+usr/share/pixmaps/media-file-joiner.png			    media-file-joiner
 usr/share/pixmaps/mk-initrd.png				    upgrade-kernel-mod,upgrade-kernel
 usr/share/pixmaps/mkiso.png				    quick-remaster
 usr/share/pixmaps/mmview.png				    mm-view
