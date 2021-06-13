@@ -171,6 +171,21 @@ SHA256: dc83685689a21722528bca7417bcb4610d1dc848da9b85639c7c7fd709f68c72
 SHA512: 74ccdc56b0175119d74f3e34fa4f9e94179810389c45739908f17b58bc221cd2d3f81f630cd3d71fbcf5b439a0e9f1a0e39dd4dcc24c300649e4f0d17f87d14b
 Description: converts mp3/ogg/wav/flac/webm/aac files
 
+Package: audio-converter
+Architecture: all
+Version: 1.8
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: lame, vorbis-tools, flac
+Filename: ./audio-converter_1.8_all.deb
+Size: 6284
+MD5sum: 63cd8a41188454f856a232712f8641f4
+SHA1: 86ac3391b7c14cf3823f3b7ea4063699c68fd94c
+SHA256: 47512f3e7fc822f0e57994d8a019820e1ee73c4bc78a0974c71e3c23d3fa172a
+SHA512: 99ea423a3348e3e43c2adfd5e9c65ab291e59f9f342f33b25a75baf77b8b9cf9125f0a04efea6b1fd2d4b901bd16a5d38550c2fb36534bd1a27f4737da109c75
+Description: converts mp3/ogg/wav/flac/webm/aac files
+
 Package: aufs-tools
 Architecture: i386
 Version: 1:4.14+20190211-1
@@ -5692,6 +5707,21 @@ SHA512: b194656d65b4249bc5d652be84ce852fa82310c81838b0c3a3231ad97cfbd8c31cdd56f3
 Description: pBurn - Burning gui
  Changes in 4.3.3-1: added /bin/bash in all scripts containing bashisms
 
+Package: peasy-dvd-iso-maker
+Architecture: all
+Version: 1.0
+Priority: optional
+Section: graphics
+Maintainer: rcrsn51
+Depends: dvdauthor, genisoimage
+Filename: ./peasy-dvd-iso-maker_1.0_all.deb
+Size: 3466
+MD5sum: c5a602e32991f9ab2961ebdde4eb7b82
+SHA1: 296ec7de3452c1699da7866d312e17acb3ecc9bc
+SHA256: bce20d26184a0d8f75571e9a31ea6116e8e87e0b94ad74d5659a993d0b127023
+SHA512: 3fe94f17a770800742a55a928cd0311d2e69844651c8a80280c35c59ea172f4d7bf2669cce6e8630ea26d76d5b571b957b214d17d0187fcbb3b14155fae4a753
+Description: Makes a DVD burnable ISO
+
 Package: peasy-dvd-player
 Architecture: i386
 Version: 1.6-1
@@ -6925,6 +6955,39 @@ Description: Warning - This package works only in DebianDog booted with porteus 
  Version 1.2.5, fix for mkiso script, should find frugal install path in any case now 
  Version 1.2.6, instead excluding whole /lib/modules directory, exclude files only that exist in the extra loaded kernel module
  Version 1.2.7, run save2flash in case of booting with EXIT parameter
+
+Package: quick-remaster
+Architecture: all
+Version: 1.3.0
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 336
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso, isolinux
+Filename: ./quick-remaster_1.3.0_all.deb
+Size: 160312
+MD5sum: a7bf15ac908153857bb7718faeb52bae
+SHA1: 314d2269e398d9ed75af5c090497ded1b4f2bc0c
+SHA256: f1a5d8867c50b873f2b6743f876a9d20d36ded83895142d63b7ecffe95b2ed11
+SHA512: 96094204eed130893d24707d1bd40ad09521e61e3d2a463af9a7d2a93a86acc733e9f1a2514d5cb65cae496b2178394e4d23ef1cd71609882efa7bd21942b027
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ Fix in v 1.0.6: skip symlinks while cleaning man and doc files
+ Version 1.0.7: added option to create ISO
+ Version: 1.1.2, cleaning, do not remove /etc/rc.d
+ Version: 1.1.3, added GUI progress bar
+ Version: 1.1.5, for Devuan beowulf
+ Version 1.1.7, major bugfix, previously worked properly only when used EXIT: parameter
+ Version 1.1.9, added mksquashfs compression option zstd
+ Version 1.2.0, very different method, using mksquashfs -exclude option (e.g. for cleaning)
+ Version 1.2.1, added more info in GUI
+ Version 1.2.1, bugfix, when canceling, restore backup worked not properly
+ Version 1.2.3, bugfix, fixed that in some cases the path to the live folder not found
+ Version 1.2.4, choice to merge extra loaded .squashfs modules or not
+ Version 1.2.5, fix for mkiso script, should find frugal install path in any case now 
+ Version 1.2.6, instead excluding whole /lib/modules directory, exclude files only that exist in the extra loaded kernel module
+ Version 1.2.7, run save2flash in case of booting with EXIT parameter
+ Version 1.3.0, added info message about priority and order of kernel .squashfs
 
 Package: redshift-gui-lite
 Architecture: i386

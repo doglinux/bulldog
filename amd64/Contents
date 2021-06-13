@@ -5404,6 +5404,7 @@ usr/local/bin/obshutdown				    obshutdown
 usr/local/bin/openbox-menu				    jwm-setup-dd64,jwmconf,jwm-setup
 usr/local/bin/p910nd-control				    p910nd-print-server
 usr/local/bin/packit					    pack-it
+usr/local/bin/peasy-dvd-iso-maker			    peasy-dvd-iso-maker
 usr/local/bin/peasy-ytdl				    peasy-ytdl
 usr/local/bin/peasycdplayer				    peasymp3
 usr/local/bin/peasyclock				    peasyclock
@@ -8375,6 +8376,7 @@ usr/share/applications/palemoon.desktop			    palemoon
 usr/share/applications/parcellite.desktop		    parcellite
 usr/share/applications/pavrecord.desktop		    pavrecord
 usr/share/applications/pburn.desktop			    pburn
+usr/share/applications/peasy-dvd-iso-maker.desktop	    peasy-dvd-iso-maker
 usr/share/applications/peasy-ytdl.desktop		    peasy-ytdl
 usr/share/applications/peasy_firewall_monitor.desktop	    peasyfwmon
 usr/share/applications/peasycdplayer.desktop		    peasymp3
@@ -11747,6 +11749,7 @@ usr/share/pixmaps/peasy-ytdl.png			    peasy-ytdl
 usr/share/pixmaps/peasyclock.png			    peasyclock
 usr/share/pixmaps/peasydial.png				    peasydial
 usr/share/pixmaps/peasydvd.png				    peasy-dvd-player
+usr/share/pixmaps/peasydvdiso.png			    peasy-dvd-iso-maker
 usr/share/pixmaps/peasyglue48.png			    peasyglue
 usr/share/pixmaps/peasymag.png				    peasymag
 usr/share/pixmaps/peasymedclip.png			    peasy-media-clipper
