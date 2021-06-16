@@ -210,6 +210,21 @@ Description: Tools to manage aufs filesystems
  .
  This package contains utilities needed to configure aufs containers on-the-fly.
 
+Package: av-converter
+Architecture: all
+Version: 2.0
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: lame, vorbis-tools, flac
+Filename: ./av-converter_2.0_all.deb
+Size: 6652
+MD5sum: 0e4a1a3695188a78035f0b67d67a12e5
+SHA1: c30d885cecd3041cf577a30ff4bea4f39dcaeb3e
+SHA256: 8cd5700700ff93a54dc72a481d9648f9588ee438a7a4af599e1c9ad8fe6953a1
+SHA512: 7dcdbd911dd49bc3ce4083c693f7d1cce352680dfba492e6d5301c559c64d612d760b2242269e6dec3f883a350738b4bfcbfaeaa22409a462b0ad997b3080f10
+Description: converts various av formats
+
 Package: azpainter
 Architecture: i386
 Version: 2.1.1

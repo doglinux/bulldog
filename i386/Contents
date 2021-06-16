@@ -2267,6 +2267,7 @@ usr/local/bin/apt2sfs					    apt2sfs
 usr/local/bin/apt2sfs-fullinst				    apt2sfs
 usr/local/bin/audio-converter				    audio-converter
 usr/local/bin/av-conv					    ffmpeg
+usr/local/bin/av-converter				    av-converter
 usr/local/bin/avconv					    ffmpeg
 usr/local/bin/batterup					    batterup
 usr/local/bin/batterup_restart				    batterup
@@ -5825,6 +5826,7 @@ usr/share/applications/abiword-portable.desktop		    abiword-portable
 usr/share/applications/apt2sfs-fullinst.desktop		    apt2sfs
 usr/share/applications/apt2sfs.desktop			    apt2sfs
 usr/share/applications/audio-converter.desktop		    audio-converter
+usr/share/applications/av-converter.desktop		    av-converter
 usr/share/applications/azpainter.desktop		    azpainter
 usr/share/applications/bacongui.desktop			    bacon
 usr/share/applications/batterup_restart.desktop		    batterup
@@ -10430,6 +10432,7 @@ usr/share/pixmaps/application-x-squashfs2.png		    remaster-scripts
 usr/share/pixmaps/application-x-squashfs3.png		    quick-remaster
 usr/share/pixmaps/apt2sfs.png				    apt2sfs
 usr/share/pixmaps/audio-converter.png			    audio-converter
+usr/share/pixmaps/av-converter.png			    av-converter
 usr/share/pixmaps/azpainter.png				    azpainter
 usr/share/pixmaps/backup-restore.png			    SaveFolderBackup
 usr/share/pixmaps/batterup.png				    batterup
