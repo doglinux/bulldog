@@ -7078,6 +7078,22 @@ Description: Warning - This package works only in DebianDog! In ver. 1.0.3 fixed
  .
  For creating a *.squashfs module from changes (from /live/cow directory) or full system remaster (from / directory).
 
+Package: remaster-scripts
+Architecture: all
+Version: 1.0.8
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 57
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu
+Filename: ./remaster-scripts_1.0.8_all.deb
+Size: 8060
+MD5sum: d8217daefa2b2d6933c51ee1b54f9419
+SHA1: aec79ecc70aee401e759d5bc1ca9ba96862a8dde
+SHA256: af86b3b8c1c3f0e3ee8998d76bf42f43a2e2bff37e58245a09a973896ab92434
+SHA512: 76279290d149269ced8f23600f337a0388ffcbb6d27a6537dd4634dae4392178c74b885b5d1ac30061506c0f8c569dedab8f4556c1ad2b9f530179e786eda52d
+Description: Warning - This package works only in DebianDog! In ver. 1.0.3 fixed progress bar bug for very old PC.
+ .
+ For creating a *.squashfs module from changes (from /live/cow directory) or full system remaster (from / directory).
+
 Package: repo-conf
 Architecture: i386
 Version: 1.0.0
