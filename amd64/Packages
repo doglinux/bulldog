@@ -3221,6 +3221,21 @@ SHA512: 6b942c6efa8d95e77e1c0924549482f7e5971365616fb4cef55190ab452b6421c02c1e0f
 Description: DVD decryption library
   compiled from source in Buster-Live-64bit
 
+Package: libdvdcss
+Architecture: amd64
+Version: 1.4.3
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./libdvdcss_1.4.3_amd64.deb
+Size: 15944
+MD5sum: a7a6d1872d0f67ff2138349bc054156a
+SHA1: 1658f815115519ca5882e5b9d1f38efdb1ec9e11
+SHA256: 872f2a998e3e679047ca01f7eb952430b9ab0725248856e970b2d9f3724a84f6
+SHA512: 1cdc94c3ba382ec79d2330eb9c9786faaa7b05efcb2ff78da17d1d7d35ca6106eba907b2463e45a2169b9325d748ae4c885290c8af738d56c86cc045b38422e4
+Description: DVD decryption library
+  compiled from source in Bullseye-Live-64bit
+
 Package: libdvdread4
 Architecture: amd64
 Version: 6.0.1-1
