@@ -170,6 +170,8 @@ lib/elogind/libelogind-shared-241.3.so			    elogind
 lib/elogind/libelogind-shared-243.7.so			    elogind
 lib/elogind/system-shutdown/.keep_dir			    elogind
 lib/elogind/system-sleep/.keep_dir			    elogind
+lib/i386-linux-gnu/libudev.so.1				    libeudev1
+lib/i386-linux-gnu/libudev.so.1.6.3			    libeudev1
 lib/modprobe.d/fbdev-blacklist.conf			    eudev
 lib/systemd/system/NetworkManager-dispatcher.service	    network-manager
 lib/systemd/system/NetworkManager-wait-online.service	    network-manager
@@ -1160,6 +1162,9 @@ usr/lib/grub4dos/default				    grub4dosconfig
 usr/lib/grub4dos/grldr					    grub4dosconfig
 usr/lib/grub4dos/wee.mbr				    grub4dosconfig
 usr/lib/gtk-2.0/modules/libgtk2desklet.so		    gtkdesklet
+usr/lib/i386-linux-gnu/libudev.a			    libeudev-dev
+usr/lib/i386-linux-gnu/libudev.so			    libeudev-dev
+usr/lib/i386-linux-gnu/pkgconfig/libudev.pc		    libeudev-dev
 usr/lib/libau.so					    aufs-tools
 usr/lib/libau.so.2					    aufs-tools
 usr/lib/libau.so.2.10					    aufs-tools
@@ -9001,9 +9006,13 @@ usr/share/doc/libtiff4/TODO				    libtiff4
 usr/share/doc/libtiff4/changelog.Debian.gz		    libtiff4
 usr/share/doc/libtiff4/changelog.gz			    libtiff4
 usr/share/doc/libtiff4/copyright			    libtiff4
+usr/share/doc/libudev-dev/changelog.gz			    libudev-dev
+usr/share/doc/libudev-dev/copyright			    libudev-dev
 usr/share/doc/libudev0/changelog.Debian.gz		    libudev0
 usr/share/doc/libudev0/changelog.gz			    libudev0
 usr/share/doc/libudev0/copyright			    libudev0
+usr/share/doc/libudev1/changelog.gz			    libudev1
+usr/share/doc/libudev1/copyright			    libudev1
 usr/share/doc/libva-drm1/changelog.Debian.gz		    libva-drm1
 usr/share/doc/libva-drm1/changelog.gz			    libva-drm1
 usr/share/doc/libva-drm1/copyright			    libva-drm1
@@ -9157,6 +9166,8 @@ usr/share/doc/synaptic/copyright			    synaptic
 usr/share/doc/thunar/changelog.Debian.gz		    thunar
 usr/share/doc/thunar/changelog.gz			    thunar
 usr/share/doc/thunar/copyright				    thunar
+usr/share/doc/udev/changelog.gz				    udev
+usr/share/doc/udev/copyright				    udev
 usr/share/doc/wget/AUTHORS				    wget
 usr/share/doc/wget/ChangeLog.README			    wget
 usr/share/doc/wget/MAILING-LIST				    wget
@@ -10467,6 +10478,7 @@ usr/share/lintian/overrides/epdfview			    epdfview
 usr/share/lintian/overrides/eudev			    eudev
 usr/share/lintian/overrides/firefox-esr			    firefox-esr
 usr/share/lintian/overrides/libdirectfb-1.2-9		    libdirectfb-1.2-9
+usr/share/lintian/overrides/libeudev-dev		    libeudev-dev
 usr/share/lintian/overrides/libeudev1			    libeudev1
 usr/share/lintian/overrides/libgbm1			    libgbm1
 usr/share/lintian/overrides/libssl1.0.2			    libssl1.0.2

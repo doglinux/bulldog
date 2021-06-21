@@ -6573,9 +6573,13 @@ usr/share/doc/libtiff4/TODO				    libtiff4
 usr/share/doc/libtiff4/changelog.Debian.gz		    libtiff4
 usr/share/doc/libtiff4/changelog.gz			    libtiff4
 usr/share/doc/libtiff4/copyright			    libtiff4
+usr/share/doc/libudev-dev/changelog.gz			    libudev-dev
+usr/share/doc/libudev-dev/copyright			    libudev-dev
 usr/share/doc/libudev0/changelog.Debian.gz		    libudev0
 usr/share/doc/libudev0/changelog.gz			    libudev0
 usr/share/doc/libudev0/copyright			    libudev0
+usr/share/doc/libudev1/changelog.gz			    libudev1
+usr/share/doc/libudev1/copyright			    libudev1
 usr/share/doc/libva-drm1/changelog.Debian.gz		    libva-drm1
 usr/share/doc/libva-drm1/changelog.gz			    libva-drm1
 usr/share/doc/libva-drm1/copyright			    libva-drm1
@@ -6745,6 +6749,8 @@ usr/share/doc/synaptic/copyright			    synaptic
 usr/share/doc/thunar/changelog.Debian.gz		    thunar
 usr/share/doc/thunar/changelog.gz			    thunar
 usr/share/doc/thunar/copyright				    thunar
+usr/share/doc/udev/changelog.gz				    udev
+usr/share/doc/udev/copyright				    udev
 usr/share/doc/wmx/README				    wmx
 usr/share/doc/wmx/README.contrib			    wmx
 usr/share/doc/x11-xserver-utils/changelog.gz		    x11-xserver-utils
@@ -9360,6 +9366,7 @@ usr/share/lintian/overrides/epdfview			    epdfview
 usr/share/lintian/overrides/eudev			    eudev
 usr/share/lintian/overrides/firefox-esr			    firefox-esr
 usr/share/lintian/overrides/libdirectfb-1.2-9		    libdirectfb-1.2-9
+usr/share/lintian/overrides/libeudev-dev		    libeudev-dev
 usr/share/lintian/overrides/libeudev1			    libeudev1
 usr/share/lintian/overrides/libssl1.0.2			    libssl1.0.2
 usr/share/lintian/overrides/libtiff4			    libtiff4

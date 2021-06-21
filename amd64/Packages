@@ -1557,6 +1557,64 @@ Description: /dev/ and hotplug management daemon
 
 Package: eudev
 Architecture: amd64
+Version: 233:3.2.9-9~beowulf1
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Origin: Devuan
+Maintainer: Devuan Dev Team <devuan-dev@lists.dyne.org>
+Installed-Size: 7907
+Provides: udev (= 1:3.2.9-9~beowulf1)
+Pre-Depends: debconf
+Depends: libblkid1 (>= 2.25), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.1.9), adduser, libeudev1 (= 233:3.2.9-9~beowulf1), lsb-base (>= 3.0-6), util-linux (>= 2.27.1), procps
+Conflicts: hal, udev (<< 1:3.2.9+devuan4)
+Breaks: bash-completion (<< 1:2.1), consolekit (<< 0.4.6-1), kmod (<< 14), plymouth (<< 0.9.0-7), systemd (>> 220)
+Replaces: bash-completion (<< 1:2.1), udev (>= 215)
+Filename: ./eudev_3.2.9-9~beowulf1_amd64.deb
+Size: 1071280
+MD5sum: 86807544f05060317c46f2ef82a7a1dc
+SHA1: 270224c97aefc867181f47a9e269ce8951df987a
+SHA256: ec780ff975feee283a96bb21fc0494331ca9d06b36fcee7ef94dfefbdf40ac3f
+SHA512: 2608ed1498185fc6116378048b7eb17acb60715295d40dacb64855fa5a0a94afdb225379a6fd4afbf193492521fdbb9607634adf07e34cd6700db6b38cf0b018
+Homepage: https://wiki.gentoo.org/wiki/Project:Eudev
+Description: /dev/ and hotplug management daemon
+ eudev is a daemon which dynamically creates and removes device nodes
+ from /dev/, handles hotplug events and loads drivers at boot time.
+ .
+ eudev is a fork of udev in systemd, version 215, by Jaret Jay Cantu from
+ Gentoo in 2015.
+
+Package: eudev
+Architecture: i386
+Version: 233:3.2.9-9~beowulf1
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Origin: Devuan
+Maintainer: Devuan Dev Team <devuan-dev@lists.dyne.org>
+Installed-Size: 7980
+Provides: udev (= 1:3.2.9-9~beowulf1)
+Pre-Depends: debconf
+Depends: libblkid1 (>= 2.25), libc6 (>= 2.28), libkmod2 (>= 5~), libselinux1 (>= 2.1.9), adduser, libeudev1 (= 233:3.2.9-9~beowulf1), lsb-base (>= 3.0-6), util-linux (>= 2.27.1), procps
+Conflicts: hal, udev (<< 1:3.2.9+devuan4)
+Breaks: bash-completion (<< 1:2.1), consolekit (<< 0.4.6-1), kmod (<< 14), plymouth (<< 0.9.0-7), systemd (>> 220)
+Replaces: bash-completion (<< 1:2.1), udev (>= 215)
+Filename: ./eudev_3.2.9-9~beowulf1_i386.deb
+Size: 1084096
+MD5sum: c2d9a793b2645636e602246b72032a7b
+SHA1: 1ddde1dfd665fdae99d3e33e2550f9cde2f93ff3
+SHA256: 957d3d54c146a69663d27e5673f2e03bee9d8458e818c3ee1cf9ca6d536cb3ee
+SHA512: 88602e83a4fe366c143b125ddd1e3ff25b656d6d049e376bb888dd7c92a2bcaf67d724083ce204a2988530ff4130aa73adb7ce3f3320abd8691e0c8a1d7d39ef
+Homepage: https://wiki.gentoo.org/wiki/Project:Eudev
+Description: /dev/ and hotplug management daemon
+ eudev is a daemon which dynamically creates and removes device nodes
+ from /dev/, handles hotplug events and loads drivers at boot time.
+ .
+ eudev is a fork of udev in systemd, version 215, by Jaret Jay Cantu from
+ Gentoo in 2015.
+
+Package: eudev
+Architecture: amd64
 Version: 232:3.2.9
 Multi-Arch: foreign
 Priority: important
@@ -3459,6 +3517,62 @@ Description: libeudev development files
  This package contains the files needed for developing applications that
  use libeudev1.
 
+Package: libeudev-dev
+Architecture: amd64
+Version: 233:3.2.9-9~beowulf1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: eudev
+Origin: Devuan
+Maintainer: Devuan Dev Team <devuan-dev@lists.dyne.org>
+Installed-Size: 404
+Provides: libudev-dev (= 1:3.2.9-9~beowulf1)
+Depends: libeudev1 (= 233:3.2.9-9~beowulf1)
+Conflicts: libudev-dev (<< 1:3.2.9+devuan4)
+Replaces: libudev-dev (>= 215)
+Filename: ./libeudev-dev_3.2.9-9~beowulf1_amd64.deb
+Size: 113256
+MD5sum: d551664ddaf5b43f30dad56ecb17c554
+SHA1: 081d94e71ca42b3eec295453582b4420e0dc4065
+SHA256: cbd062e6e09d7a9361edcaec68016d5a3be920b7be938ddae15803b5ed7aabc7
+SHA512: d4eb9421f8c25bc28d7be0bf475065c37d4e5982be2b31f984dc5e2baf40a727c9bef9c3f4dd1f9b58cc732db2988c5bf10e574560f2d7b6b5324ffda5f47db9
+Homepage: https://wiki.gentoo.org/wiki/Project:Eudev
+Description: libeudev development files
+ eudev is a daemon which dynamically creates and removes device nodes
+ from /dev/, handles hotplug events and loads drivers at boot time.
+ .
+ This package contains the files needed for developing applications that
+ use libeudev1.
+
+Package: libeudev-dev
+Architecture: i386
+Version: 233:3.2.9-9~beowulf1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: eudev
+Origin: Devuan
+Maintainer: Devuan Dev Team <devuan-dev@lists.dyne.org>
+Installed-Size: 360
+Provides: libudev-dev (= 1:3.2.9-9~beowulf1)
+Depends: libeudev1 (= 233:3.2.9-9~beowulf1)
+Conflicts: libudev-dev (<< 1:3.2.9+devuan4)
+Replaces: libudev-dev (>= 215)
+Filename: ./libeudev-dev_3.2.9-9~beowulf1_i386.deb
+Size: 122444
+MD5sum: 4e17662d903c627cb46d6d43f69aef3b
+SHA1: a060a20e0a0dc173af7a475abcc75555eafa692f
+SHA256: b10731f3d694df02ba7b8e5d5e7be11a71d818c534b41e0971883d1fa0f22565
+SHA512: a03e48e74817fcc708e4072cefd706bf9259d4dceb3f5bf4a126a348acd245dc79d4d724f534fda5a9dece7a236dbfab76f7e01c18f245f0102c4601da05c9f0
+Homepage: https://wiki.gentoo.org/wiki/Project:Eudev
+Description: libeudev development files
+ eudev is a daemon which dynamically creates and removes device nodes
+ from /dev/, handles hotplug events and loads drivers at boot time.
+ .
+ This package contains the files needed for developing applications that
+ use libeudev1.
+
 Package: libeudev1
 Architecture: amd64
 Version: 232:3.2.8
@@ -3504,6 +3618,60 @@ SHA256: 94e51df9a4553d004397f076d2cd2f8560cb97984f7634403be23283345c80a7
 SHA512: db30b21d41ba8700a795fd2da1b2b07557bbee65b91b05b2711f29cf682e0429e95ab822815f8a6d78388b4871a9aab2b011f75e34ac66d5266a17cbc67fb483
 Homepage: https://wiki.gentoo.org/wiki/Project:Eudev
 Description: libeudev shared library
+ This library provides access to eudev device information.
+
+Package: libeudev1
+Architecture: amd64
+Version: 233:3.2.9-9~beowulf1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: eudev
+Origin: Devuan
+Maintainer: Devuan Dev Team <devuan-dev@lists.dyne.org>
+Installed-Size: 213
+Provides: libudev1 (= 1:3.2.9-9~beowulf1)
+Depends: libc6 (>= 2.17), libselinux1 (>= 2.1.9)
+Conflicts: libudev1 (<< 1:3.2.9+devuan4)
+Replaces: libudev1 (>= 215)
+Filename: ./libeudev1_3.2.9-9~beowulf1_amd64.deb
+Size: 97636
+MD5sum: 566bd72d354007a58ac09ee54b2664f1
+SHA1: 99474fae95b40d6ee903f3fd87f2b46f76cd4279
+SHA256: ae59617ac7290dfe0fa5c6992895fb75907a3702943e0d249e51facbffe17cd9
+SHA512: 76588ebd7698e3f3f7fbf7931d5c83445906b4c40b0e48b4d23c54b50593a4e2bb428f02b0a99b57558cb57e13640fcabea9041f31096e2cc931a059c246f15e
+Homepage: https://wiki.gentoo.org/wiki/Project:Eudev
+Description: libeudev shared library
+ eudev is a daemon which dynamically creates and removes device nodes
+ from /dev/, handles hotplug events and loads drivers at boot time.
+ .
+ This library provides access to eudev device information.
+
+Package: libeudev1
+Architecture: i386
+Version: 233:3.2.9-9~beowulf1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: eudev
+Origin: Devuan
+Maintainer: Devuan Dev Team <devuan-dev@lists.dyne.org>
+Installed-Size: 232
+Provides: libudev1 (= 1:3.2.9-9~beowulf1)
+Depends: libc6 (>= 2.17), libselinux1 (>= 2.1.9)
+Conflicts: libudev1 (<< 1:3.2.9+devuan4)
+Replaces: libudev1 (>= 215)
+Filename: ./libeudev1_3.2.9-9~beowulf1_i386.deb
+Size: 105088
+MD5sum: 2af2b4ddc432fd050996da23ab5529ea
+SHA1: c28fc10beec4cdac803b1bb385792dadc29be844
+SHA256: 79252fad0e5fdff582593eff98848051217a55380c0305a499e3843ac93e47bb
+SHA512: 1a2e54bc228d63d4671443b60ef7edf6a6041ac3e627d7835cc78778f9341a41a0107eb05ca8339f71a43e60e93d127a4e355f6dcad7b5a40aa0b89ab614df86
+Homepage: https://wiki.gentoo.org/wiki/Project:Eudev
+Description: libeudev shared library
+ eudev is a daemon which dynamically creates and removes device nodes
+ from /dev/, handles hotplug events and loads drivers at boot time.
+ .
  This library provides access to eudev device information.
 
 Package: libevent-2.0-5
@@ -4348,6 +4516,48 @@ Description: Tag Image File Format (TIFF) library (old version)
  (TIFF), a widely used format for storing image data.  This package
  includes the shared library.
 
+Package: libudev-dev
+Architecture: amd64
+Version: 1:3.2.9+devuan4
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: udev
+Origin: Devuan
+Maintainer: Devuan Dev Team <devuan-dev@lists.dyne.org>
+Installed-Size: 9
+Depends: libeudev-dev
+Filename: ./libudev-dev_3.2.9+devuan4_amd64.deb
+Size: 2728
+MD5sum: bf6c609f6e9b8dbd52eee4b284cdd579
+SHA1: 81d81b85227b61f3726c976920d33b36f4f720ca
+SHA256: 7a4c88683be5d7f3c4055eca4db77e4539bfb224b393d2161f8f2df01a4c59cb
+SHA512: bdb0dd6bf1f99802163fffdee8394c9a6b4a3496afaf640334a64fabfc196740d1c0a0a2c0f41346daf521f107843532ffe41b1fcadf3ec7d203c81d3d594e1e
+Description: Transitional package for libeudev-dev
+ This is a transitional package to ease upgrades to the libeudev-dev package.
+ It can safely be removed.
+
+Package: libudev-dev
+Architecture: i386
+Version: 1:3.2.9+devuan4
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: udev
+Origin: Devuan
+Maintainer: Devuan Dev Team <devuan-dev@lists.dyne.org>
+Installed-Size: 9
+Depends: libeudev-dev
+Filename: ./libudev-dev_3.2.9+devuan4_i386.deb
+Size: 2728
+MD5sum: bab33abbfe7df3eb276e28068637d697
+SHA1: f87788b12fdf8d8e8ac0099f7ec12c11020012b9
+SHA256: aed03f4dde890444d715fbf2c7014a1846ecb71d5ba299cf08152dd4bd052848
+SHA512: 6879f4153d62b82aac087aa1551adbc7fea8e46d42ddaac212ed2dc28f7590097e27b850598ad95b2d452cd7acd11ca1202c9deabc5b611be036503c1c85bcca
+Description: Transitional package for libeudev-dev
+ This is a transitional package to ease upgrades to the libeudev-dev package.
+ It can safely be removed.
+
 Package: libudev0
 Architecture: amd64
 Version: 175-7.2
@@ -4366,6 +4576,48 @@ SHA256: 8928a454b2bb8aa657d72c15b23380d2652a3ee2ce56037a0c16b5ed6a9418d5
 SHA512: e9e39786fb9479ee2255d94ea7c9c4d8a24910384212311ee641e50481924a90ddb6d1652189f20a44a7ae25304917175d9f4536de6910b1cbeb0a442c16753b
 Description: libudev shared library
  This library provides access to udev device information.
+
+Package: libudev1
+Architecture: amd64
+Version: 1:3.2.9+devuan4
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: udev
+Origin: Devuan
+Maintainer: Devuan Dev Team <devuan-dev@lists.dyne.org>
+Installed-Size: 9
+Depends: libeudev1
+Filename: ./libudev1_3.2.9+devuan4_amd64.deb
+Size: 2724
+MD5sum: 662f40f51ae0f087ebf6cfebaf9d6921
+SHA1: bfa0291cac3fd4b73614010e95f785e9e1811b03
+SHA256: e9ff096d566b784493b806a88eb5b62938a32a52ba3d3875c64bb163ac52ddf8
+SHA512: a1afd0f1f6ddbda3e73d0dedc927b4bf5f50d7e161b54699177038e5ad77a57c91151488faf4633a90b9a9543356f872a4be561704f518993d0456bb5df72547
+Description: Transitional package for libeudev1
+ This is a transitional package to ease upgrades to the libeudev1 package.
+ It can safely be removed.
+
+Package: libudev1
+Architecture: i386
+Version: 1:3.2.9+devuan4
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: udev
+Origin: Devuan
+Maintainer: Devuan Dev Team <devuan-dev@lists.dyne.org>
+Installed-Size: 9
+Depends: libeudev1
+Filename: ./libudev1_3.2.9+devuan4_i386.deb
+Size: 2724
+MD5sum: 8b30ae8e4faa1dd00b8649d8d0ee1a31
+SHA1: 56c21342cc51964cfb92091539ea1e193bc6f4db
+SHA256: 0382934fe3a035ba50a2930785fe2bb844443c12a48d02d358a9c2faa139367d
+SHA512: beb42390036a1139eb059a0f88d9113c86f118f08557f86272fd2c58e3092fc88b82a69c39d762cbaeff9b659320bb8b3955227f342c37011c7a621ca8964ad4
+Description: Transitional package for libeudev1
+ This is a transitional package to ease upgrades to the libeudev1 package.
+ It can safely be removed.
 
 Package: libva-drm1
 Architecture: amd64
@@ -7723,6 +7975,46 @@ SHA1: 8172f45daced2e684b2723aa2f7416b6f16e363a
 SHA256: 79c79e639e94c013f0c68d1770af5893e9c58aaee3ce1a3569f5d8a5d2b11f75
 SHA512: 41b986843c48f8d5350edf19ea211899fead8edcd78bc67db283be87d1bb67338e2cb5745f27d8352fd623671a5aa07aa4057af84aa5c962ff7f33c65c446b7b
 Description: Automatically detect timezone,using curl
+
+Package: udev
+Architecture: amd64
+Version: 1:3.2.9+devuan4
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Origin: Devuan
+Maintainer: Devuan Dev Team <devuan-dev@lists.dyne.org>
+Installed-Size: 13
+Depends: eudev
+Filename: ./udev_3.2.9+devuan4_amd64.deb
+Size: 2964
+MD5sum: 2920c8b2d6d4ff9969bcb9a98510e981
+SHA1: 9e73b35c5cadd9d21f1496f232e38f40e9ee5816
+SHA256: 2e1a193b1dff432d2e4ae0ebbde6aa4494f071caccd2c3611abc6b36fc47e6aa
+SHA512: 2f12c3f6b864b894f160d5d9862fc1d4759983f9c2471b15c38a7d707692f8b1ab9af47f3046823b3276936a8fcfb216f02e4d360283823a6a2ddb4bc718758f
+Description: Transitional package for eudev
+ This is a transitional package to ease upgrades to the eudev package.
+ It can safely be removed.
+
+Package: udev
+Architecture: i386
+Version: 1:3.2.9+devuan4
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Origin: Devuan
+Maintainer: Devuan Dev Team <devuan-dev@lists.dyne.org>
+Installed-Size: 13
+Depends: eudev
+Filename: ./udev_3.2.9+devuan4_i386.deb
+Size: 2960
+MD5sum: ae7c5bb32c3a7baf0ecc6388c986bb6d
+SHA1: 983e2744db9c0116b71f48bb68d3c69cfc0a7bb9
+SHA256: 29aa183acf6206f960fc64d2539c149dc73950724d1c8a243f2859c3b670c62c
+SHA512: 2aed5c372daa6b0608d01d79abb58f45d8754157a71e7e71a5dbedbd2445736f8ba8fb974517bf16c76fe7a8db82e598bb5a4c2cd9ad76da5d85f62f9efd0a81
+Description: Transitional package for eudev
+ This is a transitional package to ease upgrades to the eudev package.
+ It can safely be removed.
 
 Package: uextract
 Architecture: amd64
