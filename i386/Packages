@@ -5878,6 +5878,21 @@ SHA256: bce20d26184a0d8f75571e9a31ea6116e8e87e0b94ad74d5659a993d0b127023
 SHA512: 3fe94f17a770800742a55a928cd0311d2e69844651c8a80280c35c59ea172f4d7bf2669cce6e8630ea26d76d5b571b957b214d17d0187fcbb3b14155fae4a753
 Description: Makes a DVD burnable ISO
 
+Package: peasy-dvd-iso-maker
+Architecture: all
+Version: 1.1
+Priority: optional
+Section: graphics
+Maintainer: rcrsn51
+Depends: dvdauthor, genisoimage
+Filename: ./peasy-dvd-iso-maker_1.1_all.deb
+Size: 3528
+MD5sum: e0939086a42d5d59ff851c925ed9d816
+SHA1: daa94eab404204e44a7803c6407d036537b26c72
+SHA256: 6b6c5d89d8222f96bb390c4df8856664be166d1b2b79fde0624897176ed5accb
+SHA512: fa396f3cca7d160675ddb0b29faf29fa841bb0529b1e1c7de8b4093a4589bc4c40128b7c557560822234b0e623782677f5bbc80a270fc67a08ab30f9156cf11b
+Description: Makes a DVD burnable ISO
+
 Package: peasy-dvd-player
 Architecture: i386
 Version: 1.6-1
