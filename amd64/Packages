@@ -5806,6 +5806,22 @@ SHA256: 3157162aa258984fad29af2155bcc424497d08c138deb0d8f05f7f2e1e57aea6
 SHA512: d3510471715afdd4482eb30b00ed9cfb719089403c8e2db4391b592e55fb7cb09c75a191ec3c9fc9c9b28540b404a4ae7073010b07bf93116a6850146aeec754
 Description: modem dialer
 
+Package: peasydvd
+Architecture: all
+Version: 1.0
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: xterm, eject, libdvdcss, vamps, pv, dvdauthor, vobcopy, genisoimage
+Filename: ./peasydvd_1.0_all.deb
+Size: 6582
+MD5sum: 0755e9f2348412a3fa0c310a9b0cf07b
+SHA1: 808ad0eb16938ff1e565668411de7a567179c508
+SHA256: cb65ff960ae7f2025b0f3a2faefe15795b6782e1c959fd1528b087b40a3acdf0
+SHA512: fc6bd108c9090fcd32f5ac79e7b799f496c9bed9ba895deb5aa48d4a2340b1f1ffa837ed412d1f4e42b44038da224c4adc7f1b51c5038e6778886923fa1fb171
+Description: DVD movie player, ripper, etc.
+  Install mplayer and ffmpeg separately
+
 Package: peasyfwmon
 Architecture: amd64
 Version: 1.0.2
