@@ -293,6 +293,21 @@ SHA256: ef0be90ddd734cae8e7087279b730b5944c36b5c28b21d1b111f9bc6e3788766
 SHA512: 254f5051a9436b9a9ad2dbd3b96183c582d7554db31da5fe976a8fcc19b469cdaeadb313caf0937d8bb35efd9613b4988b282542b51fad16f3e22d2e3ce994a7
 Description: converts various av formats
 
+Package: av-converter
+Architecture: all
+Version: 2.3.3
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: lame, vorbis-tools, flac
+Filename: ./av-converter_2.3.3_all.deb
+Size: 7002
+MD5sum: ec7c3ebb8c2130fa9ef8fd85cad1093e
+SHA1: b7e3b5d533887bc72f1f0277d76741251509c690
+SHA256: b5c2e9cf584fc6b89767b986e46ae42d9f4315aa3ca09fbc47a8b147f119101d
+SHA512: 27cfa8bf9a203f952ec5c3044706d120b24d8297cf6b04d09571c781547f0a5c46e55c5af722a1644a9fba2c5d5b5b05d15cea77783169dfd2ab2f738b29c102
+Description: converts various av formats
+
 Package: azpainter
 Architecture: amd64
 Version: 2.1.1
