@@ -263,6 +263,19 @@ Description: Tools to manage aufs filesystems
  .
  This package contains utilities needed to configure aufs containers on-the-fly.
 
+Package: av-clipper-joiner
+Architecture: all
+Version: 1.0
+Priority: optional
+Maintainer: rcrsn51
+Filename: ./av-clipper-joiner_1.0_all.deb
+Size: 6132
+MD5sum: 03935aaf9fc70ec7f7feb2f1ab48d79e
+SHA1: e662472a1572a61ea8d586d274ef77cfdf8beae2
+SHA256: 54adc20f074327916e5ac87261a5cad1d58b56a0b74e0cfff9c8c3087eff430f
+SHA512: c843ab9c864b7de221282b7a64a6a7c80994026833f5124af0ca8aa133de215851349c037ea92e09fb3ac9faf6e55800fc7fb5ca6a5b666294c420c6476518fd
+Description: Edits media files
+
 Package: av-converter
 Architecture: all
 Version: 2.0
