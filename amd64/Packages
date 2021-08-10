@@ -276,6 +276,32 @@ SHA256: 54adc20f074327916e5ac87261a5cad1d58b56a0b74e0cfff9c8c3087eff430f
 SHA512: c843ab9c864b7de221282b7a64a6a7c80994026833f5124af0ca8aa133de215851349c037ea92e09fb3ac9faf6e55800fc7fb5ca6a5b666294c420c6476518fd
 Description: Edits media files
 
+Package: av-clipper-joiner
+Architecture: all
+Version: 1.1
+Priority: optional
+Maintainer: rcrsn51
+Filename: ./av-clipper-joiner_1.1_all.deb
+Size: 7302
+MD5sum: 4a9789f66a7b9f94fb1b43412b93e4e3
+SHA1: aa5e07e33b26fe6beab9d7e0f8ad2246371b653d
+SHA256: 252dcd8ecf3f481d86ba58a65e0a6b53d6bc1fc43d949540789090c2f3f2e183
+SHA512: 3c443df9c688d559ece850d0dd6f7457dc5c81ef2eebf09539eea75b5fa99883f96a4e8dfcf8e2a360fe80946f6f7f41854a4f49ea371154ff3ebd04dacc273e
+Description: Edits media files
+
+Package: av-clipper-joiner
+Architecture: all
+Version: 1.2
+Priority: optional
+Maintainer: rcrsn51
+Filename: ./av-clipper-joiner_1.2_all.deb
+Size: 7606
+MD5sum: 79c43e92f3051f6d09a7eab52d0dc1b2
+SHA1: 062ba0654cd8e9942da057634e04928016ee8427
+SHA256: 72e44670b53d2084f4d4a14ad8c71bbf46d4d7830ecf0dd7424a19cacecdc5e9
+SHA512: 6edf0f77f16955fbdd705e9de0819d9f78972234722122a196720c7423b4e457c5a572d5472e9025d2c025562656867688f63709ba1cdc79648865ebf96a8108
+Description: Edits media files
+
 Package: av-converter
 Architecture: all
 Version: 2.0
