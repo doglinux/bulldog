@@ -431,6 +431,32 @@ SHA256: f9e3a75ad10be96504c746cd0aabc79e3b36247de2b0269186678179fbf9d2a4
 SHA512: 574a706f8a5944cb8d981754ea0307e4939b1271665ae3c3b333faa7e9fcd0414fde054fc20448036c42c62341f2e5d4641f9fd3aa0939638435e691dd47989c
 Description: converts various av formats
 
+Package: av-editor
+Architecture: all
+Version: 2.1
+Priority: optional
+Maintainer: rcrsn51
+Filename: ./av-editor_2.1_all.deb
+Size: 8938
+MD5sum: 5bd9d7b00d0753d8a36ea9f7ea1ffeb6
+SHA1: 0f81f2a8205fd5734ac41bb1eecae93863643564
+SHA256: 95c54a02524117617072876f049159db14ffcc954973d86e85d69625009be01d
+SHA512: 222b6c2b39a34c0f048a54dfe9823fc2ed32418501bc12b9b3bd7dd0365b038c49c9288d563bccffc5638390bad0d1bf913c81fa0038d001556d1eae63a082ae
+Description: Edits media files
+
+Package: av-editor
+Architecture: all
+Version: 2.2
+Priority: optional
+Maintainer: rcrsn51
+Filename: ./av-editor_2.2_all.deb
+Size: 9258
+MD5sum: 558c2b4edb16e311f47ce23d0111773d
+SHA1: 8854f1e344eb0fde7858939faea42a07c47bc1f6
+SHA256: 486c4bf36cc848349ce6640a91d84babe6732d64fc52c159ce51a5e695fc8649
+SHA512: b92f008b0fa84868d6d027a7abcc7898b53f9cc6d904c32338e3f2279c1a4d08ac3ef860ea52a70e324432e663a14099c4b9968631d4509ef4f6a5c143792142
+Description: Edits media files
+
 Package: azpainter
 Architecture: amd64
 Version: 2.1.1
