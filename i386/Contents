@@ -5864,7 +5864,7 @@ usr/share/applications/dillo.desktop			    dillo
 usr/share/applications/dmmediaconverter.desktop		    dmmediaconverter
 usr/share/applications/domycommand.desktop		    domycommand
 usr/share/applications/domyfile.desktop			    domyfile
-usr/share/applications/drivespeed.desktop		    btop,drivespeed
+usr/share/applications/drivespeed.desktop		    drivespeed
 usr/share/applications/dropbox.desktop			    dropboxgui
 usr/share/applications/dropboxGUI.desktop		    dropboxgui
 usr/share/applications/edit-sfs.desktop			    edit-sfs-pcmanfm,edit-sfs-thunar
