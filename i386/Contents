@@ -2276,6 +2276,7 @@ usr/local/bin/batterup_restart				    batterup
 usr/local/bin/batterup_tray				    batterup
 usr/local/bin/beep.wav					    batterup
 usr/local/bin/bt4stretch				    bt4stretch
+usr/local/bin/btop					    btop
 usr/local/bin/busybox-pscan				    peasyport
 usr/local/bin/camphonetab				    camphonetab
 usr/local/bin/cast2chrome				    cast2chrome
@@ -4906,6 +4907,20 @@ usr/local/r-shift/usr/lib/libxcb-randr.so.0		    redshift-gui-lite
 usr/local/r-shift/usr/lib/libxcb-randr.so.0.1.0		    redshift-gui-lite
 usr/local/r-shift/usr/share/pixmaps/rshift.png		    redshift-gui-lite
 usr/local/rau/vlc.desktop				    run-as-user
+usr/local/share/btop/README.md				    btop
+usr/local/share/btop/themes/adapta.theme		    btop
+usr/local/share/btop/themes/dracula.theme		    btop
+usr/local/share/btop/themes/dusklight.theme		    btop
+usr/local/share/btop/themes/flat-remix-light.theme	    btop
+usr/local/share/btop/themes/flat-remix.theme		    btop
+usr/local/share/btop/themes/greyscale.theme		    btop
+usr/local/share/btop/themes/gruvbox_dark.theme		    btop
+usr/local/share/btop/themes/kyli0x.theme		    btop
+usr/local/share/btop/themes/matcha-dark-sea.theme	    btop
+usr/local/share/btop/themes/monokai.theme		    btop
+usr/local/share/btop/themes/nord.theme			    btop
+usr/local/share/btop/themes/solarized_dark.theme	    btop
+usr/local/share/btop/themes/whiteout.theme		    btop
 usr/local/share/doc/echinus/README			    echinus
 usr/local/share/examples/echinus/close.xbm		    echinus
 usr/local/share/examples/echinus/echinusrc		    echinus
@@ -5849,7 +5864,7 @@ usr/share/applications/dillo.desktop			    dillo
 usr/share/applications/dmmediaconverter.desktop		    dmmediaconverter
 usr/share/applications/domycommand.desktop		    domycommand
 usr/share/applications/domyfile.desktop			    domyfile
-usr/share/applications/drivespeed.desktop		    drivespeed
+usr/share/applications/drivespeed.desktop		    btop,drivespeed
 usr/share/applications/dropbox.desktop			    dropboxgui
 usr/share/applications/dropboxGUI.desktop		    dropboxgui
 usr/share/applications/edit-sfs.desktop			    edit-sfs-pcmanfm,edit-sfs-thunar
