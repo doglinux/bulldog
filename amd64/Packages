@@ -2468,6 +2468,23 @@ Description: Display Animated Gif on Desktop
 
 Package: gmplayer
 Architecture: amd64
+Version: 37957-6.3.2-2
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 2000
+Depends: liba52-0.7.4, libaa1, libasound2, libass5, libatk1.0-0, libaudio2, libbluray1, libbs2b0, libc6, libcaca0, libcairo2, libcdio-cdda1, libcdio-paranoia1, libcdio13, libcrystalhd3, libdca0, libdirectfb-1.2-9, libdv4, libdvdnav4, libdvdread4, libenca0, libesd0, libfaac0, libfaad2, libfontconfig1, libfreetype6, libfribidi0, libgdk-pixbuf2.0-0, libgif7, libgl1-mesa-glx, libglib2.0-0, libgnutls30, libgsm1, libgtk2.0-0, libjack-jackd2-0, libjpeg62-turbo, liblirc-client0, liblzo2-2, libmad0, libmp3lame0, libmpeg2-4, libmpg123-0, libncurses5, libogg0, libopenal1, libopencore-amrnb0, libopencore-amrwb0, libopus0, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpng16-16, libpulse0, libroar-compat2, librtmp1, libsdl1.2debian, libspeex1, libtheora0, libtinfo5, libvdpau1, libvorbisidec1, libvpx4, libx11-6, libx264-148, libxext6, libxinerama1, libxss1, libxt6, libxv1, libxvidcore4, libxxf86dga1, libxxf86vm1, libdvdcss
+Conflicts: gnome-mplayer-1.0.6, mplayer
+Filename: ./gmplayer_37957-6.3.2-2_amd64.deb
+Size: 6893116
+MD5sum: 5fae75adddb1809f44912289e82f4c38
+SHA1: 4cb2989d7bb44aa959fd9d40284dce4330f387e9
+SHA256: 22fa5133257b6b12da07db86aab2d522db5f2fe87576b959e4aa748c636a6dbd
+SHA512: 899d2d4158553b6a6dd51d07bf9625ceb80f8c0925365ad4fbdad7caa4e94457e8d0a841f0d0386926a1d63d2a57cc00083d57720c3c1192e1fdce55214f842c
+Description: Mplayer SVN-r37957, mediaplayer
+
+Package: gmplayer
+Architecture: amd64
 Version: 37957-6.3.2
 Priority: optional
 Section: utilities
