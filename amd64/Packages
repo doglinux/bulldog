@@ -2530,6 +2530,21 @@ SHA256: 20d76f08eb39ceb5c7f35c8650d9b5657e9d4a8d4073ef0218fded35af831ec7
 SHA512: 305faac450b3e65a70a30b26a8d7d09ced4397178434065f96a7f98134a7051e68537f240e84a89ee5a926e09359e8fec06fc71172db94c60dfdba418e13ac9b
 Description: File transfer with busybox nc
 
+Package: gnetcat
+Architecture: all
+Version: 1.7
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: lzop
+Filename: ./gnetcat_1.7_all.deb
+Size: 5478
+MD5sum: 67efb8b206bbdd1121d1a5efaf14041b
+SHA1: 6e2c0586d36692641d7eff2a2c7e80756ba6f2ff
+SHA256: dce4b8502d831258d8a1d57bbe81e05426d4cb07253b7796de37294b619d725f
+SHA512: 27fbc109bab98066a4386c51ddb6abc08c0f2aff982e5f9774d0aeeb43c0a449d6a636f33970086376a7814236ebaff74af86fa03c1843d0d957c9c31ed10f15
+Description: File transfer with busybox nc
+
 Package: gnome-mplayer-1.0.6
 Architecture: amd64
 Version: 1.0.6-1
@@ -7669,6 +7684,20 @@ MD5sum: 498d4299f0951d30f7c6a6f289cf27ab
 SHA1: 3054fb61be523435bdc5a7a54e0a8f13dab4c80f
 SHA256: bb9ace17e7e16643039e6b6169394d059eebbd2c5158453a8efde7fd25df02ab
 SHA512: 22cdc6920c735064638079d381bbf038ad8bbd889c6a7f90bf294fd0454563fab1ed9431a82b551bdd6d70fd23f284090e4d2aaec0b8475abd36f7997c23f166
+Description: Select a sound card and set ALSA defaults
+
+Package: sound-card-selector
+Architecture: all
+Version: 1.7
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./sound-card-selector_1.7_all.deb
+Size: 4170
+MD5sum: 97306393968c6105bb43fdc3ce4ea193
+SHA1: c412f452d7353dacaafb38d53d973de19d6e730d
+SHA256: e1a85232d8f7936a87c3f288c837ae0fc3233bdff04f3b92b961ea086b57bfd5
+SHA512: 370ba4463b88f70f29eb4c84fc49b5dfeb502b07ada6ff69ea66e24108de00b70e7ef4eb36eba93e30830d1e092820302890697d24abc555cb828bef384ecd24
 Description: Select a sound card and set ALSA defaults
 
 Package: squashfuse
