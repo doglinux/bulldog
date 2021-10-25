@@ -7714,6 +7714,22 @@ SHA256: a6471470fc6a31ff025df177439d76589c346a2a642b1d1896864a72ead8f101
 SHA512: a16756beff215c1d5e6cb7c902977c4376f5b2efe7fba63387228413a512d614415bbb18488f2736e6c30c12b21f428d33185b6c430a58f43e98aabc57fd4647
 Description: Backup/restore tool for any file/folder.
 
+Package: screener
+Architecture: i386
+Version: 1.0.0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 60
+Depends: yad, libc6, xautolock, xlockmore
+Filename: ./screener_1.0.0_i386.deb
+Size: 14200
+MD5sum: f4c41a30345ad759b257f4ee3a73d304
+SHA1: dcb578d1ded67e0172c06f63a9f7e991d5aed0d8
+SHA256: e58b25f67d8790c605e1f4552e8591c3456306b6ea08dacddb667f3166426073
+SHA512: 85eb42bb9bff9d13a5fff97fd07951a548c1d541f32f0e2257148946955513310f3f746430f501d082484b3ebac0874a58ba227e087a85fc6dab4cfe2827f161
+Description: Screensaver Gui
+
 Package: scrotdlg
 Architecture: i386
 Version: 1.0.0
@@ -9371,6 +9387,22 @@ SHA512: 470cd1bce13e6c753d1aa5ca9605a322cf50d85d76a8c8912ed17e07669d0553db2c3719
 Description: X server initialisation tool
  xinit and startx are programs which facilitate starting an X server, and
  loading a base X session.
+
+Package: xlockmore
+Architecture: i386
+Version: 5.43
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 1700
+Depends: yad, libc6, libglu1-mesa
+Filename: ./xlockmore_5.43_i386.deb
+Size: 332572
+MD5sum: 40fbb426020d1bd57ee5334124a52d05
+SHA1: a38fb5d89140fc2fcb9368fcd8ad403867d3ea0d
+SHA256: ddcf383f7fadca7260d80c583e99e051da78a3b16fe5e697eedaeccfd6453bf1
+SHA512: d2e56cf4d914d2c9d0e17ab93fb734c91f03c9f6bd8f3766df006487c4eba6b50e5aedcdd7b4a70cff068347d0cb128bf2ccaf5684c5e1657b8a6bf7f957d915
+Description: Screensaver
 
 Package: xlunch
 Architecture: i386

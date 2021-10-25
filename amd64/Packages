@@ -6309,6 +6309,21 @@ SHA256: ba0e28a8a7f1bdc28690900f241731d5d12705d260587a96985844464edb6fa2
 SHA512: adbd06986f7d93e6c61ae38b07ac1b8f5e1a877f70efb553297b58a650ada34d5f7826d3d8ab4fa14cf250ba2aa2c07ada173e71c793f4b5ec8077f749f6ae75
 Description: Network port scanner
 
+Package: peasyport
+Architecture: amd64
+Version: 3.2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: arp-scan, nbtscan
+Filename: ./peasyport_3.2_amd64.deb
+Size: 11420
+MD5sum: 631b88fecce6930c52066b334ac8b988
+SHA1: d8631715c474a8e16b9bf5a5baa22c56e4948842
+SHA256: cbc09b2e8b128e149d30521c91798c4f397a2d16c2aebc88346902ff455cd776
+SHA512: 527bb668be92dee38d39d8bf3b4832e81d6bdc2674016b0c051d92696d036710e32920431bf33f5e58b49ed41aa5bda733d2f51b29ce296e1a8d3d8c77879095
+Description: Network port scanner
+
 Package: peasyprint
 Architecture: all
 Version: 2.9-1
@@ -7476,6 +7491,22 @@ SHA1: 235266304b97c5411f7295c2ee901a70c9c14393
 SHA256: a6471470fc6a31ff025df177439d76589c346a2a642b1d1896864a72ead8f101
 SHA512: a16756beff215c1d5e6cb7c902977c4376f5b2efe7fba63387228413a512d614415bbb18488f2736e6c30c12b21f428d33185b6c430a58f43e98aabc57fd4647
 Description: Backup/restore tool for any file/folder.
+
+Package: screener
+Architecture: amd64
+Version: 1.0.1
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 60
+Depends: yad, libc6, xautolock, xlockmore
+Filename: ./screener_1.0.1_amd64.deb
+Size: 14152
+MD5sum: a62255985ed8b20afe1e673da00fd786
+SHA1: 598e6e98e94086bddcb065c09f00636a49c079ca
+SHA256: 449326764d7ab06bce800e532099232b35556c9a991688dc8550b7d84a1ba82a
+SHA512: 97e4b3b8698b2038f7accf1d8883de09e7fa953648a7c35e9d17b924ab21820d00d7d00f22db68d625c3d76d95613419dbaff03d2b35d772f214b880b92f1382
+Description: Screensaver Gui
 
 Package: scrotdlg
 Architecture: amd64
@@ -8864,6 +8895,22 @@ SHA1: 286a9d8ae637a11c449f3bb560739c14f7394d47
 SHA256: 89e28c6b5ec3432a62cda954648e84888310c37af9a211f3fbddf06cc6ae8e6c
 SHA512: e95a11a2d6ab0224c8be1e250c90ee5e04223071ee132a67370e3d5eedef7463f282b860434c81675b07e48147ffaaa35fc547a642c51cef1fded5da72f21965
 Description: xhippo-converted-pet-to-deb
+
+Package: xlockmore
+Architecture: amd64
+Version: 5.31
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 3500
+Depends: yad, libc6, libglu1-mesa
+Filename: ./xlockmore_5.31_amd64.deb
+Size: 228920
+MD5sum: bcb5fe420db9325f9519cd6c9d8a351b
+SHA1: 702e8caff00b5738c92f707130c392e563f3a4fc
+SHA256: 79b3bbdb61dc8cb75d9e740dd09f1035cc6f4258aa611646bfc6c6a5d30ceca6
+SHA512: c1de3ba127e9baaf88f0b39cea37063e1b80f0f8efd93cf2dba4181652b5910f1f31c999983e970e7f8e55cf3292094439ceb0308174a72e85dca95d836ddaa1
+Description: Screensaver
 
 Package: xlunch
 Architecture: amd64

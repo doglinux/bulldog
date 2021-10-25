@@ -657,6 +657,7 @@ opt/tmp/snapmergepuppy					    porteusbootscripts
 opt/tmp/wmpoweroff					    porteusbootscripts
 opt/tmp/wmreboot					    porteusbootscripts
 root/.asoundrc						    peasymp3
+root/.config/autostart/screener.desktop.bak		    screener
 root/.config/rox.sourceforge.net/MIME-types/application	    jwm-setup,jwmconf
 root/.config/rox.sourceforge.net/MIME-types/image_png	    jwm-setup,jwmconf
 root/.config/rox.sourceforge.net/MIME-types/image_x-xpixmap jwm-setup,jwmconf
@@ -773,6 +774,7 @@ root/.config/rox.sourceforge.net/SendTo/.inode_mount-point/Search with pFind pfi
 root/.config/rox.sourceforge.net/SendTo/Multi-Copy	    jwm-setup,jwmconf
 root/.config/rox.sourceforge.net/SendTo/Multi-Cut	    jwm-setup,jwmconf
 root/.config/rox.sourceforge.net/SendTo/Multi-Paste	    jwm-setup,jwmconf
+root/.config/screener.conf				    screener
 root/.config/xfe/scripts/edit-sfs			    edit-sfs-pcmanfm,edit-sfs-thunar
 root/.config/xfe/scripts/install-deb-and-dependencies	    fixdepinstall
 root/.config/xfe/scripts/install-dir-debs-and-dependencies  fixdepinstall
@@ -835,6 +837,7 @@ root/Startup/peasymp3_tray				    peasymp3
 root/Startup/peasywifi_tray				    PeasyWiFi
 root/Startup/rshift-gui-lite				    redshift-gui-lite
 root/Startup/samba-autostart				    samba-server-control
+root/Startup/xscreener					    screener
 root/fisherman.jpg					    jwmconf
 root/sand.jpg						    jwmconf
 root/startup-jwm					    jwm-setup,jwmconf
@@ -1015,6 +1018,7 @@ usr/bin/xgamma						    x11-xserver-utils
 usr/bin/xhost						    x11-xserver-utils
 usr/bin/xinit						    xinit
 usr/bin/xkeystone					    x11-xserver-utils
+usr/bin/xlock						    xlockmore
 usr/bin/xlunch-menu					    xlunch
 usr/bin/xml2-config					    libxml2-dev
 usr/bin/xml_button-icon					    gtkdialog
@@ -1022,6 +1026,7 @@ usr/bin/xmodmap						    x11-xserver-utils
 usr/bin/xrandr						    x11-xserver-utils
 usr/bin/xrdb						    x11-xserver-utils
 usr/bin/xrefresh					    x11-xserver-utils
+usr/bin/xscreener					    screener
 usr/bin/xset						    x11-xserver-utils
 usr/bin/xsetmode					    x11-xserver-utils
 usr/bin/xsetpointer					    x11-xserver-utils
@@ -5208,6 +5213,7 @@ usr/sbin/mount.cifs					    yassm-smbclient-mpscan
 usr/sbin/mpscan						    yassm-smbclient-mpscan
 usr/sbin/networkdisconnect				    sns
 usr/sbin/p910nd						    p910nd-print-server
+usr/sbin/screener					    screener
 usr/sbin/synaptic					    synaptic
 usr/sbin/umount.cifs					    yassm-smbclient-mpscan
 usr/share/GConf/gsettings/evince.convert		    evince
@@ -5964,6 +5970,7 @@ usr/share/applications/samba-login.desktop		    yassm-smbclient-mpscan
 usr/share/applications/samba-search.desktop		    yassm-smbclient-mpscan
 usr/share/applications/samba-select.desktop		    yassm-smbclient-mpscan
 usr/share/applications/samba-server-control.desktop	    samba-server-control
+usr/share/applications/screener.desktop			    screener
 usr/share/applications/sfsportable.desktop		    portablesfs-loadsfs-fuse
 usr/share/applications/simpleHTTPserver.desktop		    simple-python-http-server
 usr/share/applications/snappie.desktop			    snappie
@@ -5996,6 +6003,7 @@ usr/share/applications/xfp.desktop			    xfe
 usr/share/applications/xfv.desktop			    xfe
 usr/share/applications/xfw.desktop			    xfe
 usr/share/applications/xhippo.desktop			    xhippo
+usr/share/applications/xlockmore.desktop		    xlockmore
 usr/share/applications/xlunch-help.desktop		    xlunch
 usr/share/applications/xrecord.desktop			    xhippo
 usr/share/applications/xvidcap.desktop			    xvidcap
@@ -10610,6 +10618,7 @@ usr/share/pixmaps/emelfm2/terminal_48.png		    emelfm2
 usr/share/pixmaps/emelfm2/trash_48.png			    emelfm2
 usr/share/pixmaps/emelfm2/user_commands_48.png		    emelfm2
 usr/share/pixmaps/emelfm2/view_48.png			    emelfm2
+usr/share/pixmaps/energy_star.png			    screener
 usr/share/pixmaps/epdfview.xpm				    epdfview
 usr/share/pixmaps/fd.png				    mount-wizard
 usr/share/pixmaps/fd2.png				    mount-wizard-2
@@ -10631,6 +10640,7 @@ usr/share/pixmaps/gif-file.png				    gifondesktop
 usr/share/pixmaps/gifencc.png				    gifenc
 usr/share/pixmaps/gnetcat.png				    gnetcat
 usr/share/pixmaps/gnibbles.png				    grub4dosconfig
+usr/share/pixmaps/gnome-lock-screen.png			    xlockmore
 usr/share/pixmaps/go-next.png				    youtube-get2,youtube-get3
 usr/share/pixmaps/go-previous.png			    youtube-get2,youtube-get3
 usr/share/pixmaps/google-drive-128.png			    googledrivegui2,googledrivegui
@@ -10752,6 +10762,7 @@ usr/share/pixmaps/pmusic_backend_cmd.svg		    pmusic
 usr/share/pixmaps/pmusic_tophits_archive.svg		    pmusic
 usr/share/pixmaps/pmwget.png				    pmirrorget
 usr/share/pixmaps/poster.png				    gopoststuff
+usr/share/pixmaps/preferences-desktop-screensaver.png	    screener
 usr/share/pixmaps/prefs.png				    jwm-setup,jwmconf
 usr/share/pixmaps/puppy/cell1_0.svg			    wifibox
 usr/share/pixmaps/puppy/cell1_1.svg			    wifibox
@@ -11104,6 +11115,9 @@ usr/share/roxterm/Config/Colours/Tango			    roxterm-common
 usr/share/roxterm/Config/Shortcuts/Default		    roxterm-common
 usr/share/roxterm/roxterm-config.ui			    roxterm-common
 usr/share/sane/sane-style.rc				    peasyscan
+usr/share/screener/savers				    screener
+usr/share/screener/screener				    screener
+usr/share/screener/sxlock				    screener
 usr/share/slim/themes/debian-lines/COPYRIGHT.background	    slim
 usr/share/slim/themes/debian-lines/COPYRIGHT.panel	    slim
 usr/share/slim/themes/debian-lines/background.jpg	    slim
