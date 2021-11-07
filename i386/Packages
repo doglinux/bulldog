@@ -6256,6 +6256,21 @@ SHA256: e21d4d7008bbd4c50ef5720c9c88c237ff91e6356434619d913f433f4fcb1831
 SHA512: 8810243f2474a3f9cba4dda9293ce728edf404f5a1eab0592c40ab5564b6ad012697c7ce34fe18b6352cbfa097070e3d4bebc379493632d3ad89d8f39b0886f9
 Description: Peasy YouTube downloader > needs separate youtube-dlc
 
+Package: peasy-ytdl
+Architecture: all
+Version: 2.0
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: python3
+Filename: ./peasy-ytdl_2.0_all.deb
+Size: 4612
+MD5sum: a4644f58a068ab916093455902398fb4
+SHA1: 7c285857c0f4e6f637eb5dce7862c15787a8c35b
+SHA256: 7f9ad64e36510d0ec38605b841ec01ef58bd0e0a730164a37e7852cd1d7eec5b
+SHA512: f658597792c2a614ede4680d043514739793fa55b786d05d251abd2bf8a5930be27a429f03f657690932c55f67b9e12790bb222ce68c8a5801c2f7dc6477d8ef
+Description: Peasy YouTube downloader > needs separate yt-dlp
+
 Package: peasyclock
 Architecture: all
 Version: 1.4-1
@@ -6680,6 +6695,33 @@ MD5sum: b0dda4cba5bb9f1c71727176ff36fc15
 SHA1: 0a928efe739b2a174cea278b2736fe34b9bd709c
 SHA256: 5185967ca37499c84e356af6845dee2e46951e7f6c8bdd1d42d485b2481a1292
 SHA512: 2b0f3ad0ecbc9ebba79ce56407c5ec5199c55ff6773405356cab30006da03cc527f42343d9491f75435954dc84e10f62e5f3f0202594eec28825aa7deb6e9410
+Description: Reliable network manager
+ -changes in v4.4-0 in peasywifi script by rcrsn51:
+ - added option (Ethernet tab) to bring the interface down
+ - added Names button (to select interface names)
+ - A modification to Names. It resets the Ethernet profiles in /etc/pwf/ethernet
+ - Updated Help screen
+ - added multi-user support (fredx181)
+ - changed bcrypt to ccrypt
+ Changes in v4.7:
+ 1. The Encrypt section has been removed. To hide the passphrase in a profile, just replace all (or part) of it with XXXX. When you connect, PWF will prompt for the actual passphrase.
+ 2. There are improved instructions for setting up an alternate Ethernet interface like usb0
+
+Package: PeasyWiFi
+Architecture: i386
+Version: 4.8.1
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: libc6, gtkdialog, gettext-base, net-tools, wpasupplicant, wireless-tools, x11-utils, ifmetric
+Conflicts: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
+Replaces: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
+Filename: ./peasywifi_4.8.1_i386.deb
+Size: 17840
+MD5sum: e571d70c911a7dc999e33f16e2a604ac
+SHA1: eb8df3853e3f1e3a61ab884cecf34fe0147cd944
+SHA256: 87375830bc1a1b2039db92be17b13ab626c08206bda31a4467d596665c1b974b
+SHA512: d06216619f1832720d77cc6dbf87bba96ed05d7c4ca034788ef7c8a01ca85a9634c9734f80d8b6ba20f29c50daf1d3b429772b636e29a12708098d0a95dd2a87
 Description: Reliable network manager
  -changes in v4.4-0 in peasywifi script by rcrsn51:
  - added option (Ethernet tab) to bring the interface down
@@ -7993,6 +8035,20 @@ MD5sum: 97306393968c6105bb43fdc3ce4ea193
 SHA1: c412f452d7353dacaafb38d53d973de19d6e730d
 SHA256: e1a85232d8f7936a87c3f288c837ae0fc3233bdff04f3b92b961ea086b57bfd5
 SHA512: 370ba4463b88f70f29eb4c84fc49b5dfeb502b07ada6ff69ea66e24108de00b70e7ef4eb36eba93e30830d1e092820302890697d24abc555cb828bef384ecd24
+Description: Select a sound card and set ALSA defaults
+
+Package: sound-card-selector
+Architecture: all
+Version: 1.8
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./sound-card-selector_1.8_all.deb
+Size: 4328
+MD5sum: e1ad1e4cd74ac6d9c6d254c3e3438fde
+SHA1: ef7c1567ad8befafa323d64ca989773cba0c4b62
+SHA256: 6b253d306f2e6fe92e4a95821ee1652647f3ebadce5aa5a7bb456bf968b651f4
+SHA512: 7d78ff3bdb7201cab9219b5a67f322199b5166aa3f0547c7bb0bef44fce4d59d265882f84e0c4747f8ca108c8b4900ee9d1ac07277bce9fc7221c636fc2572b4
 Description: Select a sound card and set ALSA defaults
 
 Package: squashfs-tools
@@ -9872,6 +9928,37 @@ Description: YouTube Downloader, frontend for youtube-dl
  - v1.4.0 Added DragnDrop and fixed quality settings
  - v1.5.1 Using youtube-dl now rather than youtube-dlc 
  -v1.5.2, fixes for display for yad gtk3 linked, and more
+
+Package: youtube-get3
+Architecture: all
+Version: 1.5.3
+Maintainer: fredx181
+Installed-Size: 1938
+Depends: libc6, yad, sed, wget, python3, gsu | gksu, curl, ffmpeg
+Recommends: locales
+Replaces: youtube-get, youtube-get2
+Filename: ./youtube-get3_1.5.3_all.deb
+Size: 2139696
+MD5sum: 741d527f314e533614f17044c777da06
+SHA1: ae88ef0774467105ffe00dcaa2424d8e8b3afa0d
+SHA256: 7be365faa32be10957228b58f607ba787fc929fe1c7b7a88e60472597c16dcca
+SHA512: 1482ce3c53d64b2209b0fa076704e952f193fc174085ad8681f239806cfa9a61a7c168aef4c2e5bef9ad598b9dc3401f22e4ff45328b1d19e536c6d398370c53
+Description: YouTube Downloader, frontend for youtube-dl
+ A Youtube update broke the search function of previous versions; fixed in this version.
+ - A shell script (bash) with yad as GUI for youtube-dl
+ - Options to enter url(s), playlist, username and to do a search:
+ - Gives choice which quality to download, e.g. 360p or 720p, Audio streams, etc...
+ - Extra addition: m-play script + menu entry for playing YouTube url with mplayer or mpv
+ - Download from Playlist supports channel download also now (version 0.1.8)
+ - Search option improved, compared to youtube-get2
+ - Bugfix, different method used to build lists
+ - v 1.3.0:
+ - Speedup drasticly the waiting time for downloads to be started.
+ - Added 'Update youtube-dlc' button 
+ - v1.4.0 Added DragnDrop and fixed quality settings
+ - v1.5.1 Using youtube-dl now rather than youtube-dlc 
+ -v1.5.2, fixes for display for yad gtk3 linked, and more
+ -v1.5.3, use yt-dlp instead of youtube-dl, requires python3
 
 Package: youtube-get
 Architecture: i386

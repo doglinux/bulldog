@@ -9,6 +9,8 @@ etc/NetworkManager/NetworkManager.conf			    network-manager
 etc/NetworkManager/dispatcher.d/01-ifupdown		    network-manager
 etc/X11/app-defaults/Xvidtune				    x11-xserver-utils
 etc/X11/openbox						    openbox
+etc/alsa/conf.d/20-bluealsa.conf			    bluealsa
+etc/dbus-1/system.d/bluealsa.conf			    bluealsa
 etc/default/aufs					    aufs-tools
 etc/dhcpcd_dropwait_secs				    frisbee
 etc/dhcpcd_state_notify					    frisbee
@@ -176,6 +178,7 @@ lib/modprobe.d/fbdev-blacklist.conf			    eudev
 lib/systemd/system/NetworkManager-dispatcher.service	    network-manager
 lib/systemd/system/NetworkManager-wait-online.service	    network-manager
 lib/systemd/system/NetworkManager.service		    network-manager
+lib/systemd/system/bluealsa.service			    bluealsa
 lib/udev/ata_id						    eudev
 lib/udev/cdrom_id					    eudev
 lib/udev/collect					    eudev
@@ -205,6 +208,7 @@ lib/udev/rule_generator.functions			    eudev
 lib/udev/rules.d/50-firmware.rules			    eudev
 lib/udev/rules.d/50-udev-default.rules			    eudev
 lib/udev/rules.d/60-block.rules				    eudev
+lib/udev/rules.d/60-bluealsa.rules			    bluealsa
 lib/udev/rules.d/60-cdrom_id.rules			    eudev
 lib/udev/rules.d/60-drm.rules				    eudev
 lib/udev/rules.d/60-evdev.rules				    eudev
@@ -771,8 +775,8 @@ usr/bin/azpainter					    azpainter
 usr/bin/bacon						    bacon
 usr/bin/bacon.sh					    bacon
 usr/bin/bacongui					    bacon
-usr/bin/bluealsa					    bt4stretch
-usr/bin/bluealsa-aplay					    bt4stretch
+usr/bin/bluealsa					    bluealsa,bt4stretch
+usr/bin/bluealsa-aplay					    bluealsa,bt4stretch
 usr/bin/busctl						    elogind
 usr/bin/cddetect					    pburn
 usr/bin/cddetect_quick					    pburn
@@ -4689,8 +4693,12 @@ usr/lib/x86_64-linux-gnu/NetworkManager/1.28.0/libnm-settings-plugin-ifupdown.so
 usr/lib/x86_64-linux-gnu/NetworkManager/1.28.0/libnm-wwan.so network-manager
 usr/lib/x86_64-linux-gnu/Thunar/ThunarBulkRename	    thunar
 usr/lib/x86_64-linux-gnu/Thunar/thunar-sendto-email	    thunar
-usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_ctl_bluealsa.so bt4stretch
-usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_pcm_bluealsa.so bt4stretch
+usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_ctl_bluealsa.a bluealsa
+usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_ctl_bluealsa.la bluealsa
+usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_ctl_bluealsa.so bluealsa,bt4stretch
+usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_pcm_bluealsa.a bluealsa
+usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_pcm_bluealsa.la bluealsa
+usr/lib/x86_64-linux-gnu/alsa-lib/libasound_module_pcm_bluealsa.so bluealsa,bt4stretch
 usr/lib/x86_64-linux-gnu/deadbeef/aac.la		    deadbeef
 usr/lib/x86_64-linux-gnu/deadbeef/aac.so		    deadbeef
 usr/lib/x86_64-linux-gnu/deadbeef/adplug.la		    deadbeef
@@ -5376,6 +5384,7 @@ usr/local/bin/gsu-xterm					    gsu
 usr/local/bin/gtkdialog-desklet				    gtkdesklet
 usr/local/bin/guess_fstype				    guessfstype
 usr/local/bin/gvidcap					    xvidcap
+usr/local/bin/hidd					    bt4stretch
 usr/local/bin/image-changer				    peasyscale
 usr/local/bin/inkgui					    inkgui
 usr/local/bin/install-deb-and-dependencies		    fixdepinstall
@@ -5536,6 +5545,7 @@ usr/local/bin/youtube-get-xterm				    youtube-get
 usr/local/bin/youtube-get2				    youtube-get2
 usr/local/bin/youtube-get3				    youtube-get3
 usr/local/bin/yradio					    yradio
+usr/local/bin/yt-dlp					    youtube-get3
 usr/local/bin/zenity					    zenity-portable
 usr/local/conky-clock/Analog_clock/choice.sh		    conkyclock
 usr/local/conky-clock/Analog_clock/clock.lua		    conkyclock
@@ -8748,6 +8758,8 @@ usr/share/doc/bacon/CHANGES				    bacon
 usr/share/doc/bacon/changelog.Debian.gz			    bacon
 usr/share/doc/bacon/changelog.gz			    bacon
 usr/share/doc/bacon/copyright				    bacon
+usr/share/doc/bluealsa/changelog.gz			    bluealsa
+usr/share/doc/bluealsa/copyright			    bluealsa
 usr/share/doc/ceni/changelog.gz				    ceni
 usr/share/doc/ceni/copyright				    ceni
 usr/share/doc/deadbeef-gtk2/ChangeLog.gz		    deadbeef-gtk2

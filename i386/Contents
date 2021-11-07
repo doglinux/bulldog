@@ -129,6 +129,7 @@ etc/skel/Startup/killmenu-cached			    jwm-setup,jwmconf
 etc/skel/Startup/netmon_wce				    wifibox
 etc/skel/Startup/network_tray.sh			    ceni,wifibox-dhcpcd,sns,frisbee
 etc/skel/Startup/peasyfwmon_tray			    peasyfwmon
+etc/skel/Startup/peasywifi_tray				    PeasyWiFi
 etc/skel/Startup/rshift-gui-lite			    redshift-gui-lite
 etc/skel/startup-jwm					    jwm-setup,jwmconf
 etc/slim.conf						    slim
@@ -2520,6 +2521,7 @@ usr/local/bin/youtube-get-xterm				    youtube-get
 usr/local/bin/youtube-get2				    youtube-get2
 usr/local/bin/youtube-get3				    youtube-get3
 usr/local/bin/yradio					    yradio
+usr/local/bin/yt-dlp					    youtube-get3
 usr/local/bin/zenity					    zenity-portable
 usr/local/conky-clock/Analog_clock/choice.sh		    conkyclock
 usr/local/conky-clock/Analog_clock/clock.lua		    conkyclock

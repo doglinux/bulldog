@@ -549,6 +549,25 @@ SHA256: d0f982ae85526d8042d77ea12df94e566daf545bc3392a42392a91bf82eaae51
 SHA512: 99f89e946df11fca30b0d01a11cf226776dc4b74c7e5a9ddbba00f0e225b12bcd98108d7a6731e531a9b7a768870c6b487fce73949c879b603850c2f5a95c44b
 Description: Batterup battery monitor
 
+Package: bluealsa
+Architecture: amd64
+Version: 0.13
+Priority: optional
+Section: sound
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 330
+Depends: libasound2 (>= 1.0.16), libbluetooth3 (>= 4.91), libc6 (>= 2.17), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.30.0), libsbc1, bluez
+Filename: ./bluealsa_0.13_amd64.deb
+Size: 66160
+MD5sum: 35df1f2608ff6d2af3c8785b85ea7a08
+SHA1: dfb67ffeb557bc80a773111006c3a9a1a31cdea4
+SHA256: 39ea8244244a48f7b2b591b3daf3dfca0afac67ea6b028ee0a5ac3191e53b2ad
+SHA512: 9dc9bc49b2da52d7f9b888636a5b123ab8b52e724f7e398f2600d3d6bb744a0e3270728070aed8cf89642cb3ca2ce98b66b2e58ea672ab150b2ec1a95f7158ca
+Homepage: https://github.com/Arkq/bluez-alsa
+Description: Bluetooth ALSA Audio backend
+ Packaging of the bluez-alsa audio backend to add ALSA support to
+ BlueZ version 5.
+
 Package: bt4stretch
 Architecture: amd64
 Version: 1.2
@@ -577,6 +596,21 @@ MD5sum: d8782c54190b6dab68be2d1b0e136d97
 SHA1: 1c8609d93bb46d64f009459f28cf79c9b81cbff9
 SHA256: a765989fb60d5697c8a0f02276203785a21b2d3f5f9e9583c926bd591f465bbc
 SHA512: a175b4dcb78bc54b25923e25ff63bba107003455b2dba05251275287aac8f6761fba9eee3a22174c9b4b3fb5eaf3b01b0453d93298cba0dc4b0a771b674a5ce4
+Description: Bluetooth manager and audio playeer
+
+Package: bt4stretch
+Architecture: amd64
+Version: 2.2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: obexfs
+Filename: ./bt4stretch_2.2_amd64.deb
+Size: 64548
+MD5sum: a84c22151325e75912445fd2915fa7f9
+SHA1: bfa98db4bfbacb9f66277d8a46cf5bd7c7ffcffa
+SHA256: 4fbebc33b4c056c0cc2d5a6dd1923c6da7e4b00c0328b3e033b1b52b308482c0
+SHA512: 28d7ecfaaf89c2b66d78b626ed1f8eed25a968bd139f99ef85a1bdf097f066dfeeb76a06c5d99662dcfc7e04bdc912ba38dba3242ed72ac31faef3097bc13858
 Description: Bluetooth manager and audio playeer
 
 Package: btop
@@ -5988,6 +6022,21 @@ SHA256: e21d4d7008bbd4c50ef5720c9c88c237ff91e6356434619d913f433f4fcb1831
 SHA512: 8810243f2474a3f9cba4dda9293ce728edf404f5a1eab0592c40ab5564b6ad012697c7ce34fe18b6352cbfa097070e3d4bebc379493632d3ad89d8f39b0886f9
 Description: Peasy YouTube downloader > needs separate youtube-dlc
 
+Package: peasy-ytdl
+Architecture: all
+Version: 2.0
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: python3
+Filename: ./peasy-ytdl_2.0_all.deb
+Size: 4612
+MD5sum: a4644f58a068ab916093455902398fb4
+SHA1: 7c285857c0f4e6f637eb5dce7862c15787a8c35b
+SHA256: 7f9ad64e36510d0ec38605b841ec01ef58bd0e0a730164a37e7852cd1d7eec5b
+SHA512: f658597792c2a614ede4680d043514739793fa55b786d05d251abd2bf8a5930be27a429f03f657690932c55f67b9e12790bb222ce68c8a5801c2f7dc6477d8ef
+Description: Peasy YouTube downloader > needs separate yt-dlp
+
 Package: peasyclock
 Architecture: all
 Version: 1.4-1
@@ -6474,6 +6523,33 @@ MD5sum: 11dbd177ae7cff9cf6e41e511a978898
 SHA1: 11db026dbca612152c4ddda604a439663fcea891
 SHA256: 425deb68639c353a0d6680b36f9bcd9fd4758929a426fb234247a24eadad5522
 SHA512: 6996165b185619167cc853f87bfb37b905b8737d51bb98f5d8e98bc507bb94ddf3f61f90a6d4eab9de42f41abf2202fad00663cc865edc71530fad791d626113
+Description: Reliable network manager
+ -changes in v4.4-0 in peasywifi script by rcrsn51:
+ - added option (Ethernet tab) to bring the interface down
+ - added Names button (to select interface names)
+ - A modification to Names. It resets the Ethernet profiles in /etc/pwf/ethernet
+ - Updated Help screen
+ - added multi-user support (fredx181)
+ - changed bcrypt to ccrypt
+ Changes in v4.7:
+ 1. The Encrypt section has been removed. To hide the passphrase in a profile, just replace all (or part) of it with XXXX. When you connect, PWF will prompt for the actual passphrase.
+ 2. There are improved instructions for setting up an alternate Ethernet interface like usb0
+
+Package: PeasyWiFi
+Architecture: amd64
+Version: 4.8.1
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: libc6, gtkdialog, gettext-base, net-tools, wpasupplicant, wireless-tools, x11-utils, ifmetric
+Conflicts: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
+Replaces: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
+Filename: ./peasywifi_4.8.1_amd64.deb
+Size: 16528
+MD5sum: e6fb6a267b6fc6850a6ba6c18e1d5808
+SHA1: 05102e8259f531569362d27aa76abe7753cf8071
+SHA256: 4cbe3a83075c05550c902abb5106f58ee76607dd10b499505fb4abadb1c686ce
+SHA512: f364aaa67e76336b808cbccd2d5bf7f29809356319c6c4827e17950acefd3be162aa809327d586ef98514b0740ec1fec9b32e6c258c024b223f14b1f6d1dc91d
 Description: Reliable network manager
  -changes in v4.4-0 in peasywifi script by rcrsn51:
  - added option (Ethernet tab) to bring the interface down
@@ -7729,6 +7805,20 @@ MD5sum: 97306393968c6105bb43fdc3ce4ea193
 SHA1: c412f452d7353dacaafb38d53d973de19d6e730d
 SHA256: e1a85232d8f7936a87c3f288c837ae0fc3233bdff04f3b92b961ea086b57bfd5
 SHA512: 370ba4463b88f70f29eb4c84fc49b5dfeb502b07ada6ff69ea66e24108de00b70e7ef4eb36eba93e30830d1e092820302890697d24abc555cb828bef384ecd24
+Description: Select a sound card and set ALSA defaults
+
+Package: sound-card-selector
+Architecture: all
+Version: 1.8
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./sound-card-selector_1.8_all.deb
+Size: 4328
+MD5sum: e1ad1e4cd74ac6d9c6d254c3e3438fde
+SHA1: ef7c1567ad8befafa323d64ca989773cba0c4b62
+SHA256: 6b253d306f2e6fe92e4a95821ee1652647f3ebadce5aa5a7bb456bf968b651f4
+SHA512: 7d78ff3bdb7201cab9219b5a67f322199b5166aa3f0547c7bb0bef44fce4d59d265882f84e0c4747f8ca108c8b4900ee9d1ac07277bce9fc7221c636fc2572b4
 Description: Select a sound card and set ALSA defaults
 
 Package: squashfuse
@@ -9355,6 +9445,37 @@ Description: YouTube Downloader, frontend for youtube-dl
  - v1.4.0 Added DragnDrop and fixed quality settings
  - v1.5.1 Using youtube-dl now rather than youtube-dlc 
  -v1.5.2, fixes for display for yad gtk3 linked, and more
+
+Package: youtube-get3
+Architecture: all
+Version: 1.5.3
+Maintainer: fredx181
+Installed-Size: 1938
+Depends: libc6, yad, sed, wget, python3, gsu | gksu, curl, ffmpeg
+Recommends: locales
+Replaces: youtube-get, youtube-get2
+Filename: ./youtube-get3_1.5.3_all.deb
+Size: 2139696
+MD5sum: 741d527f314e533614f17044c777da06
+SHA1: ae88ef0774467105ffe00dcaa2424d8e8b3afa0d
+SHA256: 7be365faa32be10957228b58f607ba787fc929fe1c7b7a88e60472597c16dcca
+SHA512: 1482ce3c53d64b2209b0fa076704e952f193fc174085ad8681f239806cfa9a61a7c168aef4c2e5bef9ad598b9dc3401f22e4ff45328b1d19e536c6d398370c53
+Description: YouTube Downloader, frontend for youtube-dl
+ A Youtube update broke the search function of previous versions; fixed in this version.
+ - A shell script (bash) with yad as GUI for youtube-dl
+ - Options to enter url(s), playlist, username and to do a search:
+ - Gives choice which quality to download, e.g. 360p or 720p, Audio streams, etc...
+ - Extra addition: m-play script + menu entry for playing YouTube url with mplayer or mpv
+ - Download from Playlist supports channel download also now (version 0.1.8)
+ - Search option improved, compared to youtube-get2
+ - Bugfix, different method used to build lists
+ - v 1.3.0:
+ - Speedup drasticly the waiting time for downloads to be started.
+ - Added 'Update youtube-dlc' button 
+ - v1.4.0 Added DragnDrop and fixed quality settings
+ - v1.5.1 Using youtube-dl now rather than youtube-dlc 
+ -v1.5.2, fixes for display for yad gtk3 linked, and more
+ -v1.5.3, use yt-dlp instead of youtube-dl, requires python3
 
 Package: youtube-get
 Architecture: all
