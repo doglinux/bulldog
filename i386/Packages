@@ -5801,6 +5801,40 @@ Description: Openbox Key Editor
      * XML inculsion is not managed. If you want to edit many files, then you shall open them with ;
      *  conditionnal tag is not supported (but did you knew it exists).
 
+Package: obkey
+Architecture: i386
+Version: 1.3.1-4
+Priority: optional
+Section: x11
+Maintainer: fredx181
+Installed-Size: 157
+Depends: python2, libgtk-3-0, gir1.2-gtk-3.0
+Replaces: python-gi
+Filename: ./obkey_1.3.1-4_i386.deb
+Size: 193556
+MD5sum: d7c1b64421279ec43a5c5d47a2229812
+SHA1: 3f6ba80d577bc47c31167967bd8362d770906b38
+SHA256: 4f28f780bd9e0d1858792757a5592d322d0fe62bd60ee0546170f13a773b7168
+SHA512: b4917a65756410df279c550ba1a4db7fcb41dc7d947b864fea73b2c82c084421a10abca4fe4693b6ca32278b6b87cd3893974ddce61ed8954b8ac00b79068832
+Homepage: https://github.com/luffah/obkey
+Description: Openbox Key Editor
+ .
+ A keybinding editor for OpenBox, it includes launchers and window management keys.
+ .
+ It allows to:
+     * can check almost all keybinds in one second.
+     * add new keybinds, the default key associated will be 'a' and no action will be associated;
+     * add new child keybinds;
+     * setup existing keybinds :
+         * add/remove/sort/setup actions in the actions list;
+         * change the keybind by clicking on the item in the list;
+     * duplicate existing keybinds;
+     * remove a keybind.
+ .
+ The current drawbacks :
+     * XML inculsion is not managed. If you want to edit many files, then you shall open them with ;
+     *  conditionnal tag is not supported (but did you knew it exists).
+
 Package: obshutdown
 Architecture: i386
 Version: 1.0.0

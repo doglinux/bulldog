@@ -5642,6 +5642,40 @@ Description: Openbox Key Editor
      * XML inculsion is not managed. If you want to edit many files, then you shall open them with ;
      *  conditionnal tag is not supported (but did you knew it exists).
 
+Package: obkey
+Architecture: amd64
+Version: 1.3.1-4
+Priority: optional
+Section: x11
+Maintainer: fredx181
+Installed-Size: 157
+Depends: python2, libgtk-3-0, gir1.2-gtk-3.0
+Replaces: python-gi
+Filename: ./obkey_1.3.1-4_amd64.deb
+Size: 182724
+MD5sum: 7aeeaf6ec9e25af7ed9885777506f505
+SHA1: fc2850de4d285076dd9ce26e20280a8e0e1d4799
+SHA256: a6d1a9ac1017562dde7ffa3176b4793d0815cfc101d8b4db0e1c0ddd5cda5266
+SHA512: 8d8649012a0f7ad12a651d744a98ae79e3b0b286c51a7da046343aa6ff3c6ab8bce6180a9e28e8b662640434e7efb5ea04b51eda11f61341f424b385082ac78c
+Homepage: https://github.com/luffah/obkey
+Description: Openbox Key Editor
+ .
+ A keybinding editor for OpenBox, it includes launchers and window management keys.
+ .
+ It allows to:
+     * can check almost all keybinds in one second.
+     * add new keybinds, the default key associated will be 'a' and no action will be associated;
+     * add new child keybinds;
+     * setup existing keybinds :
+         * add/remove/sort/setup actions in the actions list;
+         * change the keybind by clicking on the item in the list;
+     * duplicate existing keybinds;
+     * remove a keybind.
+ .
+ The current drawbacks :
+     * XML inculsion is not managed. If you want to edit many files, then you shall open them with ;
+     *  conditionnal tag is not supported (but did you knew it exists).
+
 Package: obshutdown
 Architecture: amd64
 Version: 1.0.0
