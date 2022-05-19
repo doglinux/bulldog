@@ -557,6 +557,21 @@ SHA256: 6edc8e6cb8df581ee9e9729053bed2fa7269cd3ee3f92e499b87f609c70fe3ae
 SHA512: 69156e96fa733cbe683e09f9ae6c211fa5bc5e64e7541b6ac23fc2895cd49e790186a4e727cc07bf7f3502ce7f8a5246d06e63b53cb059bce9162dbc07278773
 Description: mounts hand-held devices over USB
 
+Package: camphonetab
+Architecture: all
+Version: 1.8
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: gphoto2, gphotofs, jmtpfs
+Filename: ./camphonetab_1.8_all.deb
+Size: 3570
+MD5sum: 31b68b6d1e6dec8766f7f4fb903863cd
+SHA1: 3af8dd0f089572cc39d5a34710ae2d388abf04fa
+SHA256: 82b140bcdfa5d8b4f413ad238dc7071b0da8cfff470696344b52e142eda1f79a
+SHA512: 1666c6e1bedfd1866a4bdcc28f7c43066e6c82dca13886e6aed4c47043333d44d072f9baed21cc3edef4acc86ca3e18baddfa96e1c699d0a5fd6102a96ea112d
+Description: mounts hand-held devices over USB
+
 Package: cast2chrome
 Architecture: all
 Version: 0.0.4
@@ -8034,6 +8049,21 @@ SHA256: af57400b6ea4f6bfb6d7940fd9b1e15489e2763cf6992b53f2d44ea4dcad7a04
 SHA512: 325d7a85aef8c9488337ef69cbf161ae3ce22d4dcc529a0ab65b11f91bd1720769283f5d2f3c63e7f88ef60a443b15a40305863dadcf9266207e4c6f13553a80
 Description: Makes a basic LAN web server
 
+Package: simple-python-http-server
+Architecture: all
+Version: 1.3
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: python
+Filename: ./simple-python-http-server_1.3_all.deb
+Size: 9022
+MD5sum: f4d768e6c1710b23f5deb9d364c34bdb
+SHA1: ee61e5c4eb1b409294ade80c073d397b82ef24b9
+SHA256: 42008bd0a0bd519b5009608fb60b65158de52194e0d8228f8f293b6987c26f21
+SHA512: 516a4fb0f9294d079e202791e49f6ce20000819e73ed0f28d670d1b9e5c08167dcbf2e55a64328b969105f8b1fe2a6998f313737ec6859d091fd1cb1324ca8f9
+Description: Makes a basic LAN web server
+
 Package: slim
 Architecture: i386
 Version: 1:1.3.6-4-dd
@@ -9260,6 +9290,20 @@ MD5sum: 71a6dcd008256e97c1f44a0b5e603f10
 SHA1: 5f4c461676b9ebeef3e8d92411a484059fe50dc2
 SHA256: 309a55471bf12a8896e9daf9d10fb25f87b41edd7cdba4dce55fc20467d0067d
 SHA512: a563ed492f71ef7cd5f71b7177dc3b1a5e6d653b89067032755f3dc9fb60b3551e121483d7fc764a67e3ed677f1086e2a5619f44db55c7c09c07841886d50cf0
+Description: Makes a WiFi access point, needs iptables for internet
+
+Package: wlanmaker
+Architecture: all
+Version: 2.1
+Priority: extra
+Maintainer: rcrsn51
+Depends: hostapd
+Filename: ./wlanmaker_2.1_all.deb
+Size: 1632
+MD5sum: d2069e4e99059fc037f77eebe961da22
+SHA1: 2b7c5b6219bc6c0edb5cf244972fabc60c29cd24
+SHA256: 33d0473c4ddaab510b6174bdb0ad9d49936b78eb9e21c2f204a4f713df62f5f5
+SHA512: 3c0d615ea703bba5d9b639cb0c7f18490201a049f987f99cc833b63743b9d5f1a677216160b7f5f86d231f591d0a88aac38cbfd01bf3b5d0224b4a4fbc77d902
 Description: Makes a WiFi access point, needs iptables for internet
 
 Package: wmx
