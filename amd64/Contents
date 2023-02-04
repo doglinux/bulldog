@@ -10,6 +10,7 @@ etc/NetworkManager/dispatcher.d/01-ifupdown		    network-manager
 etc/X11/app-defaults/Xvidtune				    x11-xserver-utils
 etc/X11/openbox						    openbox
 etc/alsa/conf.d/20-bluealsa.conf			    bluealsa
+etc/cups/ppd/ghostpdf.ppd				    pdf-writer
 etc/dbus-1/system.d/bluealsa.conf			    bluealsa
 etc/default/aufs					    aufs-tools
 etc/dhcpcd_dropwait_secs				    frisbee
@@ -1069,6 +1070,7 @@ usr/lib/apulse/libpulse-simple.so			    apulse
 usr/lib/apulse/libpulse-simple.so.0			    apulse
 usr/lib/apulse/libpulse.so				    apulse
 usr/lib/apulse/libpulse.so.0				    apulse
+usr/lib/cups/backend/pdf-writer				    pdf-writer
 usr/lib/cups/filter/hpcups				    hplip-print-scan
 usr/lib/dhcpcd/X11/mini-icons/network_tray		    frisbee
 usr/lib/dhcpcd/X11/mini-icons/network_tray-xpm/dead.xpm	    frisbee
@@ -5607,6 +5609,7 @@ usr/local/bin/remasterdog-cli				    remaster-scripts
 usr/local/bin/remasterdog-start				    remaster-scripts
 usr/local/bin/repo-conf					    repo-conf
 usr/local/bin/resize-save				    resize-save-file
+usr/local/bin/routermaker				    routermaker
 usr/local/bin/rshift-gui-lite				    redshift-gui-lite
 usr/local/bin/run-as-user				    run-as-user
 usr/local/bin/samba-server-control			    samba-server-control

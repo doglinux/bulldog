@@ -23,6 +23,7 @@ etc/X11/xinit/xinitrc					    xinit
 etc/X11/xinit/xserverrc					    xinit
 etc/conky/conky.conf					    conky-all,conky-std,conky-cli
 etc/conky/conky_no_x11.conf				    conky-all,conky-std,conky-cli
+etc/cups/ppd/ghostpdf.ppd				    pdf-writer
 etc/daemons.conf					    wifibox-dhcpcd,wifibox
 etc/default/aufs					    aufs-tools
 etc/dhcpcd.conf						    sns
@@ -1205,6 +1206,7 @@ usr/lib/conky/libcairo.so				    conky-all
 usr/lib/conky/libcairo_imlib2_helper.so			    conky-all
 usr/lib/conky/libimlib2.so				    conky-all
 usr/lib/conky/librsvg.so				    conky-all
+usr/lib/cups/backend/pdf-writer				    pdf-writer
 usr/lib/cups/filter/hpcups				    hplip-print-scan
 usr/lib/debug/.build-id/1b/dc7ce6be01b225a186008d13ce2b7549bf1532.debug conky-all-dbg
 usr/lib/debug/.build-id/47/4aef8048b9e127d8b5b3f6cd7a57b464b7bd97.debug conky-all-dbg
@@ -2580,6 +2582,7 @@ usr/local/bin/remasterdog-cli				    remaster-scripts
 usr/local/bin/remasterdog-start				    remaster-scripts
 usr/local/bin/repo-conf					    repo-conf
 usr/local/bin/resize-save				    resize-save-file
+usr/local/bin/routermaker				    routermaker
 usr/local/bin/rshift-gui-lite				    redshift-gui-lite
 usr/local/bin/run-as-user				    run-as-user
 usr/local/bin/samba-server-control			    samba-server-control
