@@ -8399,13 +8399,17 @@ usr/local/yradio/icons/fav.png				    yradio
 usr/local/yradio/icons/gtk-help.png			    yradio
 usr/local/yradio/icons/gtk-new (kopie 1).png		    yradio
 usr/local/yradio/icons/gtk-new.png			    yradio
+usr/local/yradio/icons/gtk-new1.png			    yradio
+usr/local/yradio/icons/gtk-remove.png			    yradio
 usr/local/yradio/icons/internet_radio_48.png		    yradio
 usr/local/yradio/icons/internetradio.png		    yradio
+usr/local/yradio/icons/list-add.png			    yradio
 usr/local/yradio/icons/pause_play.png			    yradio
 usr/local/yradio/icons/player.png			    yradio
 usr/local/yradio/icons/quit.png				    yradio
 usr/local/yradio/icons/record.png			    yradio
 usr/local/yradio/icons/save.png				    yradio
+usr/local/yradio/icons/search.png			    yradio
 usr/local/yradio/icons/stop.png				    yradio
 usr/local/yradio/icons/volume.png			    yradio
 usr/local/yradio/playlist/playlist.181fm		    yradio
@@ -11653,6 +11657,7 @@ usr/share/perl5/WWW/PipeViewer/Activities.pm		    pipe-viewer
 usr/share/perl5/WWW/PipeViewer/Authentication.pm	    pipe-viewer
 usr/share/perl5/WWW/PipeViewer/Channels.pm		    pipe-viewer
 usr/share/perl5/WWW/PipeViewer/CommentThreads.pm	    pipe-viewer
+usr/share/perl5/WWW/PipeViewer/DiskCache.pm		    pipe-viewer
 usr/share/perl5/WWW/PipeViewer/GetCaption.pm		    pipe-viewer
 usr/share/perl5/WWW/PipeViewer/GuideCategories.pm	    pipe-viewer
 usr/share/perl5/WWW/PipeViewer/InitialData.pm		    pipe-viewer
@@ -11661,12 +11666,14 @@ usr/share/perl5/WWW/PipeViewer/ParseJSON.pm		    pipe-viewer
 usr/share/perl5/WWW/PipeViewer/ParseXML.pm		    pipe-viewer
 usr/share/perl5/WWW/PipeViewer/PlaylistItems.pm		    pipe-viewer
 usr/share/perl5/WWW/PipeViewer/Playlists.pm		    pipe-viewer
+usr/share/perl5/WWW/PipeViewer/Proto.pm			    pipe-viewer
 usr/share/perl5/WWW/PipeViewer/RegularExpressions.pm	    pipe-viewer
 usr/share/perl5/WWW/PipeViewer/Search.pm		    pipe-viewer
 usr/share/perl5/WWW/PipeViewer/Subscriptions.pm		    pipe-viewer
 usr/share/perl5/WWW/PipeViewer/Utils.pm			    pipe-viewer
 usr/share/perl5/WWW/PipeViewer/VideoCategories.pm	    pipe-viewer
 usr/share/perl5/WWW/PipeViewer/Videos.pm		    pipe-viewer
+usr/share/perl5/WWW/PipeViewer/Worker.pm		    pipe-viewer
 usr/share/perl5/WWW/RobotRules.pm			    straw-viewer
 usr/share/perl5/WWW/StrawViewer.pm			    straw-viewer
 usr/share/perl5/WWW/StrawViewer/Activities.pm		    straw-viewer
