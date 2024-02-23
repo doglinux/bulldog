@@ -8343,6 +8343,22 @@ SHA256: d16647d1d42ee91574d2f67b19b0ce7e14874d3378fc315958f070198ccdafcd
 SHA512: de716c65e0feb2aed553e03f704dd267d541cdb2be003d8f80540ecea1e8c77d8dfe7f19ff0a543b542ec72ac6ead643f2a03cd30dbb1aad3b037347c4dd0d29
 Description: Run application as unprivileged user (from root account)
 
+Package: run-as-user
+Architecture: i386
+Version: 0.0.5
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 72
+Depends: libc6, gtkdialog, xterm
+Filename: ./run-as-user_0.0.5_i386.deb
+Size: 21280
+MD5sum: e623cb413c1f3d33f2914d593db5a4aa
+SHA1: 0ad89b331a4ff00ed5927821dceced92ce9fcbd7
+SHA256: 4787c650c71d20f0624f9b5cdda3092d381fc6f1cec4e9add6b9bc848b0a4743
+SHA512: a7bb8fa111e58de8ab5a133d286aad77cfff38c200e02b44e27a60dd82bf22472561280b8c3447ea4688274b027f5efff6efd228efffadbddfe0caad45f878bc
+Description: Run application as unprivileged user (from root account)
+
 Package: samba-server-control
 Architecture: all
 Version: 3.1
