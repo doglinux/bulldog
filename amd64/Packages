@@ -1334,6 +1334,24 @@ SHA256: 08722c5f5ca712fb8e59881dd5e76676d243505fc1d29f2da7e0507e916bbc2c
 SHA512: 2f678e1a5dd93556a761498e95d1cd2522c7701933676f77c3849b4bcec617e19d1d778da7dbf021e8977404edc3c5ef68f5bce6b260b6750db59e0bd63a5d24
 Description: Special DebianDog mount and drive information scripts.
 
+Package: debian-archive-keyring
+Architecture: all
+Version: 2021.1.1+deb11u1
+Multi-Arch: foreign
+Priority: important
+Section: misc
+Maintainer: Debian Release Team <packages@release.debian.org>
+Installed-Size: 253
+Filename: ./debian-archive-keyring_2021.1.1+deb11u1_all.deb
+Size: 109864
+MD5sum: 7c6608cf530b8e40e70aa197074c3fd7
+SHA1: eba10e76831adfc7e3af682c548a6b52b9cc7228
+SHA256: 28ca7749ab7978f3c571732c3aa1c56e3ad1d5db3c915293763d4f6cb8fcce89
+SHA512: 3d744a272a7a2b936655489a8e2d1dbc534aa1baf18e8039528f985f45994904d6afb72930138cf687b91aacf9f9d571fb498e30348ae9032c95553263b95e23
+Description: GnuPG archive keys of the Debian archive
+ The Debian project digitally signs its Release files. This package
+ contains the archive keys used for that.
+
 Package: desktop-drive-icons
 Architecture: amd64
 Version: 0.0.5
@@ -1861,6 +1879,30 @@ MD5sum: e6fd4827b0dc20cccf7c872584cd946e
 SHA1: 7f7ce77005688d139a92d35fed076e0352c29007
 SHA256: 0509e20a4978473e178a130063cefcf44258da7811516d3cf479c9d9c9cd26f0
 SHA512: f37783d78955dcbcfee2cf1eab49aca2276a128b24eab42e659b68938d650dd2b15bbf2a36b709634d7f3cb02ed3457fb06d6e0077fce1ff58d93a4d5b8e6dd3
+Homepage: https://github.com/elogind/elogind
+Description: user, seat and session management daemon
+ elogind is a session management daemon extracted from systemd project's
+ logind
+
+Package: elogind
+Architecture: i386
+Version: 249.7-1.0antix1
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Origin: Devuan
+Maintainer: Mark Hindley <mark@hindley.org.uk>
+Installed-Size: 2125
+Pre-Depends: debconf
+Depends: libacl1 (>= 2.2.23), libc6 (>= 2.28), libcap2 (>= 1:2.10), libselinux1 (>= 2.0.65), libudev1, libelogind0 (= 249.7-1.0antix1), lsb-base (>= 3.1), dbus (>= 1.9.14)
+Recommends: libpam-elogind, policykit-1
+Conflicts: systemd
+Filename: ./elogind_249.7-1.0antix1_i386.deb
+Size: 596856
+MD5sum: 04eb156bc071597af459656b530fdb03
+SHA1: d872660feb088d6444e75ab3006cedd00506d844
+SHA256: 29b9b1b55881acdd7222c573bfb177f4e8c13401e645a5e9fc739641df1d7035
+SHA512: 17dcd41c4dcbe9c43571a3351e2fdf2315271d6b561a6b4b97aaad58c5f25ccc830d4198368a53625be11811ea0b96a0aa8abc5e03df416273b9956f80d5c640
 Homepage: https://github.com/elogind/elogind
 Description: user, seat and session management daemon
  elogind is a session management daemon extracted from systemd project's
@@ -4017,6 +4059,34 @@ Description: user, seat and session management library
  symlinks to allow binaries linked against libsystemd0 to work with
  libelogind0. For full details of the compatibility see README.Debian.
 
+Package: libelogind0
+Architecture: i386
+Version: 249.7-1.0antix1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: elogind
+Origin: Devuan
+Maintainer: Mark Hindley <mark@hindley.org.uk>
+Installed-Size: 715
+Provides: libsystemd0 (= 246.4-1)
+Depends: libc6 (>= 2.28), libcap2 (>= 1:2.10)
+Conflicts: libsystemd0
+Replaces: libsystemd0
+Filename: ./libelogind0_249.7-1.0antix1_i386.deb
+Size: 244276
+MD5sum: 99ce0aadaedd559b839f1a14755ada96
+SHA1: 7251729c8bc2a3879caa022606e4231818747af5
+SHA256: bc35fee17523b88cbbabedefdb2d9a1203942bf45ff925af574449d57fbc76c5
+SHA512: 48dae88f7c79b40eebfc04973705e35d2af32ca324f7febb23163daabc8ca6dcba8686676ac6a2b2f99553c1d1054e5d1da16cecbc5ad93ee294dea5eb6bcef2
+Homepage: https://github.com/elogind/elogind
+Description: user, seat and session management library
+ This library provides runtime access to elogind session management.
+ .
+ The library is ABI compatible with libsystemd0 and provides the necessary
+ symlinks to allow binaries linked against libsystemd0 to work with
+ libelogind0. For full details of the compatibility see README.Debian.
+
 Package: libesd0
 Architecture: amd64
 Version: 0.2.41-11
@@ -4743,6 +4813,39 @@ Description: Compatibility package for testing integration of libpam-elogind int
  It will never be in a Debian release.  It is provided in Debian
  experimental to make testing easier.
 
+Package: libpam-elogind-compat
+Architecture: i386
+Version: 1.3
+Multi-Arch: same
+Priority: optional
+Section: misc
+Maintainer: Debian Ecosystem Init Diversity Team <debian-init-diversity@chiark.greenend.org.uk>
+Installed-Size: 13
+Provides: libpam-systemd
+Depends: libpam-elogind
+Replaces: libpam-systemd
+Filename: ./libpam-elogind-compat_1.3_i386.deb
+Size: 2658
+MD5sum: 5acdd65fabc9f56ac156292ec8892cde
+SHA1: 64497a52071d664cb3d617e9471c1e4d402e6c66
+SHA256: 24284a15bb39d1251c91fee128f3a4f2c588e8f44fa51e0e9984b67703279598
+SHA512: e904a134a0217809778f7c7653fd6a0203af2da69731bcc47d240ceb6499c6dd6ce1479cf273db359be0d665c40823701d70e2d8e471c61ffa7eccdcba59482a
+Description: Compatibility package for testing integration of libpam-elogind into Debian
+ This is a mostly-empty dependency and compatibility package.
+ .
+ It allows libpam-elogind to satisfy libpam-systemd dependencies for
+ packages which have not yet been updated.
+ .
+ It also provides a compatibility symlink for packages which explicitly
+ refer to pam_systemd.so.
+ .
+ Please note that libpam-elogind doesn't provide systemd --user. If you require
+ that functionality you must install the real libpam-systemd.
+ .
+ On Debian systems, this entire package is for testing only.
+ It will never be in a Debian release.  It is provided in Debian
+ experimental to make testing easier.
+
 Package: libpam-elogind
 Architecture: amd64
 Version: 241.1-1+debian1
@@ -4831,6 +4934,29 @@ MD5sum: ef9634efe18f47eff8959423c71bc19a
 SHA1: e969de161a3f1ec057fbd6c163f8637204540c6b
 SHA256: 79978c7b88f17f7f7272e05683968a8ad402d7ba72100f94e7f94d306b28bd7d
 SHA512: e5897a32a333d9fd191a1e615189f8c695484962504bf85cc703d378c227d8cc5e06d3e188b1ea94e157806a4fc7d23ec3782e26d85dcb1b89926f2ee392f308
+Homepage: https://github.com/elogind/elogind
+Description: elogind PAM module
+ Plugable Authentication Module to register a session with elogind
+
+Package: libpam-elogind
+Architecture: i386
+Version: 249.7-1.0antix1
+Multi-Arch: same
+Priority: optional
+Section: admin
+Source: elogind
+Maintainer: Mark Hindley <mark@hindley.org.uk>
+Installed-Size: 397
+Provides: logind
+Depends: libc6 (>= 2.28), libcap2 (>= 1:2.10), libpam0g (>= 0.99.7.1), elogind (>= 241.3-2+antix1), libpam-runtime
+Conflicts: libpam-ck-connector, logind
+Replaces: logind
+Filename: ./libpam-elogind_249.7-1.0antix1_i386.deb
+Size: 150908
+MD5sum: ac32c9138586a94668deb5b72b39be80
+SHA1: c3bc9734722a6929b12641e3367897b97d648e43
+SHA256: ddf488c28c769e84511da1ddcc02584881c31ec11ab1845d201643ed63665647
+SHA512: 4ea7bb1eb418afee57de39d38c838e1cabf8cc9e219428a3c0d8f3e9e6185a110bf78fc867658bf34fbff9d2cb34df20dc48fa29ea76fb8d6cfb652d2cbc3b47
 Homepage: https://github.com/elogind/elogind
 Description: elogind PAM module
  Plugable Authentication Module to register a session with elogind
