@@ -6774,6 +6774,21 @@ Description: Information about drive partitions
 
 Package: peasypdf
 Architecture: all
+Version: 5.2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: netpbm, ghostscript, libtiff-tools, poppler-utils, peasyscale, dc, xdialog3
+Filename: ./peasypdf-gtk3_5.2_all.deb
+Size: 7442
+MD5sum: 87c0c1ec1d498a1114d6efe589c8f733
+SHA1: 5f88156d77d55c61befaf083dff8fee39ac3397b
+SHA256: 53a3a02622cb189203e590e54256c0a39ee58888361636c74d0bb590cf738525
+SHA512: aea69d1b44c0d95059dd5734bafe6f188c2fc2a288ce3084327bb71eb24b60d78f31e378bd953dcca6640341ea30f5ab6eecb05438a59bd1dc0f41f276aaf6ef
+Description: Manipulate PDF documents
+
+Package: peasypdf
+Architecture: all
 Version: 4.2-2
 Priority: optional
 Section: base
@@ -11099,6 +11114,25 @@ SHA512: 667568679d7b40d145bfb10fd2e2eebc15041d97abd3ed27cb0ba33722f0425b8e046eac
 Description: Internet Radio Player
  v1.3, works with mpv and mplayer
  v1.7, direct online search
+
+Package: yradio
+Architecture: all
+Version: 1.8.0-0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 878
+Depends: yad (>= 1:0.36.0), mpv, xdotool, unzip, streamripper, jq, curl
+Filename: ./yradio_1.8.0-0_all.deb
+Size: 279916
+MD5sum: 210585cec88034fedcd93f52f8726a13
+SHA1: 90a4da598bbdc09ed256ca1c0fc2c948ba382441
+SHA256: 30abbe6a1cfb272042de12b87063a3db3b8997e3edb1e6f1d9ee25780d756f97
+SHA512: 3ceab9ec9041ef0d2e3c93d7c3e60ab16aed88485d21073cb9b707d4cd6bbaabae35ab2e49cac722d38ec94ee8aeac1d7968a223664046703c90e10cbb828e69
+Description: Internet Radio Player
+ v1.3, works with mpv and mplayer
+ v1.7, direct online search
+ v1.8, volume fix for in case pipewire or pulseaudio running
 
 Package: zenity-portable
 Architecture: i386
