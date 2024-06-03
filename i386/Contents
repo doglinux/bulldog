@@ -6069,6 +6069,7 @@ usr/share/applications/mplayer.desktop			    gmplayer
 usr/share/applications/mpv.desktop			    mpv
 usr/share/applications/notecase.desktop			    notecase-portable,notecase
 usr/share/applications/obkey.desktop			    obkey
+usr/share/applications/openb.desktop			    jwm-setup
 usr/share/applications/openbox.desktop			    jwm-setup
 usr/share/applications/osmo.desktop			    osmo-portable
 usr/share/applications/p910nd-control.desktop		    p910nd-print-server

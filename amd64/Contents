@@ -8578,6 +8578,7 @@ usr/share/applications/mpv.desktop			    mpv
 usr/share/applications/mtpaint.desktop			    mtpaint
 usr/share/applications/notecase.desktop			    notecase
 usr/share/applications/obkey.desktop			    obkey
+usr/share/applications/obox.desktop			    jwm-setup
 usr/share/applications/openbox.desktop			    jwm-setup-dd64,jwm-setup
 usr/share/applications/p910nd-control.desktop		    p910nd-print-server
 usr/share/applications/palemoon.desktop			    palemoon
