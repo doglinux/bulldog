@@ -6223,6 +6223,22 @@ SHA256: 57bd5cdb62a22eab144504f709f16a34d519995a9dfc3573a66c1574a8d9512c
 SHA512: 045c74d056425a979e89a717ef838091e6c0639a192d410b48a8eba727349e1fd261a6cc4b1ecdef08c3ccae7560f95094bf2f44326f4e601463baa90d3338d2
 Description: packit-converted-pet-to-deb
 
+Package: pack-it
+Architecture: all
+Version: 1.0.2
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 116
+Depends: libc6, gtkdialog
+Filename: ./pack-it_1.0.2_all.deb
+Size: 31628
+MD5sum: adf60d0d2a2d599eb0d1e9e508387cab
+SHA1: 25ae1f64f71c957fd664797b78e807e47c3a3df5
+SHA256: d54aad94a1efbae346689ed0d2b8994bdfc129c0e0df2b2606aaa70c0fd0a538
+SHA512: abe90f69ec370bac6fc6ca496d613eafa5f5e463db3c794b41222cf0653a9821eb05bc6f0ce8118761dd8fe5b8a66a1f9ca3b664c5bf8a5b66ebb60829bf8d76
+Description: packit-converted-pet-to-deb
+
 Package: palemoon
 Architecture: amd64
 Version: 28.9.3
@@ -7228,6 +7244,23 @@ MD5sum: 1ba4b2c5c839c554707dbf31f6863106
 SHA1: b058c58fc0a8505253132dca26436ec3aad82a85
 SHA256: e3e417eed56bda6d8b5e907a419f3fb051f7800a44b354c6a40fcb1abb4a270b
 SHA512: 2925448b534fdd1bcab8760cb81b5f58db379d3c42dfb0841594e8a39823b8f99820e6e10c76eb194fd6a728ae70fc5c0b164195ddd7624af015c349dcc20063
+Description: pfind-converted-pet-to-deb by zigbert
+
+Package: pfind
+Architecture: all
+Version: 6.4
+Priority: optional
+Section: utilities
+Maintainer: zigbert
+Installed-Size: 100
+Depends: gtkdialog, findutils
+Replaces: spacefm-common
+Filename: ./pfind_6.4_all.deb
+Size: 29204
+MD5sum: f63a91af3edfbdaf2ed5eab1954f4a1c
+SHA1: ec5cbd1534507092df0643d590dcd243ddaf54d2
+SHA256: 11ce6aae78ca6e7cc73e9ea1813f436f93ed09cc0fe1e19ccbd1a350d4c34772
+SHA512: 231c11c5b8bc1c5b1d953a2b293ecbacbba58a6d0512d96ef145fe02aaa5dfb537be235636ca5a912381675b79774ea1857d8d36f1c8ccaa59d15508fb91adc0
 Description: pfind-converted-pet-to-deb by zigbert
 
 Package: photo-cropper
