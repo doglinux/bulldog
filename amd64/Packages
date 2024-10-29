@@ -9683,6 +9683,37 @@ Description: Install kernel in chroot
 
 Package: upgrade-kernel
 Architecture: all
+Version: 1.17.0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 2800
+Depends: libc6, xterm, xz-utils, cpio, bsdutils, gtkdialog, unionfs-fuse
+Conflicts: upgrade-kernel
+Replaces: upgrade-kernel
+Filename: ./upgrade-kernel_1.17.0_all.deb
+Size: 1123156
+MD5sum: 43a3e8e98745b86ad0c4646e3ff75f4f
+SHA1: cfe47759a89f1bf1e2affe2d47876e475f95945d
+SHA256: 383410cd61fdd7ce6e1296f9a98c501908f5941268161fe1fb6ccaca8e6b9748
+SHA512: 4a879a74c91dd79e2f7d4a21084d9b3228a5c1e3c45beb2fac1e5e8ddd3ec0da30fb5f87e21dfc5464935ac65b8838c81e83e890694601f9e002135650ea6b5a
+Description: Install kernel in chroot
+ And create initrd1.xz and initrd.img, modified by gumanzoy, to create much smaller initrd1.xz
+ v1.4.2, added support for booting with encrypted savefile.
+ v1.5.0, create initrd for porteus-boot method taken from Tomas M, much smaller size.
+ v1.6.0, small change for order of modules loaded in initrd1.xz.
+ v1.7.0, btrfs support.
+ v1.8.0, support for 'usr-merged' system
+ v1.9.0, small fix for partition choice
+ v1.11.0, added i915 kernel module to the initrd1.xz
+ v1.12.0, reverted changes done at v1.11.0
+ v1.14.0, when create initrd for porteus-boot it will display full .squashfs names again at boot
+ v1.15.0, pfull= option (initrd1.xz) added for 'pseudo full' install support 
+ v1.16.0, changes from gumanzoy, see https://forum.puppylinux.com/viewtopic.php?p=133971#p133971
+ v1.17.0, changes from gumanzoy, see https://forum.puppylinux.com/viewtopic.php?p=134361#p134361
+
+Package: upgrade-kernel
+Architecture: all
 Version: 1.2.0
 Priority: optional
 Section: utilities
