@@ -6824,6 +6824,21 @@ Description: Manipulate PDF documents
 
 Package: peasypdf
 Architecture: all
+Version: 5.5
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: netpbm, ghostscript, libtiff-tools, poppler-utils, peasyscale, dc, xdialog3
+Filename: ./peasypdf-gtk3_5.5_all.deb
+Size: 7048
+MD5sum: 01262f1904fb29577f826cb0f5dd383b
+SHA1: cd42fa2c2b646596df866a2786fc3d63790344f6
+SHA256: 131939daaa570c57611a0caa524628a2116ac74e924441ec93fbb8ba10cb887b
+SHA512: c22fc50254182ef71aecf9a171b6905428c50365316a1ca43e3a7ebb5691203f4cdae89ad2c03dc26a6aad71e5bbe508ad20abeedc2e899459663025e43bbfca
+Description: Manipulate PDF documents
+
+Package: peasypdf
+Architecture: all
 Version: 4.2-2
 Priority: optional
 Section: base
@@ -7047,6 +7062,22 @@ MD5sum: fcc7f0601d00c3930ba24da31c6f215f
 SHA1: e36270e0ddaef6652b544797e4384d09bcaed889
 SHA256: 646b022bd9fa60fcf492a4c92a3c21b94b1c54f502b07911338d7c9d4dc7e00b
 SHA512: 79e1ec0009af44a999da03f95d82482988b800dd99fa085fae02c17531c655e870994c6f2b22c31589eb166785789f21c0127046af06efbb93cf4ab74fdce98c
+Description: peasyscale from rcrsn51 for Puppy linux
+
+Package: peasyscale
+Architecture: i386
+Version: 3.2
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 48
+Depends: libc6, gtkdialog, libpango1.0-0, libcairo2, libglib2.0-0, libgtk-3-0, xdialog3, webp-pixbuf-loader
+Filename: ./peasyscale_3.2_i386.deb
+Size: 10820
+MD5sum: 60369c2c0c83ab0d4fefa91ae2517050
+SHA1: 2c4f6e5f89ab71790fde4ce08f8f05cd09bf510b
+SHA256: 2917d5142fd5f90d989bbfc0ed1122b107d862d1c77e49d21a5053e7edb43368
+SHA512: 34ace4155a21906868426ecad7f6b18e1ac126b62a63dedd8218db5853440415342696ad9f8fc962130a5cdffa3473648023ddd73420b9127d1a9829649c0546
 Description: peasyscale from rcrsn51 for Puppy linux
 
 Package: peasyscan
@@ -8151,6 +8182,41 @@ Description: Warning - This package works only in DebianDog booted with porteus 
 
 Package: quick-remaster
 Architecture: all
+Version: 1.5.1
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 336
+Depends: libc6, yad, coreutils, menu, squashfs-tools, mount, sed, xterm, rsync, dpkg, findutils, procps, gsu | gksu, xorriso, isolinux
+Filename: ./quick-remaster_1.5.1_all.deb
+Size: 3959992
+MD5sum: 2459e9b9b25e0d2da3417288c474683a
+SHA1: 636cbe63ff61feee78a67022f2cc0f38d5cff5fa
+SHA256: d3172d6df1cf12453da2e15ecf2638a8f784bd46926451c301a3aad2ee13e23b
+SHA512: 72f2d6626f0399ed573c2ffe2e5d196935b75bc8588561423f27460b527ce4d0864ec39670b56cfd13a61287cd72a2fe9117688e85455d57906c9c00a16bebae
+Description: Warning - This package works only in DebianDog booted with porteus boot-style!.
+ Included GUI version using yad: quick-remastergui
+ Bug fix: gz compression option not working in previous version 1.0.3
+ Bug fix: set the correct permissions for /tmp 
+ Fix in v 1.0.6: skip symlinks while cleaning man and doc files
+ Version 1.0.7: added option to create ISO
+ Version: 1.1.2, cleaning, do not remove /etc/rc.d
+ Version: 1.1.3, added GUI progress bar
+ Version: 1.1.5, for Devuan beowulf
+ Version 1.1.7, major bugfix, previously worked properly only when used EXIT: parameter
+ Version 1.1.9, added mksquashfs compression option zstd
+ Version 1.2.0, very different method, using mksquashfs -exclude option (e.g. for cleaning)
+ Version 1.2.1, added more info in GUI
+ Version 1.2.1, bugfix, when canceling, restore backup worked not properly
+ Version 1.2.3, bugfix, fixed that in some cases the path to the live folder not found
+ Version 1.2.4, choice to merge extra loaded .squashfs modules or not
+ Version 1.2.5, fix for mkiso script, should find frugal install path in any case now 
+ Version 1.2.6, instead excluding whole /lib/modules directory, exclude files only that exist in the extra loaded kernel module
+ Version 1.2.7, run save2flash in case of booting with EXIT parameter
+ Version 1.3.0, added info message about priority and order of kernel .squashfs
+ Version 1.4.0, Added UEFI support for creating ISO
+ Version 1.5.1, bug fixes for when chosen to merge modules and for ISO creation
+
+Package: quick-remaster
+Architecture: all
 Version: 1.7.1
 Maintainer: fredx181 dog@root.nl
 Installed-Size: 336
@@ -9232,6 +9298,23 @@ Description: Graphical package manager
   * Download the latest changelog of a package
   * Configure packages through the debconf system
   * Browse all available documentation related to a package (dwww is required)
+
+Package: takeacast
+Architecture: all
+Version: 2.0.0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 234
+Depends: ffmpeg, gtkdialog
+Replaces: takeagif
+Filename: ./takeacast_2.0.0_all.deb
+Size: 57448
+MD5sum: 3f47f4af07f8e147f381013e8e039b6c
+SHA1: 8a659a139b19a84b4e464e30d5283ceac298f1fb
+SHA256: 292bd23f7a45354eb6336c9ed089b657b42a92ca182b7af5255d7d61b8880d6d
+SHA512: 270984e02bbe59bcaee7c2139d8ecabf85e73adc7800ea998b25d9d8fc646df33461ece9666c134dac5b3a2cd5fab073e8366878e3f4188446c5529f2a9e9cef
+Description: Modified from TAS Screenshot utility, focused on taking a screencast with audio included
 
 Package: takeagif
 Architecture: all
@@ -10366,6 +10449,21 @@ Description: desktop integration utilities from freedesktop.org
  .
  If you are running GNOME, make sure that the gvfs-bin package is
  installed.
+
+Package: xdialog3
+Architecture: i386
+Version: 2.3.5
+Priority: optional
+Section: base
+Maintainer: fredx181
+Depends: libgtk-3-0
+Filename: ./xdialog3_2.3.5_i386.deb
+Size: 36012
+MD5sum: eb5960d1f009f1ee7a4e76cfb97d36ec
+SHA1: 2b2738685ba07bbb6f493023dd1d99688e6aa616
+SHA256: 0d4540182cbef8c3225494a8b5b2dfd285396b3dd64927144cd5c0c471ae0fef
+SHA512: 4cc79692cd1da760d9ba72e735b537b5b002dfe7ad1bd1904a1cf56b08094148910e76dcb184e2de030ee714b150b073cffe272a7d5ec21d8013ae067dbf1674
+Description: Xdialog for gtk3
 
 Package: xdm
 Architecture: i386
