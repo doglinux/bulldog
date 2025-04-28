@@ -7014,18 +7014,18 @@ Description: prints graphic files
 
 Package: peasyscale
 Architecture: amd64
-Version: 3.2
+Version: 3.0
 Priority: optional
 Section: utilities
 Maintainer: root
 Installed-Size: 48
-Depends: libc6, gtkdialog, libpango1.0-0, libcairo2, libglib2.0-0, libgtk-3-0, xdialog3, webp-pixbuf-loader
-Filename: ./peasyscale-gtk3_3.2_amd64.deb
-Size: 11304
-MD5sum: 0f9787a455069e587bfd12820ba05be9
-SHA1: d43a62d8a50bcdd7a4e8be65fe1afdfa3bb557a5
-SHA256: 8254995fcdafb0f8a1e8d6ab0b2dc8080d4d1c49f2d8abf4ec1c116647399f49
-SHA512: f727d444b3ca69405b1ac8a5c555d6e606ccb6c4989d76b664d657f882805f26e0143238e0c0998ee6b328b7b7f91a07b45da16b520877a979b96e8476a4c6fc
+Depends: libc6, gtkdialog, libpango1.0-0, libcairo2, libglib2.0-0, libgtk-3-0, xdialog3
+Filename: ./peasyscale-gtk3_3.0_amd64.deb
+Size: 12686
+MD5sum: 3c4e2650ba8660b3a6dff6e19ab4643a
+SHA1: 3130bee9272bdb04681dea9c2af33b16bc6bc6fb
+SHA256: 179cd853fab8ceb2f80244109142e75d531738748022c1a1b67798fca9e027a0
+SHA512: da6e23f724d9f4b3837b3b8522ea18a19068536b71e601ef89170ec809e291812f1b38e6f2507b1f6d951f17639d4fba0fa84075b25cb846cf7a1f0713426e5e
 Description: peasyscale from rcrsn51 for Puppy linux
 
 Package: peasyscale

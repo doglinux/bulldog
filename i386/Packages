@@ -7066,18 +7066,18 @@ Description: peasyscale from rcrsn51 for Puppy linux
 
 Package: peasyscale
 Architecture: i386
-Version: 3.2
+Version: 3.0
 Priority: optional
 Section: utilities
 Maintainer: root
 Installed-Size: 48
-Depends: libc6, gtkdialog, libpango1.0-0, libcairo2, libglib2.0-0, libgtk-3-0, xdialog3, webp-pixbuf-loader
-Filename: ./peasyscale_3.2_i386.deb
-Size: 10820
-MD5sum: 60369c2c0c83ab0d4fefa91ae2517050
-SHA1: 2c4f6e5f89ab71790fde4ce08f8f05cd09bf510b
-SHA256: 2917d5142fd5f90d989bbfc0ed1122b107d862d1c77e49d21a5053e7edb43368
-SHA512: 34ace4155a21906868426ecad7f6b18e1ac126b62a63dedd8218db5853440415342696ad9f8fc962130a5cdffa3473648023ddd73420b9127d1a9829649c0546
+Depends: libc6, gtkdialog, libpango1.0-0, libcairo2, libglib2.0-0, libgtk-3-0, xdialog3
+Filename: ./peasyscale_3.0_i386.deb
+Size: 10856
+MD5sum: 749cc7f7c49bd2679e1ae8f0d482be39
+SHA1: f2904fe757408849cf23e2558b1de84dc9b6c046
+SHA256: 7a3a1c53f82ffc557a2e99fd2b04f4822ed0e4b5ceabb7f088cae4bef8b0ad74
+SHA512: 9338be28a7c5ab576a46618d1009f36511c4d74e2577a6416147035859874f7d9a7eb9560c69fa36ce6caeafcf9d820b43beef94a884aba03dcbc0502a759f4f
 Description: peasyscale from rcrsn51 for Puppy linux
 
 Package: peasyscan
