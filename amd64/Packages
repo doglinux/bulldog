@@ -1334,6 +1334,20 @@ SHA256: 08722c5f5ca712fb8e59881dd5e76676d243505fc1d29f2da7e0507e916bbc2c
 SHA512: 2f678e1a5dd93556a761498e95d1cd2522c7701933676f77c3849b4bcec617e19d1d778da7dbf021e8977404edc3c5ef68f5bce6b260b6750db59e0bd63a5d24
 Description: Special DebianDog mount and drive information scripts.
 
+Package: debdogmountscripts
+Architecture: all
+Version: 1.0.8
+Maintainer: root
+Installed-Size: 73
+Depends: libc6
+Filename: ./debdogmountscripts_1.0.8_all.deb
+Size: 2936
+MD5sum: ace3b17eb7d998581d624e5008455331
+SHA1: e0a577b5a60d27baa8d7e3a3f8215d74ceed920a
+SHA256: 3c97afd113df1694350874db8ce7e74d34fdfafb8032edd501ec333354ffbb46
+SHA512: a267b58a06b25e3c7dc2e53b5bb57124fd1a27231bae8c2105c191248372b4e49c444e1fb89e457467e8f0d3f459991b7ccdca49044104a94e9b3cf4178814d5
+Description: Special DebianDog mount and drive information scripts.
+
 Package: debian-archive-keyring
 Architecture: all
 Version: 2021.1.1+deb11u1
