@@ -9803,6 +9803,23 @@ SHA256: 79c79e639e94c013f0c68d1770af5893e9c58aaee3ce1a3569f5d8a5d2b11f75
 SHA512: 41b986843c48f8d5350edf19ea211899fead8edcd78bc67db283be87d1bb67338e2cb5745f27d8352fd623671a5aa07aa4057af84aa5c962ff7f33c65c446b7b
 Description: Automatically detect timezone,using curl
 
+Package: tzupdate
+Architecture: all
+Version: 1.1.7
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 47
+Depends: libc6, ntpdate, gtkdialog, curl
+Filename: ./tzupdate_1.1.7_all.deb
+Size: 8384
+MD5sum: e0d9a1a8bc3404d422ada1d3a9553e28
+SHA1: d6ca341c5bc923a8bca6efbb1da69cb7691f9687
+SHA256: c075bdcaa377ee666914c5478d852abf4c5b621af589bda6f1d239574ed54f63
+SHA512: d2a50e8ce5a3cb48b51ef05b79c75ea73e88aa849eb99eebcfc37ede4ad18c670e9173277b8d088cbbd9f7c276681678d9dc7e16b3aa69d526edbbbd04620f28
+Description: Automatically detect timezone,using curl
+ v1.1.6, changed the address to get timezone from to ip-api.com
+
 Package: udev
 Architecture: i386
 Version: 1:3.2.9+devuan4
